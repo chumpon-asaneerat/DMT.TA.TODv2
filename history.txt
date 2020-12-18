@@ -45,8 +45,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #305
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #304
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #303
-- 
+- DMT.TAxTODv2 add projects
+  - Add DMT.TAxTOD.Rest.Client project.
+  - Add DMT.TA.Rest.Client project.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #302
