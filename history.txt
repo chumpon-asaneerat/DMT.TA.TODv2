@@ -51,8 +51,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #303
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #302
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #301
-- 
+- DMT.TAxTODv2 add projects
+  - Add DMT.TA.RestServer project from DMT.TA.TODv1.
+  - Add DMT.RabbitMQ.Client project from DMT.TA.TODv1.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #300
