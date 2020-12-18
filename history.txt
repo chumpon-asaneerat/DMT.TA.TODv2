@@ -39,8 +39,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #307
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #306
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #305
-- 
+- DMT.TAxTODv1
+  - Update invalid owin binding app.config in all projects.
+- DMT.TAxTODv2
+  - Update invalid owin binding app.config in all projects.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #304
