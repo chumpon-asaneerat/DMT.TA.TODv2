@@ -48,9 +48,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #304
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #303
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #302
-- 
-
+- DMT.TAxTODv2 add projects
+  - Rename DMT.RestServer project to DMT.Rest.Server.
+  - Rename DMT.RestClient project to DMT.Rest.Client.
+  - Rename DMT.TA.RestServer project to DMT.TA.Rest.Server.
+  - Rename DMT.RestClient project to DMT.Rest.Client.
+  - Add DMT.SCW.Rest.Client project.
+  
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #301
 - DMT.TAxTODv2 add projects

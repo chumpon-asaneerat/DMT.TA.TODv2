@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DMT</RootNamespace>
-    <AssemblyName>DMT.TA.RestServer</AssemblyName>
+    <AssemblyName>DMT.TA.Rest.Server</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -116,13 +116,9 @@
       <Project>{7d584f0a-920f-4be1-8652-3527fd7a5c27}</Project>
       <Name>DMT.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\03.WebServices.Core\DMT.RestClient\DMT.RestClient.csproj">
-      <Project>{26ba4314-6b80-4a59-9e0d-7c29919bbc6f}</Project>
-      <Name>DMT.RestClient</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\03.WebServices.Core\DMT.RestServer\DMT.RestServer.csproj">
+    <ProjectReference Include="..\..\03.WebServices.Core\DMT.Rest.Server\DMT.Rest.Server.csproj">
       <Project>{53f967f3-9713-43da-94f5-687ddec8cf04}</Project>
-      <Name>DMT.RestServer</Name>
+      <Name>DMT.Rest.Server</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

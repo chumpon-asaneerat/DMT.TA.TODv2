@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DMT Rabbit MQ Client library")]
-[assembly: AssemblyDescription("The DMT Rabbit MQ Client library.")]
+[assembly: AssemblyTitle("DMT SCW REST Server library")]
+[assembly: AssemblyDescription("The DMT SCW REST Client library.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Softbase Co., Ltd.")]
-[assembly: AssemblyProduct("The DMT Rabbit MQ Client library.")]
+[assembly: AssemblyProduct("The DMT SCW REST Client library.")]
 [assembly: AssemblyCopyright("Copyright ©Softbase Co., Ltd. 2020")]
-[assembly: AssemblyTrademark("The DMT Rabbit MQ Client library")]
+[assembly: AssemblyTrademark("The DMT SCW REST Client library.")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("37616cb2-8712-4767-b165-76f046cfc68b")]
+[assembly: Guid("5afdd4c5-434e-4b9f-a6e8-05c75dd95b59")]
 
 // Version information for an assembly consists of the following four values:
 //
