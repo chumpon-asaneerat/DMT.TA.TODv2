@@ -42,8 +42,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #306
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #305
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #304
-- 
+- DMT.TAxTODv2 add projects
+  - Add DMT.TOD.Rest.Server project from DMT.TA.TODv1.
+  - Add DMT.Controls project from DMT.TA.TODv1.
+  - Add DMT.TA.App project from DMT.TA.TODv1.
+  - Add DMT.TOD.App project from DMT.TA.TODv1.
+  - Recheck app projects reference assemblies.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #303
