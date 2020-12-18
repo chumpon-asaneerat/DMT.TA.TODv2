@@ -45,8 +45,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #310
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #309
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #308
-- 
+- DMT.TAxTODv1
+  - Update Wpf.Owin.Rest.Server.Sample
+    - Add sampple code to map nested controller class to single controller class for route map.
+      See swagger doc in url: http://localhost:8000/swagger to compare changed.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #307
