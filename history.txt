@@ -30,8 +30,16 @@ Ported DMTv2 to DMT.TAxTODv1 #300
 Ported DMTv2 to DMT.TAxTODv1 #299
 - 
 
+[commited]
 Ported DMTv2 to DMT.TAxTODv1 #298
-- 
+- DMT.TAxTODv2 add projects
+  - Add DMT.RestServer project from DMT.TAxTODv1.
+  - Add DMT.RestClient project from DMT.TAxTODv1.
+    - Remove Local.cs
+    - Remove SCW.cs
+    - Remove TAxTOD.cs
+    - Remove TA.cs
+    - Remove TOD.cs
 
 [commited]
 Ported DMTv2 to DMT.TAxTODv1 #297
