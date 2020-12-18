@@ -36,8 +36,11 @@ Ported DMTv2 to DMT.TAxTODv1 #298
 Ported DMTv2 to DMT.TAxTODv1 #297
 - 
 
+[commited]
 Ported DMTv2 to DMT.TAxTODv1 #296
-- 
+- DMT.TAxTODv2 add projects
+  - Add DMT.Core project from DMT.TAxTODv1.
+  - Add DMT.Smartcard project from DMT.TAxTODv1.
 
 [commited]
 Ported DMTv2 to DMT.TAxTODv1 #295
