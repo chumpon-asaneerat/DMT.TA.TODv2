@@ -36,8 +36,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #308
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #307
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #306
-- 
+- DMT.TAxTODv2
+  - Add SmartcardM1Test project.
+  - Add Tools -> (ReportViewer VSIX)
+  - Add Tools -> (RFREADER)
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #305
