@@ -33,8 +33,12 @@ Ported DMTv2 to DMT.TAxTODv1 #299
 Ported DMTv2 to DMT.TAxTODv1 #298
 - 
 
+[commited]
 Ported DMTv2 to DMT.TAxTODv1 #297
-- 
+- DMT.TAxTODv2 add projects
+  - Add DMT.Models project from DMT.TAxTODv1.
+  - Add DMT.TA.Models project.
+  - Add DMT.TOD.Models project.
 
 [commited]
 Ported DMTv2 to DMT.TAxTODv1 #296
