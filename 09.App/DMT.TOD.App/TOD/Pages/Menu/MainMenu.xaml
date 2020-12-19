@@ -8,6 +8,7 @@
              d:DesignWidth="1500"
              mc:Ignorable="d">
     <UserControl.Resources>
+        <!--  CONSTS  -->
         <GridLength x:Key="TextHeight">75</GridLength>
         <GridLength x:Key="ButtonHeight">140</GridLength>
         <sys:Double x:Key="ButtonSpace">5</sys:Double>
