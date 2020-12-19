@@ -39,11 +39,8 @@ namespace DMT
             // Initial Page Content Manager
             PageContentManager.Instance.ContentChanged += new EventHandler(Instance_ContentChanged);
             PageContentManager.Instance.Start();
-            // TODO: Refactor
-            /*
             // Init Main Menu
             PageContentManager.Instance.Current = new TOD.Pages.Menu.MainMenu();
-            */
         }
 
         private void Window_Unloaded(object sender, RoutedEventArgs e)

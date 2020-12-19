@@ -13,10 +13,13 @@
         <sys:Double x:Key="ButtonSpace">5</sys:Double>
         <!--  COLORS  -->
         <SolidColorBrush x:Key="ShiftBG" Color="DarkOrange" />
+        <SolidColorBrush x:Key="ShiftBGHover" Color="DarkRed" />
         <SolidColorBrush x:Key="ShiftFG" Color="WhiteSmoke" />
         <SolidColorBrush x:Key="RevenueBG" Color="RoyalBlue" />
+        <SolidColorBrush x:Key="RevenueBGHover" Color="DarkBlue" />
         <SolidColorBrush x:Key="RevenueFG" Color="WhiteSmoke" />
         <SolidColorBrush x:Key="TollAdminBG" Color="ForestGreen" />
+        <SolidColorBrush x:Key="TollAdminBGHover" Color="DarkGreen" />
         <SolidColorBrush x:Key="TollAdminFG" Color="WhiteSmoke" />
         <!--  TEXTBLOCK (GROUP HEADER)  -->
         <Style x:Key="ShiftHeaderTextStyle" TargetType="TextBlock">
@@ -47,6 +50,13 @@
         <Style x:Key="CommonButtonStyle" TargetType="Button">
             <Setter Property="HorizontalContentAlignment" Value="Stretch" />
             <Setter Property="VerticalContentAlignment" Value="Stretch" />
+            <Setter Property="Cursor" Value="Hand" />
+        </Style>
+        <Style x:Key="ShiftButtonStyle"
+               BasedOn="{StaticResource CommonButtonStyle}"
+               TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource ShiftBG}" />
+            <Setter Property="Foreground" Value="{StaticResource ShiftFG}" />
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="{x:Type Button}">
@@ -55,31 +65,55 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="DarkBlue" />
-                                <Setter Property="Foreground" Value="WhiteSmoke" />
+                                <Setter Property="Background" Value="{StaticResource ShiftBGHover}" />
+                                <Setter Property="Foreground" Value="{StaticResource ShiftFG}" />
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
         </Style>
-        <Style x:Key="ShiftButtonStyle"
-               BasedOn="{StaticResource CommonButtonStyle}"
-               TargetType="Button">
-            <Setter Property="Background" Value="{StaticResource ShiftBG}" />
-            <Setter Property="Foreground" Value="{StaticResource ShiftFG}" />
-        </Style>
         <Style x:Key="RevenueButtonStyle"
                BasedOn="{StaticResource CommonButtonStyle}"
                TargetType="Button">
             <Setter Property="Background" Value="{StaticResource RevenueBG}" />
             <Setter Property="Foreground" Value="{StaticResource RevenueFG}" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="{StaticResource RevenueBGHover}" />
+                                <Setter Property="Foreground" Value="{StaticResource RevenueFG}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
         </Style>
         <Style x:Key="TollAdminButtonStyle"
                BasedOn="{StaticResource CommonButtonStyle}"
                TargetType="Button">
             <Setter Property="Background" Value="{StaticResource TollAdminBG}" />
             <Setter Property="Foreground" Value="{StaticResource TollAdminFG}" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="{StaticResource TollAdminBGHover}" />
+                                <Setter Property="Foreground" Value="{StaticResource TollAdminFG}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
         </Style>
         <!--  BUTTON TEXT BLOCK STYLES  -->
         <Style x:Key="CaptionTextBlockStyle" TargetType="TextBlock">
