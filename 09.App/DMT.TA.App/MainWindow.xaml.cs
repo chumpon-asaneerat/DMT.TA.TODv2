@@ -46,6 +46,10 @@ namespace DMT
             page.Setup("ADMINS", "ACCOUNT", "CTC");
             PageContentManager.Instance.Current = page;
             */
+
+            // For Test
+            var page = new TA.Pages.Menu.MainMenu();
+            PageContentManager.Instance.Current = page;
         }
 
         private void Window_Unloaded(object sender, RoutedEventArgs e)

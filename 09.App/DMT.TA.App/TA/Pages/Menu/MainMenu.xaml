@@ -195,7 +195,7 @@
                 <Button x:Name="cmdRequestExchange"
                         Grid.Row="1"
                         Grid.Column="0"
-                        Margin="0,0,5,0"
+                        Click="cmdRequestExchange_Click"
                         Style="{StaticResource ExchangeAndCouponButtonStyle}">
                     <StackPanel Orientation="Vertical">
                         <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="ยืม/แลกเงินยืมทอน" />
@@ -208,7 +208,7 @@
                 <Button x:Name="cmdCouponSoldByPlaza"
                         Grid.Row="1"
                         Grid.Column="2"
-                        Margin="0,0,5,0"
+                        Click="cmdCouponSoldByPlaza_Click"
                         Style="{StaticResource ExchangeAndCouponButtonStyle}">
                     <StackPanel Orientation="Vertical">
                         <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="หัวหน้า" />
@@ -219,7 +219,7 @@
                 <Button x:Name="cmdReturnExchange"
                         Grid.Row="3"
                         Grid.Column="0"
-                        Margin="0,0,5,0"
+                        Click="cmdReturnExchange_Click"
                         Style="{StaticResource ExchangeAndCouponButtonStyle}">
                     <StackPanel Orientation="Vertical">
                         <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="คืนเงินยืมทอน" />
@@ -232,7 +232,7 @@
                 <Button x:Name="cmdCouponSoldHistory"
                         Grid.Row="3"
                         Grid.Column="2"
-                        Margin="0,0,5,0"
+                        Click="cmdCouponSoldHistory_Click"
                         Style="{StaticResource ExchangeAndCouponButtonStyle}">
                     <StackPanel Orientation="Vertical">
                         <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="ประวัติ" />
@@ -243,7 +243,7 @@
                 <Button x:Name="cmdInHouseExchange"
                         Grid.Row="5"
                         Grid.Column="0"
-                        Margin="0,0,5,0"
+                        Click="cmdInHouseExchange_Click"
                         Style="{StaticResource ExchangeAndCouponButtonStyle}">
                     <StackPanel Orientation="Vertical">
                         <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="แลกเงินหมุนเวียน" />
@@ -256,7 +256,7 @@
                 <Button x:Name="cmdCreditTransactionSummaryReport"
                         Grid.Row="5"
                         Grid.Column="2"
-                        Margin="0,0,5,0"
+                        Click="cmdCreditTransactionSummaryReport_Click"
                         Style="{StaticResource ExchangeAndCouponButtonStyle}">
                     <StackPanel Orientation="Vertical">
                         <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="รายงานสรุปการ" />
@@ -293,7 +293,7 @@
                 <Button x:Name="cmdUserCreditManage"
                         Grid.Row="1"
                         Grid.Column="0"
-                        Margin="0,0,5,0"
+                        Click="cmdUserCreditManage_Click"
                         Style="{StaticResource CollectorCreditAndCouponButtonStyle}">
                     <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="เงินยืมทอน" />
                 </Button>
@@ -303,7 +303,7 @@
                 <Button x:Name="cmdUserBorrowCoupon"
                         Grid.Row="1"
                         Grid.Column="2"
-                        Margin="0,0,5,0"
+                        Click="cmdUserBorrowCoupon_Click"
                         Style="{StaticResource CollectorCreditAndCouponButtonStyle}">
                     <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="รับคูปอง" />
                 </Button>
@@ -311,7 +311,7 @@
                 <Button x:Name="cmdUserCreditHistory"
                         Grid.Row="3"
                         Grid.Column="0"
-                        Margin="0,0,5,0"
+                        Click="cmdUserCreditHistory_Click"
                         Style="{StaticResource CollectorCreditAndCouponButtonStyle}">
                     <StackPanel Orientation="Vertical">
                         <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="ประวัติ" />
@@ -324,7 +324,7 @@
                 <Button x:Name="cmdUserReturnCoupon"
                         Grid.Row="3"
                         Grid.Column="2"
-                        Margin="0,0,5,0"
+                        Click="cmdUserReturnCoupon_Click"
                         Style="{StaticResource CollectorCreditAndCouponButtonStyle}">
                     <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="คืนคูปอง" />
                 </Button>
@@ -332,7 +332,7 @@
                 <Button x:Name="cmdCheckBalance"
                         Grid.Row="5"
                         Grid.Column="0"
-                        Margin="0,0,5,0"
+                        Click="cmdCheckBalance_Click"
                         Style="{StaticResource CheckBalanceButtonStyle}">
                     <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="เช็คยอดด่าน" />
                 </Button>
@@ -342,7 +342,7 @@
                 <Button x:Name="cmdExit"
                         Grid.Row="5"
                         Grid.Column="2"
-                        Margin="0,0,5,0"
+                        Click="cmdExit_Click"
                         Style="{StaticResource ConfigAndExitButtonStyle}">
                     <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="ออกจากระบบ" />
                 </Button>
@@ -350,7 +350,7 @@
                 <Button x:Name="cmdSetting"
                         Grid.Row="7"
                         Grid.Column="2"
-                        Margin="0,0,5,0"
+                        Click="cmdSetting_Click"
                         Style="{StaticResource ConfigAndExitButtonStyle}">
                     <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="ตั้งค่า" />
                 </Button>
