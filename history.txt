@@ -36,8 +36,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #313
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #312
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #311
-- 
+- DMT.TAxTODv1
+  - TOD.App Project.
+    - Poreted and refactor MainMenu #3.
+- DMT.TAxTODv2
+  - TOD.App Project.
+    - Poreted and refactor MainMenu #3.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #310

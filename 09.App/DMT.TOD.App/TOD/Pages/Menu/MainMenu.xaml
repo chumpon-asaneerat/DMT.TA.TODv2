@@ -47,6 +47,21 @@
         <Style x:Key="CommonButtonStyle" TargetType="Button">
             <Setter Property="HorizontalContentAlignment" Value="Stretch" />
             <Setter Property="VerticalContentAlignment" Value="Stretch" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="DarkBlue" />
+                                <Setter Property="Foreground" Value="WhiteSmoke" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
         </Style>
         <Style x:Key="ShiftButtonStyle"
                BasedOn="{StaticResource CommonButtonStyle}"
@@ -65,6 +80,21 @@
                TargetType="Button">
             <Setter Property="Background" Value="{StaticResource TollAdminBG}" />
             <Setter Property="Foreground" Value="{StaticResource TollAdminFG}" />
+        </Style>
+        <!--  BUTTON TEXT BLOCK STYLES  -->
+        <Style x:Key="CaptionTextBlockStyle"
+               TargetType="TextBlock">
+            <Setter Property="FontSize" Value="42" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+        <Style x:Key="SubCaptionTextBlockStyle"
+               TargetType="TextBlock">
+            <Setter Property="FontSize" Value="28" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="Wrap" />
         </Style>
     </UserControl.Resources>
     <ScrollViewer HorizontalContentAlignment="Center"
@@ -106,7 +136,9 @@
                 <Button x:Name="cmdCollectorBOJ"
                         Grid.Row="1"
                         Grid.Column="0"
-                        Style="{StaticResource ShiftButtonStyle}" />
+                        Style="{StaticResource ShiftButtonStyle}">
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="เปิดกะ"/>
+                </Button>
             </Grid>
             <!--  REVENUE GROUP  -->
             <Grid Grid.Row="1"
@@ -131,14 +163,21 @@
                 <Button x:Name="cmdCollectorRevenueEntry"
                         Grid.Row="1"
                         Grid.Column="0"
-                        Style="{StaticResource RevenueButtonStyle}" />
+                        Style="{StaticResource RevenueButtonStyle}">
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="นำส่งรายได้"/>
+                </Button>
                 <TextBlock Grid.Row="1"
                            Grid.Column="1"
                            Width="{StaticResource ButtonSpace}" />
                 <Button x:Name="cmdChiefRevenueEntry"
                         Grid.Row="1"
                         Grid.Column="2"
-                        Style="{StaticResource RevenueButtonStyle}" />
+                        Style="{StaticResource RevenueButtonStyle}">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="นำส่งรายได้ย้อนหลัง"/>
+                        <TextBlock Style="{StaticResource SubCaptionTextBlockStyle}" Text="(หัวหน้าด่าน)"/>
+                    </StackPanel>
+                </Button>
             </Grid>
             <!--  TOLL ADMIN GROUP  -->
             <Grid Grid.Row="2"
