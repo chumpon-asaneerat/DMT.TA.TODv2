@@ -10,6 +10,7 @@
     <UserControl.Resources>
         <GridLength x:Key="TextHeight">75</GridLength>
         <GridLength x:Key="ButtonHeight">140</GridLength>
+        <sys:Double x:Key="ButtonSpace">5</sys:Double>
         <!--  COLORS  -->
         <SolidColorBrush x:Key="ShiftBG" Color="DarkOrange" />
         <SolidColorBrush x:Key="ShiftFG" Color="WhiteSmoke" />
@@ -42,6 +43,29 @@
             <Setter Property="FontSize" Value="48" />
             <Setter Property="TextAlignment" Value="Center" />
         </Style>
+        <!--  BUTTON STYLE  -->
+        <Style x:Key="CommonButtonStyle" TargetType="Button">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="VerticalContentAlignment" Value="Stretch" />
+        </Style>
+        <Style x:Key="ShiftButtonStyle"
+               BasedOn="{StaticResource CommonButtonStyle}"
+               TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource ShiftBG}" />
+            <Setter Property="Foreground" Value="{StaticResource ShiftFG}" />
+        </Style>
+        <Style x:Key="RevenueButtonStyle"
+               BasedOn="{StaticResource CommonButtonStyle}"
+               TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource RevenueBG}" />
+            <Setter Property="Foreground" Value="{StaticResource RevenueFG}" />
+        </Style>
+        <Style x:Key="TollAdminButtonStyle"
+               BasedOn="{StaticResource CommonButtonStyle}"
+               TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource TollAdminBG}" />
+            <Setter Property="Foreground" Value="{StaticResource TollAdminFG}" />
+        </Style>
     </UserControl.Resources>
     <ScrollViewer HorizontalContentAlignment="Center"
                   VerticalContentAlignment="Center"
@@ -72,11 +96,17 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
+                <!--  SHIFT - HEADER  -->
                 <TextBlock Grid.Row="0"
                            Grid.Column="0"
                            Grid.ColumnSpan="3"
                            Style="{StaticResource ShiftHeaderTextStyle}"
                            Text="กะ" />
+                <!--  SHIFT - BUTTONS  -->
+                <Button x:Name="cmdCollectorBOJ"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Style="{StaticResource ShiftButtonStyle}" />
             </Grid>
             <!--  REVENUE GROUP  -->
             <Grid Grid.Row="1"
@@ -88,13 +118,27 @@
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
+                <!--  REVENUE - HEADER  -->
                 <TextBlock Grid.Row="0"
                            Grid.Column="0"
                            Grid.ColumnSpan="3"
                            Style="{StaticResource RevenueHeaderTextStyle}"
                            Text="รายได้" />
+                <!--  REVENUE - BUTTONS  -->
+                <Button x:Name="cmdCollectorRevenueEntry"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Style="{StaticResource RevenueButtonStyle}" />
+                <TextBlock Grid.Row="1"
+                           Grid.Column="1"
+                           Width="{StaticResource ButtonSpace}" />
+                <Button x:Name="cmdChiefRevenueEntry"
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        Style="{StaticResource RevenueButtonStyle}" />
             </Grid>
             <!--  TOLL ADMIN GROUP  -->
             <Grid Grid.Row="2"
@@ -107,15 +151,45 @@
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
+                <!--  TOLL ADMIN - HEADER  -->
                 <TextBlock Grid.Row="0"
                            Grid.Column="0"
-                           Grid.ColumnSpan="4"
+                           Grid.ColumnSpan="7"
                            Style="{StaticResource TollAdminHeaderTextStyle}"
                            Text="Toll Admin" />
+                <!--  TOLL ADMIN - BUTTONS  -->
+                <Button x:Name="cmdChangeShift"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Style="{StaticResource TollAdminButtonStyle}" />
+                <TextBlock Grid.Row="1"
+                           Grid.Column="1"
+                           Width="{StaticResource ButtonSpace}" />
+                <Button x:Name="cmdReportMenu"
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        Style="{StaticResource TollAdminButtonStyle}" />
+                <TextBlock Grid.Row="1"
+                           Grid.Column="3"
+                           Width="{StaticResource ButtonSpace}" />
+                <Button x:Name="cmdEMVQRCode"
+                        Grid.Row="1"
+                        Grid.Column="4"
+                        Style="{StaticResource TollAdminButtonStyle}" />
+                <TextBlock Grid.Row="1"
+                           Grid.Column="5"
+                           Width="{StaticResource ButtonSpace}" />
+                <Button x:Name="cmdStaffJobs"
+                        Grid.Row="1"
+                        Grid.Column="6"
+                        Style="{StaticResource TollAdminButtonStyle}" />
             </Grid>
         </Grid>
     </ScrollViewer>
