@@ -82,15 +82,13 @@
             <Setter Property="Foreground" Value="{StaticResource TollAdminFG}" />
         </Style>
         <!--  BUTTON TEXT BLOCK STYLES  -->
-        <Style x:Key="CaptionTextBlockStyle"
-               TargetType="TextBlock">
+        <Style x:Key="CaptionTextBlockStyle" TargetType="TextBlock">
             <Setter Property="FontSize" Value="42" />
             <Setter Property="HorizontalAlignment" Value="Center" />
             <Setter Property="TextAlignment" Value="Center" />
             <Setter Property="TextWrapping" Value="Wrap" />
         </Style>
-        <Style x:Key="SubCaptionTextBlockStyle"
-               TargetType="TextBlock">
+        <Style x:Key="SubCaptionTextBlockStyle" TargetType="TextBlock">
             <Setter Property="FontSize" Value="28" />
             <Setter Property="HorizontalAlignment" Value="Center" />
             <Setter Property="TextAlignment" Value="Center" />
@@ -137,7 +135,7 @@
                         Grid.Row="1"
                         Grid.Column="0"
                         Style="{StaticResource ShiftButtonStyle}">
-                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="เปิดกะ"/>
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="เปิดกะ" />
                 </Button>
             </Grid>
             <!--  REVENUE GROUP  -->
@@ -164,7 +162,7 @@
                         Grid.Row="1"
                         Grid.Column="0"
                         Style="{StaticResource RevenueButtonStyle}">
-                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="นำส่งรายได้"/>
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="นำส่งรายได้" />
                 </Button>
                 <TextBlock Grid.Row="1"
                            Grid.Column="1"
@@ -174,8 +172,8 @@
                         Grid.Column="2"
                         Style="{StaticResource RevenueButtonStyle}">
                     <StackPanel Orientation="Vertical">
-                        <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="นำส่งรายได้ย้อนหลัง"/>
-                        <TextBlock Style="{StaticResource SubCaptionTextBlockStyle}" Text="(หัวหน้าด่าน)"/>
+                        <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="นำส่งรายได้ย้อนหลัง" />
+                        <TextBlock Style="{StaticResource SubCaptionTextBlockStyle}" Text="(หัวหน้าด่าน)" />
                     </StackPanel>
                 </Button>
             </Grid>
@@ -204,31 +202,39 @@
                            Style="{StaticResource TollAdminHeaderTextStyle}"
                            Text="Toll Admin" />
                 <!--  TOLL ADMIN - BUTTONS  -->
-                <Button x:Name="cmdChangeShift"
+                <Button x:Name="cmdChiefChangeShift"
                         Grid.Row="1"
                         Grid.Column="0"
-                        Style="{StaticResource TollAdminButtonStyle}" />
+                        Style="{StaticResource TollAdminButtonStyle}">
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="หัวหน้าเปลี่ยนกะ" />
+                </Button>
                 <TextBlock Grid.Row="1"
                            Grid.Column="1"
                            Width="{StaticResource ButtonSpace}" />
                 <Button x:Name="cmdReportMenu"
                         Grid.Row="1"
                         Grid.Column="2"
-                        Style="{StaticResource TollAdminButtonStyle}" />
+                        Style="{StaticResource TollAdminButtonStyle}">
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="รายงานต่าง ๆ" />
+                </Button>
                 <TextBlock Grid.Row="1"
                            Grid.Column="3"
                            Width="{StaticResource ButtonSpace}" />
                 <Button x:Name="cmdEMVQRCode"
                         Grid.Row="1"
                         Grid.Column="4"
-                        Style="{StaticResource TollAdminButtonStyle}" />
+                        Style="{StaticResource TollAdminButtonStyle}">
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="EMV / QR Code" />
+                </Button>
                 <TextBlock Grid.Row="1"
                            Grid.Column="5"
                            Width="{StaticResource ButtonSpace}" />
                 <Button x:Name="cmdStaffJobs"
                         Grid.Row="1"
                         Grid.Column="6"
-                        Style="{StaticResource TollAdminButtonStyle}" />
+                        Style="{StaticResource TollAdminButtonStyle}">
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="รายชื่อพนักงานเข้ากะ" />
+                </Button>
             </Grid>
         </Grid>
     </ScrollViewer>
