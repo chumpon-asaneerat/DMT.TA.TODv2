@@ -45,8 +45,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #325
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #324
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #323
-- 
+- DMT.TAxTODv2
+  - DMT.Core project.
+    - Change ConfigManager class to abstract class.
+    - Add TAConfigManager Class
+    - Add TODConfigManager Class
+    - Need rechecked another projects that access ConfigManager class.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #322

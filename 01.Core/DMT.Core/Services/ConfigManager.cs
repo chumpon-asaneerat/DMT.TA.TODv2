@@ -803,29 +803,91 @@ namespace DMT.Services
 
     #endregion
 
-    #region ConfigManager
+    #region ConfigManager (abstract)
 
     /// <summary>
-    /// The ConfigManager class.
+    /// The ConfigManager abstract class.
     /// </summary>
-    public class ConfigManager
+    public abstract class ConfigManager
+    {
+        #region Constructor and Destructor
+
+        /// <summary>
+        /// Constructor.
+        /// </summary>
+        public ConfigManager() : base()
+        {
+        }
+        /// <summary>
+        /// Destructor.
+        /// </summary>
+        ~ConfigManager()
+        {
+        }
+
+        #endregion
+
+        #region Protected Methods
+
+        /// <summary>
+        /// Raise Config Changed Event.
+        /// </summary>
+        protected void RaiseConfigChanged()
+        {
+            // Raise event.
+            ConfigChanged.Call(this, EventArgs.Empty);
+        }
+
+        #endregion
+
+        #region Public Methods
+
+        /// <summary>
+        /// Load Config from file.
+        /// </summary>
+        public abstract void LoadConfig();
+        /// <summary>
+        /// Save Config to file.
+        /// </summary>
+        public abstract void SaveConfig();
+
+        #endregion
+
+        #region Public Events
+
+        /// <summary>
+        /// The ConfigChanged Event Handler.
+        /// </summary>
+        public event EventHandler ConfigChanged;
+
+        #endregion
+    }
+
+    #endregion
+
+    #region TAConfigManager
+
+    /// <summary>
+    /// TA Config Manager class.
+    /// </summary>
+    public class TAConfigManager : ConfigManager
     {
         #region Static Instance Access
 
-        private static ConfigManager _instance = null;
+        private static TAConfigManager _instance = null;
 
         /// <summary>
         /// Gets ConfigManager instance access.
         /// </summary>
-        public static ConfigManager Instance
+        public static TAConfigManager Instance
         {
             get
             {
                 if (null == _instance)
                 {
-                    lock (typeof(ConfigManager))
+                    lock (typeof(TAConfigManager))
                     {
-                        _instance = new ConfigManager();
+                        _instance = new TAConfigManager();
                     }
                 }
                 return _instance;
@@ -836,7 +898,7 @@ namespace DMT.Services
 
         #region Internal Variables
 
-        private string _fileName = NJson.LocalConfigFile("plaza.config.json");
+        private string _fileName = NJson.LocalConfigFile("TA.app.config.json");
         private PlazaConfig _plazaCfg = new PlazaConfig();
 
         #endregion
@@ -846,14 +908,14 @@ namespace DMT.Services
         /// <summary>
         /// Constructor.
         /// </summary>
-        private ConfigManager() : base()
+        private TAConfigManager() : base()
         {
-            IsRunning = false;
+            
         }
         /// <summary>
         /// Destructor.
         /// </summary>
-        ~ConfigManager()
+        ~TAConfigManager()
         {
             //Shutdown();
         }
@@ -865,7 +927,7 @@ namespace DMT.Services
         /// <summary>
         /// Load Config from file.
         /// </summary>
-        public void LoadConfig()
+        public override void LoadConfig()
         {
             lock (this)
             {
@@ -901,7 +963,7 @@ namespace DMT.Services
                         }
                     }
                     // Raise event.
-                    ConfigChanged.Call(this, EventArgs.Empty);
+                    RaiseConfigChanged();
                 }
                 catch (Exception ex)
                 {
@@ -912,7 +974,7 @@ namespace DMT.Services
         /// <summary>
         /// Save Config to file.
         /// </summary>
-        public void SaveConfig()
+        public override void SaveConfig()
         {
             lock (this)
             {
@@ -938,26 +1000,161 @@ namespace DMT.Services
         #region Public Properties
 
         /// <summary>
-        /// Gets is service is running.
-        /// </summary>
-        public bool IsRunning { get; private set; }
-        /// <summary>
         /// Gets current plaza app information.
         /// </summary>
-        public PlazaConfig Plaza 
-        { 
+        public PlazaConfig Plaza
+        {
             get { return _plazaCfg; }
             set { }
         }
 
         #endregion
+    }
 
-        #region Public Events
+    #endregion
+
+    #region TODConfigManager
+
+    /// <summary>
+    /// TOD Config Manager class.
+    /// </summary>
+    public class TODConfigManager : ConfigManager
+    {
+        #region Static Instance Access
+
+        private static TODConfigManager _instance = null;
 
         /// <summary>
-        /// The ConfigChanged Event Handler.
+        /// Gets ConfigManager instance access.
         /// </summary>
-        public event EventHandler ConfigChanged;
+        public static TODConfigManager Instance
+        {
+            get
+            {
+                if (null == _instance)
+                {
+                    lock (typeof(TODConfigManager))
+                    {
+                        _instance = new TODConfigManager();
+                    }
+                }
+                return _instance;
+            }
+        }
+
+        #endregion
+
+        #region Internal Variables
+
+        private string _fileName = NJson.LocalConfigFile("TOD.app.config.json");
+        private PlazaConfig _plazaCfg = new PlazaConfig();
+
+        #endregion
+
+        #region Constructor and Destructor
+
+        /// <summary>
+        /// Constructor.
+        /// </summary>
+        private TODConfigManager() : base()
+        {
+
+        }
+        /// <summary>
+        /// Destructor.
+        /// </summary>
+        ~TODConfigManager()
+        {
+            //Shutdown();
+        }
+
+        #endregion
+
+        #region Public Methods
+
+        /// <summary>
+        /// Load Config from file.
+        /// </summary>
+        public override void LoadConfig()
+        {
+            lock (this)
+            {
+                MethodBase med = MethodBase.GetCurrentMethod();
+                try
+                {
+                    // save back to file.
+                    if (!NJson.ConfigExists(_fileName))
+                    {
+                        // File not exist.
+                        if (null == _plazaCfg)
+                        {
+                            _plazaCfg = new PlazaConfig();
+                        }
+                        NJson.SaveToFile(_plazaCfg, _fileName);
+                    }
+                    else
+                    {
+                        // Check file size.
+                        long len = new FileInfo(_fileName).Length;
+                        if (len <= 0)
+                        {
+                            // File size is zero.
+                            if (null == _plazaCfg)
+                            {
+                                _plazaCfg = new PlazaConfig();
+                            }
+                            NJson.SaveToFile(_plazaCfg, _fileName);
+                        }
+                        else
+                        {
+                            _plazaCfg = NJson.LoadFromFile<PlazaConfig>(_fileName);
+                        }
+                    }
+                    // Raise event.
+                    RaiseConfigChanged();
+                }
+                catch (Exception ex)
+                {
+                    med.Err(ex);
+                }
+            }
+        }
+        /// <summary>
+        /// Save Config to file.
+        /// </summary>
+        public override void SaveConfig()
+        {
+            lock (this)
+            {
+                MethodBase med = MethodBase.GetCurrentMethod();
+                try
+                {
+                    // save back to file.
+                    if (null == _plazaCfg)
+                    {
+                        _plazaCfg = new PlazaConfig();
+                    }
+                    NJson.SaveToFile(_plazaCfg, _fileName);
+                }
+                catch (Exception ex)
+                {
+                    med.Err(ex);
+                }
+            }
+        }
+
+        #endregion
+
+        #region Public Properties
+
+        /// <summary>
+        /// Gets current plaza app information.
+        /// </summary>
+        public PlazaConfig Plaza
+        {
+            get { return _plazaCfg; }
+            set { }
+        }
 
         #endregion
     }
