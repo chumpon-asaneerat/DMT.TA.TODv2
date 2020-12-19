@@ -168,6 +168,7 @@
                 <Button x:Name="cmdCollectorBOJ"
                         Grid.Row="1"
                         Grid.Column="0"
+                        Click="cmdCollectorBOJ_Click"
                         Style="{StaticResource ShiftButtonStyle}">
                     <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="เปิดกะ" />
                 </Button>
@@ -195,6 +196,7 @@
                 <Button x:Name="cmdCollectorRevenueEntry"
                         Grid.Row="1"
                         Grid.Column="0"
+                        Click="cmdCollectorRevenueEntry_Click"
                         Style="{StaticResource RevenueButtonStyle}">
                     <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="นำส่งรายได้" />
                 </Button>
@@ -204,6 +206,7 @@
                 <Button x:Name="cmdChiefRevenueEntry"
                         Grid.Row="1"
                         Grid.Column="2"
+                        Click="cmdChiefRevenueEntry_Click"
                         Style="{StaticResource RevenueButtonStyle}">
                     <StackPanel Orientation="Vertical">
                         <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="นำส่งรายได้ย้อนหลัง" />
@@ -239,6 +242,7 @@
                 <Button x:Name="cmdChiefChangeShift"
                         Grid.Row="1"
                         Grid.Column="0"
+                        Click="cmdChiefChangeShift_Click"
                         Style="{StaticResource TollAdminButtonStyle}">
                     <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="หัวหน้าเปลี่ยนกะ" />
                 </Button>
@@ -248,6 +252,7 @@
                 <Button x:Name="cmdReportMenu"
                         Grid.Row="1"
                         Grid.Column="2"
+                        Click="cmdReportMenu_Click"
                         Style="{StaticResource TollAdminButtonStyle}">
                     <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="รายงานต่าง ๆ" />
                 </Button>
@@ -257,6 +262,7 @@
                 <Button x:Name="cmdEMVQRCode"
                         Grid.Row="1"
                         Grid.Column="4"
+                        Click="cmdEMVQRCode_Click"
                         Style="{StaticResource TollAdminButtonStyle}">
                     <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="EMV / QR Code" />
                 </Button>
@@ -266,6 +272,7 @@
                 <Button x:Name="cmdStaffJobs"
                         Grid.Row="1"
                         Grid.Column="6"
+                        Click="cmdStaffJobs_Click"
                         Style="{StaticResource TollAdminButtonStyle}">
                     <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Text="รายชื่อพนักงานเข้ากะ" />
                 </Button>

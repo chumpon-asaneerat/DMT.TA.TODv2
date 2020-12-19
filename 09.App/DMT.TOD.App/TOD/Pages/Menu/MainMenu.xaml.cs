@@ -28,5 +28,44 @@ namespace DMT.TOD.Pages.Menu
         }
 
         #endregion
+
+        #region Button Handlers
+
+        private void cmdCollectorBOJ_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void cmdCollectorRevenueEntry_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void cmdChiefRevenueEntry_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void cmdChiefChangeShift_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void cmdReportMenu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void cmdEMVQRCode_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void cmdStaffJobs_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        #endregion
     }
 }
