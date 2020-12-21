@@ -48,8 +48,17 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #334
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #333
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #332
-- 
+  - DMT.Models project.
+    - Remove LocalDbServer.cs
+    - Remove SqlScriptManager.cs
+  - DMT.TA.Models project.
+    - Add TALocalDbServer.cs
+    - Add TASqlScriptManager.cs
+  - DMT.TOD.Models project.
+    - Add TODLocalDbServer.cs
+    - Add TODSqlScriptManager.cs
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #331

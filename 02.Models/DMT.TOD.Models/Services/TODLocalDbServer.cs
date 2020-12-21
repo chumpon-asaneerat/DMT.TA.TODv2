@@ -26,28 +26,28 @@ using DMT.Views;
 
 namespace DMT.Services
 {
-	#region LobalDbServer
+	#region TODLocalDbServer
 
 	/// <summary>
-	/// Local Database Server.
+	/// Local TODLocalDbServer Server.
 	/// </summary>
-	public class LocalDbServer
+	public class TODLocalDbServer
 	{
 		#region Singelton
 
-		private static LocalDbServer _instance = null;
+		private static TODLocalDbServer _instance = null;
 		/// <summary>
 		/// Singelton Access.
 		/// </summary>
-		public static LocalDbServer Instance
+		public static TODLocalDbServer Instance
 		{
 			get
 			{
 				if (null == _instance)
 				{
-					lock (typeof(LocalDbServer))
+					lock (typeof(TODLocalDbServer))
 					{
-						_instance = new LocalDbServer();
+						_instance = new TODLocalDbServer();
 					}
 				}
 				return _instance;
@@ -61,14 +61,14 @@ namespace DMT.Services
 		/// <summary>
 		/// Constructor.
 		/// </summary>
-		private LocalDbServer() : base()
+		private TODLocalDbServer() : base()
 		{
-			this.FileName = "TODxTA.db";
+			this.FileName = "TOD.db";
 		}
 		/// <summary>
 		/// Destructor.
 		/// </summary>
-		~LocalDbServer()
+		~TODLocalDbServer()
 		{
 			Shutdown();
 		}
@@ -105,6 +105,7 @@ namespace DMT.Services
 
 		private void InitTables()
 		{
+			/*
 			Db.CreateTable<ViewHistory>();
 			Db.CreateTable<UniqueCode>();
 
@@ -146,16 +147,17 @@ namespace DMT.Services
 
 			//Db.CreateTable<TSBExchangeGroup>();
 			//Db.CreateTable<TSBExchangeTransaction>();
+			*/
 		}
 
 		private void InitDefaults()
 		{
-			InitMCurrency();
-			InitMCoupon();
-			InitMCardAllow();
-			InitTSBAndPlazaAndLanes();
-			InitShifts();
-			InitRoleAndUsers();
+			//InitMCurrency();
+			//InitMCoupon();
+			//InitMCardAllow();
+			//InitTSBAndPlazaAndLanes();
+			//InitShifts();
+			//InitRoleAndUsers();
 		}
 
 		private void InitMCurrency()
@@ -2345,7 +2347,7 @@ namespace DMT.Services
 						embededResourceName = @"DMT.Views.Scripts." + resourceName;
 					}
 
-					script = SqliteScriptManager.GetScript(embededResourceName);
+					script = TODSqliteScriptManager.GetScript(embededResourceName);
 
 					if (!string.IsNullOrEmpty(script))
 					{
@@ -2388,7 +2390,7 @@ namespace DMT.Services
 			MethodBase med = MethodBase.GetCurrentMethod();
 			if (null == Db)
 			{
-				lock (typeof(LocalDbServer))
+				lock (typeof(TODLocalDbServer))
 				{
 					try
 					{
@@ -2487,5 +2489,4 @@ namespace DMT.Services
 	}
 
 	#endregion
-
 }
