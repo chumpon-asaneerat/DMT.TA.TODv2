@@ -36,8 +36,26 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #328
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #327
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #326
-- 
+- DMT.TAxTODv2
+  - DMT.Core project.
+    - Change TAAppConfig class to TAAppWebServiceConfig.
+    - Change TODAppConfig class to TODAppWebServiceConfig.
+    - Update TAAppConfig
+    - Remove LocalServiceManager.cs
+    - Change TAPlazaConfig class to TAAppPlazaConfig
+    - Update TAAppPlazaConfig class change TODApp property type.
+    - Change TODPlazaConfig class to TODAppPlazaConfig
+    - Update TODAppPlazaConfig class - change TAApp property type.
+    - Add ITAAppWebServiceConfig interface.
+    - Add ITODAppWebServiceConfig interface.
+    - Update TAConfigManager class
+      - Clange type parameter to TAAppPlazaConfig
+      - Implements ITODAppWebServiceConfig interface.
+    - Update TODConfigManager class
+      - Clange type parameter to TODAppPlazaConfig
+      - Implements ITAAppWebServiceConfig interface.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #325

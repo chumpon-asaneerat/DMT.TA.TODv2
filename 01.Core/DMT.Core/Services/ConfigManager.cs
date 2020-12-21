@@ -15,7 +15,7 @@ namespace DMT.Services
 {
     #region Plaza Config and related classes
 
-    #region ApplicationConfig
+    #region ApplicationConfig (Common DMT Consts Information)
 
     /// <summary>
     /// The DMT Config class.
@@ -82,7 +82,7 @@ namespace DMT.Services
 
     #endregion
 
-    #region WebServiceConfig
+    #region WebServiceConfig (Common Web Service Config)
 
     /// <summary>
     /// The WebServiceConfig class.
@@ -157,7 +157,7 @@ namespace DMT.Services
 
     #endregion
 
-    #region RabbitMQServiceConfig
+    #region RabbitMQServiceConfig (For RabbitMQ Client)
 
     /// <summary>
     /// The RabbitMQServiceConfig class.
@@ -244,7 +244,7 @@ namespace DMT.Services
 
     #endregion
 
-    #region TAxTODWebServiceConfig
+    #region TAxTODWebServiceConfig (For TAxTOD Server Web Service)
 
     /// <summary>
     /// The TAxTODWebServiceConfig class.
@@ -308,7 +308,7 @@ namespace DMT.Services
 
     #endregion
 
-    #region SCWWebServiceConfig
+    #region SCWWebServiceConfig (For SCW Server Web Service)
 
     /// <summary>
     /// The SCWWebServiceConfig class.
@@ -372,20 +372,20 @@ namespace DMT.Services
 
     #endregion
 
-    #region TAAppConfig
+    #region TAAppWebServiceConfig (For TA App Web Service)
 
     /// <summary>
-    /// The TAAppConfig class.
+    /// The TAAppWebServiceConfig class.
     /// </summary>
     [JsonObject(MemberSerialization.OptOut)]
-    public class TAAppConfig
+    public class TAAppWebServiceConfig
     {
         #region Constructor
 
         /// <summary>
         /// Constructor.
         /// </summary>
-        public TAAppConfig()
+        public TAAppWebServiceConfig()
         {
             this.Service = new WebServiceConfig()
             {
@@ -408,8 +408,8 @@ namespace DMT.Services
         /// <returns></returns>
         public bool IsEquals(object obj)
         {
-            if (null == obj || !(obj is TAAppConfig)) return false;
-            return this.GetString() == (obj as TAAppConfig).GetString();
+            if (null == obj || !(obj is TAAppWebServiceConfig)) return false;
+            return this.GetString() == (obj as TAAppWebServiceConfig).GetString();
         }
         /// <summary>
         /// GetString.
@@ -436,20 +436,20 @@ namespace DMT.Services
 
     #endregion
 
-    #region TODAppConfig
+    #region TODAppWebServiceConfig (For TOD App Web Service)
 
     /// <summary>
-    /// The TAAppConfig class.
+    /// The TODAppWebServiceConfig class.
     /// </summary>
     [JsonObject(MemberSerialization.OptOut)]
-    public class TODAppConfig
+    public class TODAppWebServiceConfig
     {
         #region Constructor
 
         /// <summary>
         /// Constructor.
         /// </summary>
-        public TODAppConfig()
+        public TODAppWebServiceConfig()
         {
             this.Service = new WebServiceConfig()
             {
@@ -472,8 +472,8 @@ namespace DMT.Services
         /// <returns></returns>
         public bool IsEquals(object obj)
         {
-            if (null == obj || !(obj is TODAppConfig)) return false;
-            return this.GetString() == (obj as TODAppConfig).GetString();
+            if (null == obj || !(obj is TODAppWebServiceConfig)) return false;
+            return this.GetString() == (obj as TODAppWebServiceConfig).GetString();
         }
         /// <summary>
         /// GetString.
@@ -500,26 +500,26 @@ namespace DMT.Services
 
     #endregion
 
-    #region TAPlazaConfig
+    #region TAAppPlazaConfig (Combine configuration used in TA Plaza applicaltion)
 
     /// <summary>
-    /// The TAPlazaConfig class.
+    /// The TAAppPlazaConfig class.
     /// </summary>
     [JsonObject(MemberSerialization.OptOut)]
-    public class TAPlazaConfig
+    public class TAAppPlazaConfig
     {
         #region Constructor
 
         /// <summary>
         /// Constructor.
         /// </summary>
-        public TAPlazaConfig() : base()
+        public TAAppPlazaConfig() : base()
         {
             this.DMT = new DMTConfig();
             this.TAxTOD = new TAxTODWebServiceConfig();
             this.SCW = new SCWWebServiceConfig();
             this.RabbitMQ = new RabbitMQServiceConfig();
-            this.TODApp = new TODAppConfig();
+            this.TODApp = new TODAppWebServiceConfig();
         }
 
         #endregion
@@ -533,8 +533,8 @@ namespace DMT.Services
         /// <returns></returns>
         public bool IsEquals(object obj)
         {
-            if (null == obj || !(obj is TAPlazaConfig)) return false;
-            return this.GetString() == (obj as TAPlazaConfig).GetString();
+            if (null == obj || !(obj is TAAppPlazaConfig)) return false;
+            return this.GetString() == (obj as TAAppPlazaConfig).GetString();
         }
         /// <summary>
         /// GetString.
@@ -619,33 +619,33 @@ namespace DMT.Services
         /// <summary>
         /// Gets or sets TOD App Service Config (for notify).
         /// </summary>
-        public TODAppConfig TODApp { get; set; }
+        public TODAppWebServiceConfig TODApp { get; set; }
 
         #endregion
     }
 
     #endregion
 
-    #region TODPlazaConfig
+    #region TODAppPlazaConfig (Combine configuration used in TOD Plaza applicaltion)
 
     /// <summary>
     /// The TODPlazaConfig class.
     /// </summary>
     [JsonObject(MemberSerialization.OptOut)]
-    public class TODPlazaConfig
+    public class TODAppPlazaConfig
     {
         #region Constructor
 
         /// <summary>
         /// Constructor.
         /// </summary>
-        public TODPlazaConfig() : base()
+        public TODAppPlazaConfig() : base()
         {
             this.DMT = new DMTConfig();
             this.TAxTOD = new TAxTODWebServiceConfig();
             this.SCW = new SCWWebServiceConfig();
             this.RabbitMQ = new RabbitMQServiceConfig();
-            this.TAApp = new TAAppConfig();
+            this.TAApp = new TAAppWebServiceConfig();
         }
 
         #endregion
@@ -659,8 +659,8 @@ namespace DMT.Services
         /// <returns></returns>
         public bool IsEquals(object obj)
         {
-            if (null == obj || !(obj is TODPlazaConfig)) return false;
-            return this.GetString() == (obj as TODPlazaConfig).GetString();
+            if (null == obj || !(obj is TODAppPlazaConfig)) return false;
+            return this.GetString() == (obj as TODAppPlazaConfig).GetString();
         }
         /// <summary>
         /// GetString.
@@ -745,7 +745,7 @@ namespace DMT.Services
         /// <summary>
         /// Gets or sets TA App Service Config (for notify).
         /// </summary>
-        public TAAppConfig TAApp { get; set; }
+        public TAAppWebServiceConfig TAApp { get; set; }
 
         #endregion
     }
@@ -797,6 +797,36 @@ namespace DMT.Services
         /// Gets TAxTOD Config.
         /// </summary>
         TAxTODWebServiceConfig TAxTOD { get; }
+    }
+
+    #endregion
+
+    #region ITAAppWebServiceConfig Interface
+
+    /// <summary>
+    /// The ITAAppWebServiceConfig inferface.
+    /// </summary>
+    public interface ITAAppWebServiceConfig
+    {
+        /// <summary>
+        /// Gets TAApp Config.
+        /// </summary>
+        TAAppWebServiceConfig TAApp { get; }
+    }
+
+    #endregion
+
+    #region ITODAppWebServiceConfig Interface
+
+    /// <summary>
+    /// The ITODAppWebServiceConfig inferface.
+    /// </summary>
+    public interface ITODAppWebServiceConfig
+    {
+        /// <summary>
+        /// Gets TODApp Config.
+        /// </summary>
+        TODAppWebServiceConfig TODApp { get; }
     }
 
     #endregion
@@ -953,7 +983,8 @@ namespace DMT.Services
     /// <summary>
     /// TA Config Manager class.
     /// </summary>
-    public class TAConfigManager : ConfigManager<TAPlazaConfig>, IRabbitMQConfig, ISCWConfig, ITAxTODConfig
+    public class TAConfigManager : ConfigManager<TAAppPlazaConfig>, 
+        IRabbitMQConfig, ISCWConfig, ITAxTODConfig, ITODAppWebServiceConfig
     {
         #region Static Instance Access
 
@@ -1048,6 +1079,17 @@ namespace DMT.Services
                 return (null != Value) ? Value.TAxTOD : null;
             }
         }
+        /// <summary>
+        /// Gets TODApp Config.
+        /// </summary>
+        public TODAppWebServiceConfig TODApp
+        {
+            get
+            {
+                if (null == Value) LoadConfig();
+                return (null != Value) ? Value.TODApp : null;
+            }
+        }
 
 
         #endregion
@@ -1060,7 +1102,8 @@ namespace DMT.Services
     /// <summary>
     /// TOD Config Manager class.
     /// </summary>
-    public class TODConfigManager : ConfigManager<TODPlazaConfig>, IRabbitMQConfig, ISCWConfig, ITAxTODConfig
+    public class TODConfigManager : ConfigManager<TODAppPlazaConfig>, 
+        IRabbitMQConfig, ISCWConfig, ITAxTODConfig, ITAAppWebServiceConfig
     {
         #region Static Instance Access
 
@@ -1153,6 +1196,17 @@ namespace DMT.Services
             {
                 if (null == Value) LoadConfig();
                 return (null != Value) ? Value.TAxTOD : null; 
+            }
+        }
+        /// <summary>
+        /// Gets TAApp Config.
+        /// </summary>
+        public TAAppWebServiceConfig TAApp
+        {
+            get
+            {
+                if (null == Value) LoadConfig();
+                return (null != Value) ? Value.TAApp : null;
             }
         }
 
