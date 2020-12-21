@@ -66,6 +66,42 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Header\Elements\HeaderChief.xaml.cs">
+      <DependentUpon>HeaderChief.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Header\Elements\HeaderDateTime.xaml.cs">
+      <DependentUpon>HeaderDateTime.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Header\Elements\HeaderLogo.xaml.cs">
+      <DependentUpon>HeaderLogo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Header\Elements\HeaderPlaza.xaml.cs">
+      <DependentUpon>HeaderPlaza.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Header\Elements\HeaderShift.xaml.cs">
+      <DependentUpon>HeaderShift.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Header\PlazaHeader.xaml.cs">
+      <DependentUpon>PlazaHeader.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StatusBar\Elements\AppInfoStatus.xaml.cs">
+      <DependentUpon>AppInfoStatus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StatusBar\Elements\ClientInfoStatus.xaml.cs">
+      <DependentUpon>ClientInfoStatus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StatusBar\Elements\SCWStatus.xaml.cs">
+      <DependentUpon>SCWStatus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StatusBar\Elements\TAServerStatus.xaml.cs">
+      <DependentUpon>TAServerStatus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StatusBar\Elements\TODLocalDbStatus.xaml.cs">
+      <DependentUpon>TODLocalDbStatus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StatusBar\TODStatusBar.xaml.cs">
+      <DependentUpon>TODStatusBar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TOD\Pages\Menu\ConfigurationMenu.xaml.cs">
       <DependentUpon>ConfigurationMenu.xaml</DependentUpon>
     </Compile>
@@ -75,6 +111,30 @@
     <Compile Include="TOD\Pages\Menu\ReportManu.xaml.cs">
       <DependentUpon>ReportManu.xaml</DependentUpon>
     </Compile>
+    <Page Include="Header\Elements\HeaderChief.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Header\Elements\HeaderDateTime.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Header\Elements\HeaderLogo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Header\Elements\HeaderPlaza.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Header\Elements\HeaderShift.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Header\PlazaHeader.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -87,6 +147,30 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="StatusBar\Elements\AppInfoStatus.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StatusBar\Elements\ClientInfoStatus.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StatusBar\Elements\SCWStatus.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StatusBar\Elements\TAServerStatus.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StatusBar\Elements\TODLocalDbStatus.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StatusBar\TODStatusBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="TOD\Pages\Menu\ConfigurationMenu.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -161,9 +245,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="TOD\Controls\" />
     <Folder Include="TOD\Windows\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Logo\tollway.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

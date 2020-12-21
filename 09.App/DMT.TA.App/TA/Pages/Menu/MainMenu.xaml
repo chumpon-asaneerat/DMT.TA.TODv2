@@ -10,7 +10,7 @@
     <UserControl.Resources>
         <!--  CONSTS  -->
         <GridLength x:Key="TextHeight">75</GridLength>
-        <GridLength x:Key="ButtonHeight">140</GridLength>
+        <GridLength x:Key="ButtonHeight">135</GridLength>
         <GridLength x:Key="RowSpace">5</GridLength>
         <sys:Double x:Key="ButtonSpace">5</sys:Double>
         <!--  COLORS  -->

@@ -42,8 +42,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #336
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #335
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #334
-- 
+- DMT.TAxTODv2
+  - DMT.Controls project.
+    - Remove Header and StatusBar from DMT.Controls.
+  - DMT.TA.App project.
+    - Move Header and StatusBar from DMT.Controls.
+  - DMT.TOD.App project.
+    - Move Header and StatusBar from DMT.Controls.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #333

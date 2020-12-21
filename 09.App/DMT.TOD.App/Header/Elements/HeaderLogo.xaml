@@ -10,7 +10,7 @@
              Unloaded="UserControl_Unloaded">
     <Border BorderBrush="WhiteSmoke"
             BorderThickness="1">
-        <Image Source="/DMT.Controls;component/Images/Logo/tollway.png" 
+        <Image Source="/DMT.TOD.App;component/Images/Logo/tollway.png" 
                Margin="5"
                Height="90"/>
     </Border>
