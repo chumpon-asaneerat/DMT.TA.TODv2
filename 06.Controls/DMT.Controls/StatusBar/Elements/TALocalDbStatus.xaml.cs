@@ -13,16 +13,16 @@ using DMT.Services;
 namespace DMT.Controls.StatusBar
 {
     /// <summary>
-    /// Interaction logic for LocalDbStatus.xaml
+    /// Interaction logic for TALocalDbStatus.xaml
     /// </summary>
-    public partial class LocalDbStatus : UserControl
+    public partial class TALocalDbStatus : UserControl
     {
         #region Constructor
 
         /// <summary>
         /// Constructor.
         /// </summary>
-        public LocalDbStatus()
+        public TALocalDbStatus()
         {
             InitializeComponent();
         }

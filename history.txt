@@ -51,8 +51,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #333
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #332
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #331
-- 
+  - DMT.Controls project.
+    - Remove LocalDbStatus StatusBar element.
+    - Add TALocalDbStatus StatusBar element.
+    - Add TODLocalDbStatus StatusBar element.
+    - Update TASatusBar Control.
+    - Update TODSatusBar Control.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #330

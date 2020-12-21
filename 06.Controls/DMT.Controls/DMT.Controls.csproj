@@ -61,11 +61,14 @@
     <Compile Include="StatusBar\Elements\ClientInfoStatus.xaml.cs">
       <DependentUpon>ClientInfoStatus.xaml</DependentUpon>
     </Compile>
-    <Compile Include="StatusBar\Elements\LocalDbStatus.xaml.cs">
-      <DependentUpon>LocalDbStatus.xaml</DependentUpon>
+    <Compile Include="StatusBar\Elements\TODLocalDbStatus.xaml.cs">
+      <DependentUpon>TODLocalDbStatus.xaml</DependentUpon>
     </Compile>
     <Compile Include="StatusBar\Elements\SCWStatus.xaml.cs">
       <DependentUpon>SCWStatus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StatusBar\Elements\TALocalDbStatus.xaml.cs">
+      <DependentUpon>TALocalDbStatus.xaml</DependentUpon>
     </Compile>
     <Compile Include="StatusBar\Elements\TAServerStatus.xaml.cs">
       <DependentUpon>TAServerStatus.xaml</DependentUpon>
@@ -193,13 +196,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="StatusBar\Elements\LocalDbStatus.xaml">
+    <Page Include="StatusBar\Elements\TODLocalDbStatus.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="StatusBar\Elements\SCWStatus.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StatusBar\Elements\TALocalDbStatus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="StatusBar\Elements\TAServerStatus.xaml">
       <Generator>MSBuild:Compile</Generator>
