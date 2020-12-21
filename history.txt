@@ -42,8 +42,27 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #326
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #325
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #324
-- 
+- DMT.TAxTODv2
+  - DMT.Core project.
+    - Remove LocalHostWebServiceConfig class.
+    - Remove LocalWebServiceConfig class.
+    - TAAppConfig class change Service Type to WebServiceConfig class.
+    - TODAppConfig class change Service Type to WebServiceConfig class.
+    - Add TAPlazaConfig class (used for replace PlazaConfig class for TAPlazaConfigManager).
+    - Add TODPlazaConfig class (used for replace PlazaConfig class for TODPlazaConfigManager).
+    - Add IRabbitMQConfig interface.
+    - Add ISCWConfig interface.
+    - Add ITAxTODConfig interface.
+    - Change ConfigManager to ConfigManager<T> for generic Config class.
+    - Update TAConfigManager class.
+    - Update TODConfigManager class.
+  - DMT.Rest.Client project.
+    - NRestClient.cs
+      - Remove CreateLocalWebClient method.
+      - Change CreateTAxTODClient method to has ITAxTODConfig parameter.
+      - Change CreateSCWClient method to has ISCWConfig parameter.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #323

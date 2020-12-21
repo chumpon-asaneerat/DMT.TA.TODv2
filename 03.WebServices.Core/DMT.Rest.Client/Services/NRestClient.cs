@@ -450,56 +450,38 @@ namespace DMT.Services
             return new NRestClient(protocol, host, port);
         }
         /// <summary>
-        /// Create Rest Client for local plaza web service.
-        /// </summary>
-        /// <returns>Returns instance of NRestClient for local plaza web service.</returns>
-        public static NRestClient CreateLocalClient()
-        {
-            if (null == ConfigManager.Instance.Plaza) return null;
-            if (null == ConfigManager.Instance.Plaza.Local) return null;
-            if (null == ConfigManager.Instance.Plaza.Local.Service) return null;
-
-            NRestClient.WebProtocol protocol =
-                (ConfigManager.Instance.Plaza.Local.Service.Protocol == "http") ?
-                NRestClient.WebProtocol.http : NRestClient.WebProtocol.https;
-            string hostName = ConfigManager.Instance.Plaza.Local.Service.HostName;
-            int portNo = ConfigManager.Instance.Plaza.Local.Service.PortNumber;
-
-            return new NRestClient(protocol, hostName, portNo);
-        }
-        /// <summary>
         /// Create Rest Client for TA/TOD node.js server.
         /// </summary>
+        /// <param name="config">The ITAxTODConfig interface instance.</param>
         /// <returns>Returns instance of NRestClient for TA/TOD node.js server.</returns>
-        public static NRestClient CreateTAxTODClient()
+        public static NRestClient CreateTAxTODClient(ITAxTODConfig config)
         {
-            if (null == ConfigManager.Instance.Plaza) return null;
-            if (null == ConfigManager.Instance.Plaza.TAxTOD) return null;
-            if (null == ConfigManager.Instance.Plaza.TAxTOD.Service) return null;
+            if (null == config) return null;
+            if (null == config.TAxTOD) return null;
+            if (null == config.TAxTOD.Service) return null;
 
-            NRestClient.WebProtocol protocol =
-                (ConfigManager.Instance.Plaza.TAxTOD.Service.Protocol == "http") ?
-                NRestClient.WebProtocol.http : NRestClient.WebProtocol.https;
-            string hostName = ConfigManager.Instance.Plaza.TAxTOD.Service.HostName;
-            int portNo = ConfigManager.Instance.Plaza.TAxTOD.Service.PortNumber;
+            var server = config.TAxTOD.Service;
+            WebProtocol protocol = (server.Protocol == "http") ? WebProtocol.http : WebProtocol.https;
+            string hostName = server.HostName;
+            int portNo = server.PortNumber;
 
             return new NRestClient(protocol, hostName, portNo);
         }
         /// <summary>
         /// Create Rest Client for SCW Server.
         /// </summary>
+        /// <param name="config">The ISCWConfig interface instance.</param>
         /// <returns>Returns instance of NRestClient for SCW Server.</returns>
-        public static NRestClient CreateSCWClient()
+        public static NRestClient CreateSCWClient(ISCWConfig config)
         {
-            if (null == ConfigManager.Instance.Plaza) return null;
-            if (null == ConfigManager.Instance.Plaza.SCW) return null;
-            if (null == ConfigManager.Instance.Plaza.SCW.Service) return null;
+            if (null == config) return null;
+            if (null == config.SCW) return null;
+            if (null == config.SCW.Service) return null;
 
-            NRestClient.WebProtocol protocol =
-                (ConfigManager.Instance.Plaza.SCW.Service.Protocol == "http") ?
-                NRestClient.WebProtocol.http : NRestClient.WebProtocol.https;
-            string hostName = ConfigManager.Instance.Plaza.SCW.Service.HostName;
-            int portNo = ConfigManager.Instance.Plaza.SCW.Service.PortNumber;
+            var server = config.SCW.Service;
+            WebProtocol protocol = (server.Protocol == "http") ? WebProtocol.http : WebProtocol.https;
+            string hostName = server.HostName;
+            int portNo = server.PortNumber;
 
             return new NRestClient(protocol, hostName, portNo);
         }
