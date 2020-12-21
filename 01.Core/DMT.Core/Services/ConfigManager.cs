@@ -15,6 +15,8 @@ namespace DMT.Services
 {
     #region Plaza Config and related classes
 
+    #region Each config class
+
     #region ApplicationConfig (Common DMT Consts Information)
 
     /// <summary>
@@ -497,6 +499,8 @@ namespace DMT.Services
 
         #endregion
     }
+
+    #endregion
 
     #endregion
 

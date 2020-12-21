@@ -30,8 +30,17 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #330
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #329
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #328
-- 
+- DMT.TAxTODv2
+  - DMT.TA.Rest.Server project
+    - Update TAWebServer.cs
+      - Replace ConfigManager with TAConfigManager.
+      - Add check code to check config is null.
+  - DMT.TOD.Rest.Server project
+    - Update TODWebServer.cs
+      - Replace ConfigManager with TAConfigManager.
+      - Add check code to check config is null.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #327

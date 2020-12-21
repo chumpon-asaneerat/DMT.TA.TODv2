@@ -88,20 +88,50 @@ namespace DMT.Services
     {
         #region Internal Variables
 
-        private string baseAddress = string.Format(@"{0}://{1}:{2}",
-            ConfigManager.Instance.Plaza.TAApp.Service.Protocol,
-            "+",
-            ConfigManager.Instance.Plaza.TAApp.Service.PortNumber);
-
+        private WebServiceConfig _cfg = null;
         private IDisposable server = null;
+
+        #endregion
+
+        #region Constructor
+
+        /// <summary>
+        /// Constructor.
+        /// </summary>
+        public TAWebServer() : base() { }
 
         #endregion
 
         #region Private Methods
 
+        private void CheckConfig()
+        {
+            // Gets TA App local server config.
+            _cfg = (null != TODConfigManager.Instance.TAApp) ? TODConfigManager.Instance.TAApp.Service : null;
+        }
+
+        private string BaseAddress
+        {
+            get 
+            {
+                string result = string.Empty;
+                if (null != _cfg)
+                {
+                    string.Format(@"{0}://{1}:{2}", _cfg.Protocol, "+", _cfg.PortNumber);
+                }
+                return result;
+            }
+        }
+
         private void InitOwinFirewall()
         {
-            string portNum = ConfigManager.Instance.Plaza.TAApp.Service.PortNumber.ToString();
+            MethodBase med = MethodBase.GetCurrentMethod();
+            if (null == _cfg)
+            {
+                med.Err("Server Configuration is null.");
+                return;
+            }
+            string portNum = _cfg.PortNumber.ToString();
             string appName = "DMT TA App Service(REST)";
             var nash = new CommandLine();
             nash.Run("http add urlacl url=http://+:" + portNum + "/ user=Everyone");
@@ -110,7 +140,13 @@ namespace DMT.Services
 
         private void ReleaseOwinFirewall()
         {
-            string portNum = ConfigManager.Instance.Plaza.TAApp.Service.PortNumber.ToString();
+            MethodBase med = MethodBase.GetCurrentMethod();
+            if (null == _cfg)
+            {
+                med.Err("Server Configuration is null.");
+                return;
+            }
+            string portNum = _cfg.PortNumber.ToString();
             string appName = "DMT TA App Service(REST)";
             var nash = new CommandLine();
             nash.Run("http delete urlacl url=http://+:" + portNum + "/");
@@ -127,10 +163,16 @@ namespace DMT.Services
         public void Start()
         {
             MethodBase med = MethodBase.GetCurrentMethod();
+            CheckConfig(); // Check Config.
+            if (null == _cfg)
+            {
+                med.Err("Server Configuration is null.");
+                return;
+            }
             if (null == server)
             {
                 InitOwinFirewall();
-                server = WebApp.Start<StartUp>(url: baseAddress);
+                server = WebApp.Start<StartUp>(url: BaseAddress);
             }
             med.Info("TA App local nofify service start.");
         }
@@ -145,6 +187,7 @@ namespace DMT.Services
                 server.Dispose();
             }
             server = null;
+
             ReleaseOwinFirewall();
             med.Info("TA App local nofify service shutdown.");
         }
