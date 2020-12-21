@@ -28,9 +28,6 @@ namespace DMT.Controls.Header
 
         #endregion
 
-        // TODO: Refactor HeaderPlaza elements LocalOperations
-        //private LocalOperations ops = LocalServiceOperations.Instance.Plaza;
-
         #region Loaded/Unloaded
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
@@ -59,10 +56,7 @@ namespace DMT.Controls.Header
 
         private void UpdateUI()
         {
-            /*
-            // TODO: Refactor HeaderPlaza element update active TSB
-            var ret = ops.TSB.GetCurrent();
-            var tsb = ret.Value();
+            var tsb = TSB.GetCurrent().Value();
             if (null != tsb)
             {
                 txtPlazaId.Text = "รหัสด่าน : " + tsb.TSBId;
@@ -73,7 +67,6 @@ namespace DMT.Controls.Header
                 txtPlazaId.Text = "รหัสด่าน : ";
                 txtPlazaName.Text = "ชื่อด่าน : ";
             }
-            */
         }
     }
 }

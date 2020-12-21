@@ -36,8 +36,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #338
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #337
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #336
-- 
+- DMT.TAxTODv2
+  - DMT.TA.App project.
+    - HeaderPlaza.xaml.cs update code access local db.
+  - DMT.TOD.App project.
+    - HeaderPlaza.xaml.cs update code access local db.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #335

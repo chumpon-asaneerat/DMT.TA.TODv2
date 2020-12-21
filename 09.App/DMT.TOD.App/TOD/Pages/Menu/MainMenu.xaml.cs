@@ -48,7 +48,7 @@ namespace DMT.TOD.Pages.Menu
 
         private void cmdChiefChangeShift_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
         private void cmdReportMenu_Click(object sender, RoutedEventArgs e)
