@@ -51,8 +51,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #343
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #342
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #341
-- 
+- DMT.TAxTODv2
+  - DMT.Controls project.
+    - Ported SmartcardManager
+    - Ported UserSearchManager
+    - Ported SignInPage
+    - Ported SignInWindow
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #340
