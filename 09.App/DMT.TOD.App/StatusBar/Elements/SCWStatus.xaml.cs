@@ -37,9 +37,8 @@ namespace DMT.Controls.StatusBar
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-            //TODO: Refactor ConfigManager for SCW Service host name.
-            //string host = ConfigManager.Instance.Plaza.SCW.Service.HostName;
-            string host = "127.0.0.1";
+            string host = (null != TODConfigManager.Instance.SCW && null != TODConfigManager.Instance.SCW.Service) ?
+                TODConfigManager.Instance.SCW.Service.HostName : "unknown";
 
             ping = new NLib.Components.PingManager();
             ping.OnReply += Ping_OnReply;

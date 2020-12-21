@@ -33,8 +33,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #339
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #338
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #337
-- 
+- DMT.TAxTODv2
+  - DMT.TA.App project.
+    - TALocalDbStatus.xaml.cs update code access local db.
+    - SCWStatus.xaml.cs update code ping SCW host (by config).
+  - DMT.TOD.App project.
+    - TODLocalDbStatus.xaml.cs update code access local db.
+    - SCWStatus.xaml.cs update code ping SCW host (by config).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #336
