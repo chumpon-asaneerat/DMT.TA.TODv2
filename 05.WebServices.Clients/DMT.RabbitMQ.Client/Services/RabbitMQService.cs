@@ -71,19 +71,28 @@ namespace DMT.Services
         /// <summary>
         /// Gets local message json folder path name.
         /// </summary>
-        public static string LocalRabbitMessageFolder
+        public string LocalRabbitMessageFolder
         {
             get
             {
-                string localFilder = Folders.Combine(
-                    Folders.Assemblies.CurrentExecutingAssembly, "rabbit.mq.msgs");
-                if (!Folders.Exists(localFilder))
+                // Common Messages folder.
+                string msgFolder = Folders.Combine(Folders.Assemblies.CurrentExecutingAssembly, "messages");
+                // Rabbit MQ Root Folder
+                string rootFolder = Folders.Combine(msgFolder, "rabbit.mq");
+                // TA/TOR Sub Folder
+                string localFolder = (string.IsNullOrEmpty(SubFolder)) ? 
+                    rootFolder : Folders.Combine(rootFolder, SubFolder);
+                if (!Folders.Exists(localFolder))
                 {
-                    Folders.Create(localFilder);
+                    Folders.Create(localFolder);
                 }
-                return localFilder;
+                return localFolder;
             }
         }
+        /// <summary>
+        /// Gets or sets message sub folder (usually used app name).
+        /// </summary>
+        public string SubFolder { get; set; }
 
         private void WriteRabbitFile(string fullFileName, string message)
         {
@@ -204,8 +213,6 @@ namespace DMT.Services
                                 var mq = json.FromJson<Models.RabbitMQStaffMessage>();
                                 if (null != mq)
                                 {
-                                    //TODO: Required User Model class
-                                    /*
                                     var staffs = Models.RabbitMQStaff.ToLocals(mq.staff);
                                     if (null != staffs && staffs.Count > 0)
                                     {
@@ -216,7 +223,6 @@ namespace DMT.Services
                                     }
                                     // process success backup file.
                                     RabbitMoveToBackup(file);
-                                    */
                                 }
                                 else
                                 {
@@ -266,7 +272,8 @@ namespace DMT.Services
         /// <summary>
         /// Start service.
         /// </summary>
-        public void Start()
+        /// <param name="MQConfig">The RabbitMQ config.</param>
+        public void Start(RabbitMQServiceConfig MQConfig)
         {
             MethodBase med = MethodBase.GetCurrentMethod();
             // Init Scanning Timer
@@ -278,8 +285,6 @@ namespace DMT.Services
             // Init Rabbit Client
             if (null == rabbitClient)
             {
-                var MQConfig = (null != ConfigManager.Instance.Plaza.RabbitMQ) ?
-                    ConfigManager.Instance.Plaza.RabbitMQ : null;
                 if (null != MQConfig && MQConfig.Enabled)
                 {
                     //WriteTAFile("init");

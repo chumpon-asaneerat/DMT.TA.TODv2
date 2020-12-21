@@ -27,8 +27,22 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #330
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #329
-- 
+- DMT.TAxTODv2
+  - DMT.RabbitMQ.Client project.
+    - RabbitMQService.cs
+      - Change message folder.
+      - Add SubFolder property for assign app name (seperate message for each app).
+      - Start method required RabbitMQ config paramter.
+  - DMT.Controls project.
+    - LocalDbStatus.xaml.cs -> temporary set host t0 127.0.0.1
+    - SCWStatus.xaml.cs -> temporary set host t0 127.0.0.1
+    - TAServerStatus.xaml.cs -> temporary set host t0 127.0.0.1
+  - DMT.TA.Rest.Server project
+    - Update TAWebServer.cs - Fixed bug in BaseAddress get property.
+  - DMT.TOD.Rest.Server project
+    - Update TODWebServer.cs - Fixed bug in BaseAddress get property.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #328

@@ -117,7 +117,7 @@ namespace DMT.Services
                 string result = string.Empty;
                 if (null != _cfg)
                 {
-                    string.Format(@"{0}://{1}:{2}", _cfg.Protocol, "+", _cfg.PortNumber);
+                    result = string.Format(@"{0}://{1}:{2}", _cfg.Protocol, "+", _cfg.PortNumber);
                 }
                 return result;
             }
