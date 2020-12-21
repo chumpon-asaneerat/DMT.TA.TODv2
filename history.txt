@@ -30,8 +30,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #340
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #339
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #338
 - 
+  - DMT.RabbitMQ.Client project
+    - RabbitMQService.cs -> SubFolder setup in Start method.
+  - DMT.TA.App project.
+    - Add RabbitMQService start/shutdown code.
+  - DMT.TOD.App project.
+    - Add RabbitMQService start/shutdown code.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #337

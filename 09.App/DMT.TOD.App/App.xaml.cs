@@ -95,6 +95,9 @@ namespace DMT
             // Start Local Database Service
             Services.TODLocalDbServer.Instance.Start();
 
+            // Start RabbitMQ Service
+            Services.RabbitMQService.Instance.Start(Services.TODConfigManager.Instance.RabbitMQ, "TOD");
+
             // Start App Notify Server.
             appServ = new Services.TODWebServer();
             appServ.Start();
@@ -121,6 +124,9 @@ namespace DMT
                 appServ.Shutdown();
             }
             appServ = null;
+
+            // Shutdown RabbitMQ Service
+            Services.RabbitMQService.Instance.Shutdown();
 
             // Shutdown Local Database Service
             Services.TODLocalDbServer.Instance.Shutdown();

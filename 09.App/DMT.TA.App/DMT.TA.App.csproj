@@ -232,6 +232,10 @@
       <Project>{d571ea41-a05b-4c3c-8738-d6dd706c6a51}</Project>
       <Name>DMT.TA.Rest.Server</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\05.WebServices.Clients\DMT.RabbitMQ.Client\DMT.RabbitMQ.Client.csproj">
+      <Project>{37616cb2-8712-4767-b165-76f046cfc68b}</Project>
+      <Name>DMT.RabbitMQ.Client</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\06.Controls\DMT.Controls\DMT.Controls.csproj">
       <Project>{aeed7b1c-4e56-4d44-bbd1-a936be653d4d}</Project>
       <Name>DMT.Controls</Name>

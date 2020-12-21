@@ -76,7 +76,7 @@ namespace DMT.Services
             get
             {
                 // Common Messages folder.
-                string msgFolder = Folders.Combine(Folders.Assemblies.CurrentExecutingAssembly, "messages");
+                string msgFolder = Folders.Combine(Folders.Assemblies.CurrentExecutingAssembly, "msgs");
                 // Rabbit MQ Root Folder
                 string rootFolder = Folders.Combine(msgFolder, "rabbit.mq");
                 // TA/TOR Sub Folder
@@ -92,7 +92,7 @@ namespace DMT.Services
         /// <summary>
         /// Gets or sets message sub folder (usually used app name).
         /// </summary>
-        public string SubFolder { get; set; }
+        public string SubFolder { get; private set; }
 
         private void WriteRabbitFile(string fullFileName, string message)
         {
@@ -273,9 +273,13 @@ namespace DMT.Services
         /// Start service.
         /// </summary>
         /// <param name="MQConfig">The RabbitMQ config.</param>
-        public void Start(RabbitMQServiceConfig MQConfig)
+        /// <param name="folder">The RabbitMQ message folder.</param>
+        public void Start(RabbitMQServiceConfig MQConfig, string folder)
         {
             MethodBase med = MethodBase.GetCurrentMethod();
+
+            this.SubFolder = folder;
+
             // Init Scanning Timer
             _rabbit_scanning = false;
             _rabbit_timer = new Timer();
