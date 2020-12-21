@@ -39,16 +39,15 @@ namespace DMT
             // Initial Page Content Manager
             PageContentManager.Instance.ContentChanged += new EventHandler(Instance_ContentChanged);
             PageContentManager.Instance.Start();
-            // TODO: Refactor
-            /*
             // Init Sign In
             var page = new Pages.SignInPage();
-            page.Setup("ADMINS", "ACCOUNT", "CTC");
-            PageContentManager.Instance.Current = page;
-            */
-
-            // For Test
-            var page = new TA.Pages.Menu.MainMenu();
+            page.Setup(
+                "ADMINS",
+                "ACCOUNT",
+                "CTC_MGR", "CTC", /*"TC",*/
+                "MT_ADMIN", "MT_TECH",
+                "FINANCE", "SV",
+                "RAD_MGR", "RAD_SUP");
             PageContentManager.Instance.Current = page;
         }
 

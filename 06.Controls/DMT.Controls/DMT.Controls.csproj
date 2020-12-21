@@ -70,12 +70,6 @@
     </Compile>
     <Compile Include="SignIn\Common\SmartcardManager.cs" />
     <Compile Include="SignIn\Common\UserSearchManager.cs" />
-    <Compile Include="SignIn\Pages\SignInPage.xaml.cs">
-      <DependentUpon>SignInPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SignIn\Windows\SignInWindow.xaml.cs">
-      <DependentUpon>SignInWindow.xaml</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -115,87 +109,67 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="SignIn\Pages\SignInPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="SignIn\Windows\SignInWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Themes\generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Background\snartcard.png" />
-    <Resource Include="Images\Button\Approve.png" />
-    <Resource Include="Images\Button\Approved.png" />
-    <Resource Include="Images\Button\Approved2.png" />
-    <Resource Include="Images\Button\Approved3.png" />
-    <Resource Include="Images\Button\Approved4.png" />
-    <Resource Include="Images\Button\Approved5.png" />
-    <Resource Include="Images\Button\back.png" />
-    <Resource Include="Images\Button\Back2.png" />
-    <Resource Include="Images\Button\Back3.png" />
-    <Resource Include="Images\Button\baht.png" />
-    <Resource Include="Images\Button\Button.png" />
-    <Resource Include="Images\Button\Button2.png" />
-    <Resource Include="Images\Button\Button3.png" />
-    <Resource Include="Images\Button\Button4.png" />
-    <Resource Include="Images\Button\Button5.png" />
-    <Resource Include="Images\Button\Cancel.png" />
-    <Resource Include="Images\Button\Cancel2.png" />
-    <Resource Include="Images\Button\Clear.png" />
-    <Resource Include="Images\Button\Clear2.png" />
-    <Resource Include="Images\Button\Clear3.png" />
-    <Resource Include="Images\Button\Close.png" />
-    <Resource Include="Images\Button\Edit.png" />
-    <Resource Include="Images\Button\EndWork.png" />
-    <Resource Include="Images\Button\EndWork2.png" />
-    <Resource Include="Images\Button\finish.png" />
-    <Resource Include="Images\Button\Home.png" />
-    <Resource Include="Images\Button\Money.png" />
-    <Resource Include="Images\Button\Money2.png" />
-    <Resource Include="Images\Button\next.png" />
-    <Resource Include="Images\Button\OK.png" />
-    <Resource Include="Images\Button\OK2.png" />
-    <Resource Include="Images\Button\Printer.png" />
-    <Resource Include="Images\Button\Printer2.png" />
-    <Resource Include="Images\Button\Printer3.png" />
-    <Resource Include="Images\Button\Printer4.png" />
-    <Resource Include="Images\Button\Refresh.png" />
-    <Resource Include="Images\Button\Refresh2.png" />
-    <Resource Include="Images\Button\Refresh3.png" />
-    <Resource Include="Images\Button\Refresh4.png" />
-    <Resource Include="Images\Button\Rejected.png" />
-    <Resource Include="Images\Button\Rejected2.png" />
-    <Resource Include="Images\Button\Rejected3.png" />
-    <Resource Include="Images\Button\Rejected4.png" />
-    <Resource Include="Images\Button\Rejected5.png" />
-    <Resource Include="Images\Button\Reset.png" />
-    <Resource Include="Images\Button\Return.png" />
-    <Resource Include="Images\Button\Save.png" />
-    <Resource Include="Images\Button\Save2.png" />
-    <Resource Include="Images\Button\search.png" />
-    <Resource Include="Images\Button\search2.png" />
-    <Resource Include="Images\Button\search3.png" />
-    <Resource Include="Images\Button\Stop.png" />
-    <Resource Include="Images\Button\User.png" />
-    <Resource Include="Images\Logo\tollway.png" />
-    <Resource Include="Images\Menu\bag4.png" />
-    <Resource Include="Images\Menu\begin_of_job.png" />
-    <Resource Include="Images\Menu\clock.png" />
-    <Resource Include="Images\Menu\coupon.png" />
-    <Resource Include="Images\Menu\end_of_job.png" />
-    <Resource Include="Images\Menu\login.png" />
-    <Resource Include="Images\Menu\logout.png" />
-    <Resource Include="Images\Menu\report1.png" />
-    <Resource Include="Images\Menu\reventry.png" />
-    <Resource Include="Images\Menu\user.png" />
-    <Resource Include="Images\Reports\all_plaza_fund.jpg" />
-    <Resource Include="Images\Reports\สรุปเงินยิมทอน.jpg" />
+    <Resource Include="Images\Backup\Button\Approve.png" />
+    <Resource Include="Images\Backup\Button\Approved.png" />
+    <Resource Include="Images\Backup\Button\Approved2.png" />
+    <Resource Include="Images\Backup\Button\Approved3.png" />
+    <Resource Include="Images\Backup\Button\Approved4.png" />
+    <Resource Include="Images\Backup\Button\Approved5.png" />
+    <Resource Include="Images\Backup\Button\back.png" />
+    <Resource Include="Images\Backup\Button\Back2.png" />
+    <Resource Include="Images\Backup\Button\Back3.png" />
+    <Resource Include="Images\Backup\Button\baht.png" />
+    <Resource Include="Images\Backup\Button\Clear.png" />
+    <Resource Include="Images\Backup\Button\Clear2.png" />
+    <Resource Include="Images\Backup\Button\Clear3.png" />
+    <Resource Include="Images\Backup\Button\Close.png" />
+    <Resource Include="Images\Backup\Button\Edit.png" />
+    <Resource Include="Images\Backup\Button\EndWork.png" />
+    <Resource Include="Images\Backup\Button\EndWork2.png" />
+    <Resource Include="Images\Backup\Button\finish.png" />
+    <Resource Include="Images\Backup\Button\Home.png" />
+    <Resource Include="Images\Backup\Button\Money.png" />
+    <Resource Include="Images\Backup\Button\Money2.png" />
+    <Resource Include="Images\Backup\Button\next.png" />
+    <Resource Include="Images\Backup\Button\Printer.png" />
+    <Resource Include="Images\Backup\Button\Printer2.png" />
+    <Resource Include="Images\Backup\Button\Printer3.png" />
+    <Resource Include="Images\Backup\Button\Printer4.png" />
+    <Resource Include="Images\Backup\Button\Refresh.png" />
+    <Resource Include="Images\Backup\Button\Refresh2.png" />
+    <Resource Include="Images\Backup\Button\Refresh3.png" />
+    <Resource Include="Images\Backup\Button\Refresh4.png" />
+    <Resource Include="Images\Backup\Button\Rejected.png" />
+    <Resource Include="Images\Backup\Button\Rejected2.png" />
+    <Resource Include="Images\Backup\Button\Rejected3.png" />
+    <Resource Include="Images\Backup\Button\Rejected4.png" />
+    <Resource Include="Images\Backup\Button\Rejected5.png" />
+    <Resource Include="Images\Backup\Button\Reset.png" />
+    <Resource Include="Images\Backup\Button\Save.png" />
+    <Resource Include="Images\Backup\Button\Save2.png" />
+    <Resource Include="Images\Backup\Button\search.png" />
+    <Resource Include="Images\Backup\Button\search2.png" />
+    <Resource Include="Images\Backup\Button\search3.png" />
+    <Resource Include="Images\Backup\Button\Stop.png" />
+    <Resource Include="Images\Backup\Button\User.png" />
+    <Resource Include="Images\Backup\Menu\bag4.png" />
+    <Resource Include="Images\Backup\Menu\begin_of_job.png" />
+    <Resource Include="Images\Backup\Menu\clock.png" />
+    <Resource Include="Images\Backup\Menu\coupon.png" />
+    <Resource Include="Images\Backup\Menu\end_of_job.png" />
+    <Resource Include="Images\Backup\Menu\login.png" />
+    <Resource Include="Images\Backup\Menu\logout.png" />
+    <Resource Include="Images\Backup\Menu\report1.png" />
+    <Resource Include="Images\Backup\Menu\reventry.png" />
+    <Resource Include="Images\Backup\Menu\user.png" />
+    <Resource Include="Images\Backup\Reports\all_plaza_fund.jpg" />
+    <Resource Include="Images\Backup\Reports\สรุปเงินยิมทอน.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MessageBox\" />

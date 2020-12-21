@@ -1,12 +1,10 @@
 ﻿#region Using
 
+using System;
 using System.Windows;
 using System.Windows.Controls;
 
-//using NLib.Services;
-
-//using DMT.Windows;
-using System;
+using NLib.Services;
 
 #endregion
 
@@ -89,6 +87,18 @@ namespace DMT.TA.Pages.Menu
         private void cmdExit_Click(object sender, RoutedEventArgs e)
         {
             // ออกจากระบบ
+            // When enter Sign In Screen reset current user.
+            Controls.TAApp.User.Current = null;
+
+            var page = new DMT.Pages.SignInPage();
+            page.Setup(
+                "ADMINS",
+                "ACCOUNT",
+                "CTC_MGR", "CTC", /*"TC",*/
+                "MT_ADMIN", "MT_TECH",
+                "FINANCE", "SV",
+                "RAD_MGR", "RAD_SUP");
+            PageContentManager.Instance.Current = page;
         }
 
         private void cmdSetting_Click(object sender, RoutedEventArgs e)

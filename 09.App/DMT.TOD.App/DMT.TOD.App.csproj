@@ -84,6 +84,9 @@
     <Compile Include="Header\PlazaHeader.xaml.cs">
       <DependentUpon>PlazaHeader.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SignIn\Windows\SignInWindow.xaml.cs">
+      <DependentUpon>SignInWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StatusBar\Elements\AppInfoStatus.xaml.cs">
       <DependentUpon>AppInfoStatus.xaml</DependentUpon>
     </Compile>
@@ -147,6 +150,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SignIn\Windows\SignInWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="StatusBar\Elements\AppInfoStatus.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -254,6 +261,36 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Logo\tollway.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Background\snartcard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Button\Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Button\Button2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Button\Button3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Button\Button4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Button\Button5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Button\OK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Button\OK2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Button\Return.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Button\Cancel.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

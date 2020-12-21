@@ -45,8 +45,22 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #345
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #344
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #343
-- 
+- DMT.TAxTODv2
+  - DMT.Controls project.
+    - Move all Images to backup folder
+    - Move SignInPage to TA
+    - Move SignInWindow to TOD
+  - DMT.TA.App project.
+    - Move required images from DMT.Controls.
+    - Recheck SignInPage xaml and code.
+    - Update MainMenu page
+      - Add SignInPage as start page.
+      - Add Exit Button code.
+  - DMT.TOD.App project.
+    - Move required images from DMT.Controls.
+    - Recheck SignInWindow xaml and code.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #342
