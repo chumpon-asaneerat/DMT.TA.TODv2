@@ -109,10 +109,7 @@ namespace DMT.Controls
             }
             else
             {
-                //TODO: Implements Search By Card Id.
-                /*
-                var search = Search.Users.ByCardId.Create(this.CardId);
-                var usr = ops.Users.GetByCardId(search).Value();
+                var usr = User.GetByCardId(this.CardId).Value();
                 if (null == this.User && null != usr)
                 {
                     this.User = usr;
@@ -131,7 +128,6 @@ namespace DMT.Controls
                         RaiseUserChanged();
                     }
                 }
-                */
             }
         }
 

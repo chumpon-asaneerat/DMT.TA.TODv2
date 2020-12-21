@@ -15,5 +15,276 @@
                 Background="Transparent"
                 BorderBrush="Transparent"
                 BorderThickness="0"
-                SelectedIndex="0" />
+                SelectedIndex="0">
+        <TabItem Background="Transparent"
+                 BorderBrush="Transparent"
+                 BorderThickness="0"
+                 Header="Sign In"
+                 Visibility="Collapsed">
+            <Grid Background="DimGray">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="25" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25" />
+                    <RowDefinition Height="3*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="25" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1"
+                      Grid.RowSpan="4"
+                      Grid.Column="1"
+                      Grid.ColumnSpan="3">
+                    <Image Opacity="20" Source="/DMT.Controls;component/Images/Background/snartcard.png" />
+                </Grid>
+                <StackPanel Grid.Row="1" Grid.Column="1">
+                    <StackPanel Margin="5">
+                        <TextBlock FontSize="18"
+                                   Foreground="WhiteSmoke"
+                                   Text="กรุณาระบุรหัสพนักงาน 5 หลัก" />
+                        <Grid Height="5" />
+                        <TextBox x:Name="txtUserId"
+                                 FontSize="18"
+                                 KeyDown="txtUserId_KeyDown"
+                                 Text="" />
+                        <Grid Height="5" />
+                        <TextBlock FontSize="18"
+                                   Foreground="WhiteSmoke"
+                                   Text="กรุณาป้อนรหัสผ่าน" />
+                        <Grid Height="5" />
+                        <PasswordBox x:Name="txtPassword"
+                                     FontSize="18"
+                                     KeyDown="txtPassword_KeyDown"
+                                     PasswordChar="*" />
+                        <Grid Height="5" />
+                    </StackPanel>
+                </StackPanel>
+                <Grid Grid.Row="1"
+                      Grid.Column="2"
+                      Margin="5">
+                    <StackPanel Margin="5,0">
+                        <Grid Height="5" />
+                        <Button x:Name="cmdOK"
+                                HorizontalContentAlignment="Stretch"
+                                VerticalContentAlignment="Stretch"
+                                Click="cmdOK_Click"
+                                Foreground="White">
+                            <Button.Background>
+                                <ImageBrush ImageSource="/DMT.Controls;component/Images/Button/Button5.png" />
+                            </Button.Background>
+                            <DockPanel>
+                                <Grid Width="5" />
+                                <Image Width="50"
+                                       Height="50"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"
+                                       DockPanel.Dock="Left"
+                                       Source="/DMT.Controls;component/Images/Button/OK.png" />
+                                <StackPanel VerticalAlignment="Center" Orientation="Vertical">
+                                    <TextBlock HorizontalAlignment="Center"
+                                               FontSize="20"
+                                               FontWeight="Bold"
+                                               Text="OK"
+                                               TextAlignment="Center"
+                                               TextWrapping="Wrap" />
+                                    <Grid Height="10" />
+                                </StackPanel>
+                            </DockPanel>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+                <StackPanel Grid.Row="2"
+                            Grid.Column="1"
+                            Margin="5">
+                    <TextBlock Name="txtMsg"
+                               FontSize="20"
+                               FontWeight="ExtraBold"
+                               Foreground="Red"
+                               Text=""
+                               TextAlignment="Center" />
+                </StackPanel>
+                <Grid Grid.Row="3"
+                      Grid.Column="1"
+                      Margin="5,0">
+                    <Button x:Name="cmdChangePwd"
+                            HorizontalContentAlignment="Stretch"
+                            VerticalContentAlignment="Stretch"
+                            Click="cmdChangePwd_Click"
+                            Foreground="White">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/DMT.Controls;component/Images/Button/Button5.png" />
+                        </Button.Background>
+                        <DockPanel>
+                            <Grid Width="5" />
+                            <Image Width="50"
+                                   Height="50"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   DockPanel.Dock="Left"
+                                   Source="/DMT.Controls;component/Images/Button/Return.png" />
+                            <StackPanel VerticalAlignment="Center" Orientation="Vertical">
+                                <TextBlock HorizontalAlignment="Center"
+                                           FontSize="20"
+                                           FontWeight="Bold"
+                                           Text="Change Password"
+                                           TextAlignment="Center"
+                                           TextWrapping="Wrap" />
+                                <Grid Height="10" />
+                            </StackPanel>
+                        </DockPanel>
+                    </Button>
+                </Grid>
+            </Grid>
+        </TabItem>
+        <TabItem Background="Transparent"
+                 BorderBrush="Transparent"
+                 BorderThickness="0"
+                 Header="Change Password"
+                 Visibility="Collapsed">
+            <Grid Background="DimGray">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="25" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25" />
+                    <RowDefinition Height="3*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="25" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1"
+                      Grid.RowSpan="7"
+                      Grid.Column="1"
+                      Grid.ColumnSpan="3">
+                    <Image Opacity="20" Source="/DMT.Controls;component/Images/Background/snartcard.png" />
+                </Grid>
+                <StackPanel Grid.Row="1"
+                            Grid.RowSpan="5"
+                            Grid.Column="1">
+                    <StackPanel Margin="5">
+                        <TextBlock FontSize="18"
+                                   Foreground="WhiteSmoke"
+                                   Text="กรุณาระบุรหัสพนักงาน 5 หลัก" />
+                        <Grid Height="5" />
+                        <TextBox x:Name="txtUserId2"
+                                 FontSize="18"
+                                 KeyDown="txtUserId2_KeyDown"
+                                 Text="" />
+                        <Grid Height="5" />
+                        <TextBlock FontSize="18"
+                                   Foreground="WhiteSmoke"
+                                   Text="กรุณาป้อนรหัสผ่าน" />
+                        <Grid Height="5" />
+                        <PasswordBox x:Name="txtPassword2"
+                                     FontSize="18"
+                                     KeyDown="txtPassword2_KeyDown"
+                                     PasswordChar="*" />
+                        <Grid Height="5" />
+                        <TextBlock FontSize="18"
+                                   Foreground="WhiteSmoke"
+                                   Text="กรุณาป้อนรหัสผ่านใหม่" />
+                        <Grid Height="5" />
+                        <PasswordBox x:Name="txtNewPassword"
+                                     FontSize="18"
+                                     KeyDown="txtNewPassword_KeyDown"
+                                     PasswordChar="*" />
+                        <Grid Height="5" />
+                        <TextBlock FontSize="18"
+                                   Foreground="WhiteSmoke"
+                                   Text="กรุณายืนยันรหัสผ่านใหม่" />
+                        <Grid Height="5" />
+                        <PasswordBox x:Name="txtConfirmPassword"
+                                     FontSize="18"
+                                     KeyDown="txtConfirmPassword_KeyDown"
+                                     PasswordChar="*" />
+                        <Grid Height="5" />
+                    </StackPanel>
+                </StackPanel>
+                <Grid Grid.Row="1"
+                      Grid.RowSpan="2"
+                      Grid.Column="2"
+                      Margin="5">
+                    <StackPanel Margin="5,0">
+                        <Grid Height="5" />
+                        <Button x:Name="cmdOK2"
+                                HorizontalContentAlignment="Stretch"
+                                VerticalContentAlignment="Stretch"
+                                Click="cmdOK2_Click"
+                                Foreground="White">
+                            <Button.Background>
+                                <ImageBrush ImageSource="/DMT.Controls;component/Images/Button/Button5.png" />
+                            </Button.Background>
+                            <DockPanel>
+                                <Grid Width="5" />
+                                <Image Width="50"
+                                       Height="50"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"
+                                       DockPanel.Dock="Left"
+                                       Source="/DMT.Controls;component/Images/Button/OK.png" />
+                                <StackPanel VerticalAlignment="Center" Orientation="Vertical">
+                                    <TextBlock HorizontalAlignment="Center"
+                                               FontSize="20"
+                                               FontWeight="Bold"
+                                               Text="OK"
+                                               TextAlignment="Center"
+                                               TextWrapping="Wrap" />
+                                    <Grid Height="10" />
+                                </StackPanel>
+                            </DockPanel>
+                        </Button>
+                        <Grid Height="5" />
+                        <Button x:Name="cmdCancel2"
+                                HorizontalContentAlignment="Stretch"
+                                VerticalContentAlignment="Stretch"
+                                Click="cmdCancel2_Click"
+                                Foreground="White">
+                            <Button.Background>
+                                <ImageBrush ImageSource="/DMT.Controls;component/Images/Button/Button5.png" />
+                            </Button.Background>
+                            <DockPanel>
+                                <Grid Width="5" />
+                                <Image Width="50"
+                                       Height="50"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"
+                                       DockPanel.Dock="Left"
+                                       Source="/DMT.Controls;component/Images/Button/Cancel.png" />
+                                <StackPanel VerticalAlignment="Center" Orientation="Vertical">
+                                    <TextBlock HorizontalAlignment="Center"
+                                               FontSize="20"
+                                               FontWeight="Bold"
+                                               Text="Cancel"
+                                               TextAlignment="Center"
+                                               TextWrapping="Wrap" />
+                                    <Grid Height="10" />
+                                </StackPanel>
+                            </DockPanel>
+                        </Button>
+                        <Grid Height="5" />
+                    </StackPanel>
+                </Grid>
+                <StackPanel Grid.Row="6"
+                            Grid.Column="1"
+                            Margin="5">
+                    <TextBlock Name="txtMsg2"
+                               FontSize="20"
+                               FontWeight="ExtraBold"
+                               Foreground="Red"
+                               Text=""
+                               TextAlignment="Center" />
+                </StackPanel>
+            </Grid>
+        </TabItem>
+    </TabControl>
 </UserControl>
