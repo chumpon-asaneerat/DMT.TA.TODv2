@@ -91,6 +91,10 @@ namespace DMT
 
             // Load Config service.
             Services.TAConfigManager.Instance.LoadConfig();
+
+            // Start Local Database Service
+            Services.TALocalDbServer.Instance.Start();
+
             // Start App Notify Server.
             appServ = new Services.TAWebServer();
             appServ.Start();
@@ -117,6 +121,9 @@ namespace DMT
                 appServ.Shutdown();
             }
             appServ = null;
+
+            // Shutdown Local Database Service
+            Services.TALocalDbServer.Instance.Shutdown();
 
             // Shutdown log manager
             LogManager.Instance.Shutdown();

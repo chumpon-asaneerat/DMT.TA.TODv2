@@ -91,6 +91,10 @@ namespace DMT
 
             // Load Config service.
             Services.TODConfigManager.Instance.LoadConfig();
+
+            // Start Local Database Service
+            Services.TODLocalDbServer.Instance.Start();
+
             // Start App Notify Server.
             appServ = new Services.TODWebServer();
             appServ.Start();
@@ -117,6 +121,9 @@ namespace DMT
                 appServ.Shutdown();
             }
             appServ = null;
+
+            // Shutdown Local Database Service
+            Services.TODLocalDbServer.Instance.Shutdown();
 
             // Shutdown log manager
             LogManager.Instance.Shutdown();
