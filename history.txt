@@ -39,8 +39,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #327
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #326
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #325
-- 
+- DMT.TAxTODv2
+  - DMT.Core project.
+    - Remove LocalServiceManager.cs
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #324
