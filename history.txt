@@ -39,8 +39,44 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #337
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #336
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #335
-- 
+- DMT.TAxTODv2
+  - DMT.Models project.
+    - Change Configuration folder to Utils folder.
+    - Remove all files in views folders.
+  - DMT.TA.Models project.
+    - TALocalDbServer.cs
+      - Init Table ViewHistory.
+      - Init Table UniqueCode.
+      - Init Table MCurrency.
+      - Init Table MCoupon.
+      - Init Table MCardAllow.
+      - Init Table TSB.
+      - Init Table PlazaGroup.
+      - Init Table Plaza.
+      - Init Table Lane.
+      - Init View LaneView.sql.
+      - Init View PlazaGroupView.sql.
+      - Init View PlazaView.sql.
+      - Init View UserView.sql.
+      - Init View TSBShiftView.sql.
+  - DMT.TOD.Models project.
+    - TODLocalDbServer.cs
+      - Init Table ViewHistory.
+      - Init Table UniqueCode.
+      - Init Table MCurrency.
+      - Init Table MCoupon.
+      - Init Table MCardAllow.
+      - Init Table TSB.
+      - Init Table PlazaGroup.
+      - Init Table Plaza.
+      - Init Table Lane.
+      - Init View LaneView.sql.
+      - Init View PlazaGroupView.sql.
+      - Init View PlazaView.sql.
+      - Init View UserView.sql.
+      - Init View TSBShiftView.sql.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #334

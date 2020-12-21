@@ -103,7 +103,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExtensionMethods\NullableType.ExtensionMethods.cs" />
-    <Compile Include="Models\Clients\Client.cs" />
     <Compile Include="Models\Common\DMT.Search.cs" />
     <Compile Include="Models\Common\DMTModelBase.cs" />
     <Compile Include="Models\Common\NDbResult.cs" />
@@ -111,8 +110,8 @@
     <Compile Include="Models\Common\NSearch.cs" />
     <Compile Include="Models\Common\NTables.cs" />
     <Compile Include="Models\Common\Utils.cs" />
-    <Compile Include="Models\Configuration\UniqueCode.cs" />
-    <Compile Include="Models\Configuration\ViewHistory.cs" />
+    <Compile Include="Models\Utils\UniqueCode.cs" />
+    <Compile Include="Models\Utils\ViewHistory.cs" />
     <Compile Include="Models\Infrastructures\Lane.cs" />
     <Compile Include="Models\Infrastructures\Plaza.cs" />
     <Compile Include="Models\Infrastructures\PlazaGroup.cs" />
@@ -149,25 +148,7 @@
       <Name>DMT.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\Scripts\Coupons\" />
-    <Folder Include="Views\Scripts\Credits\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\Scripts\Users\UserView.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\Scripts\Infrastructures\LaneView.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\Scripts\Infrastructures\PlazaGroupView.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\Scripts\Infrastructures\PlazaView.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\Scripts\Shifts\TSBShiftView.sql" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>xcopy "$(SolutionDir)References\runtimes\*.*" "$(TargetDir)\runtimes\*.*" /Y/D/E</PostBuildEvent>

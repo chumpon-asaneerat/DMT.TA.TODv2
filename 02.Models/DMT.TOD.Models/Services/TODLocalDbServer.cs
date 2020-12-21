@@ -105,15 +105,12 @@ namespace DMT.Services
 
 		private void InitTables()
 		{
-			/*
 			Db.CreateTable<ViewHistory>();
 			Db.CreateTable<UniqueCode>();
 
 			Db.CreateTable<MCurrency>();
 			Db.CreateTable<MCoupon>();
 			Db.CreateTable<MCardAllow>();
-
-			Db.CreateTable<Client>();
 
 			Db.CreateTable<TSB>();
 			Db.CreateTable<PlazaGroup>();
@@ -124,9 +121,11 @@ namespace DMT.Services
 
 			Db.CreateTable<Role>();
 			Db.CreateTable<User>();
-			//Db.CreateTable<LogInLog>();
 
 			Db.CreateTable<TSBShift>();
+			/*
+			//Db.CreateTable<LogInLog>();
+
 			//Db.CreateTable<UserShift>();
 			//Db.CreateTable<UserShiftRevenue>();
 
@@ -152,12 +151,12 @@ namespace DMT.Services
 
 		private void InitDefaults()
 		{
-			//InitMCurrency();
-			//InitMCoupon();
-			//InitMCardAllow();
-			//InitTSBAndPlazaAndLanes();
-			//InitShifts();
-			//InitRoleAndUsers();
+			InitMCurrency();
+			InitMCoupon();
+			InitMCardAllow();
+			InitTSBAndPlazaAndLanes();
+			InitShifts();
+			InitRoleAndUsers();
 		}
 
 		private void InitMCurrency()
