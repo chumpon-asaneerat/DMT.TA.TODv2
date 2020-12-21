@@ -519,6 +519,7 @@ namespace DMT.Services
             this.TAxTOD = new TAxTODWebServiceConfig();
             this.SCW = new SCWWebServiceConfig();
             this.RabbitMQ = new RabbitMQServiceConfig();
+            this.TAApp = new TAAppWebServiceConfig();
             this.TODApp = new TODAppWebServiceConfig();
         }
 
@@ -583,6 +584,16 @@ namespace DMT.Services
                 code += string.Format("RabbitMQ: {0}",
                     this.RabbitMQ.GetString()) + Environment.NewLine;
             }
+            // TA Application (Plaza)
+            if (null == this.TAApp)
+            {
+                code += "TAApp: null" + Environment.NewLine;
+            }
+            else
+            {
+                code += string.Format("TAApp: {0}",
+                    this.TAApp.GetString()) + Environment.NewLine;
+            }
             // TOD Application (Plaza)
             if (null == this.TODApp)
             {
@@ -617,6 +628,10 @@ namespace DMT.Services
         /// </summary>
         public RabbitMQServiceConfig RabbitMQ { get; set; }
         /// <summary>
+        /// Gets or sets TA App Service Config (local server).
+        /// </summary>
+        public TAAppWebServiceConfig TAApp { get; set; }
+        /// <summary>
         /// Gets or sets TOD App Service Config (for notify).
         /// </summary>
         public TODAppWebServiceConfig TODApp { get; set; }
@@ -646,6 +661,7 @@ namespace DMT.Services
             this.SCW = new SCWWebServiceConfig();
             this.RabbitMQ = new RabbitMQServiceConfig();
             this.TAApp = new TAAppWebServiceConfig();
+            this.TODApp = new TODAppWebServiceConfig();
         }
 
         #endregion
@@ -719,6 +735,16 @@ namespace DMT.Services
                 code += string.Format("TAApp: {0}",
                     this.TAApp.GetString()) + Environment.NewLine;
             }
+            // TOD Application (Plaza)
+            if (null == this.TODApp)
+            {
+                code += "TODApp: null" + Environment.NewLine;
+            }
+            else
+            {
+                code += string.Format("TODApp: {0}",
+                    this.TODApp.GetString()) + Environment.NewLine;
+            }
             return code;
         }
 
@@ -746,6 +772,10 @@ namespace DMT.Services
         /// Gets or sets TA App Service Config (for notify).
         /// </summary>
         public TAAppWebServiceConfig TAApp { get; set; }
+        /// <summary>
+        /// Gets or sets TOD App Service Config (local server).
+        /// </summary>
+        public TODAppWebServiceConfig TODApp { get; set; }
 
         #endregion
     }
@@ -984,7 +1014,7 @@ namespace DMT.Services
     /// TA Config Manager class.
     /// </summary>
     public class TAConfigManager : ConfigManager<TAAppPlazaConfig>, 
-        IRabbitMQConfig, ISCWConfig, ITAxTODConfig, ITODAppWebServiceConfig
+        IRabbitMQConfig, ISCWConfig, ITAxTODConfig, ITAAppWebServiceConfig, ITODAppWebServiceConfig
     {
         #region Static Instance Access
 
@@ -1080,6 +1110,17 @@ namespace DMT.Services
             }
         }
         /// <summary>
+        /// Gets TAApp Config.
+        /// </summary>
+        public TAAppWebServiceConfig TAApp
+        {
+            get
+            {
+                if (null == Value) LoadConfig();
+                return (null != Value) ? Value.TAApp : null;
+            }
+        }
+        /// <summary>
         /// Gets TODApp Config.
         /// </summary>
         public TODAppWebServiceConfig TODApp
@@ -1103,7 +1144,7 @@ namespace DMT.Services
     /// TOD Config Manager class.
     /// </summary>
     public class TODConfigManager : ConfigManager<TODAppPlazaConfig>, 
-        IRabbitMQConfig, ISCWConfig, ITAxTODConfig, ITAAppWebServiceConfig
+        IRabbitMQConfig, ISCWConfig, ITAxTODConfig, ITAAppWebServiceConfig, ITODAppWebServiceConfig
     {
         #region Static Instance Access
 
@@ -1207,6 +1248,17 @@ namespace DMT.Services
             {
                 if (null == Value) LoadConfig();
                 return (null != Value) ? Value.TAApp : null;
+            }
+        }
+        /// <summary>
+        /// Gets TODApp Config.
+        /// </summary>
+        public TODAppWebServiceConfig TODApp
+        {
+            get
+            {
+                if (null == Value) LoadConfig();
+                return (null != Value) ? Value.TODApp : null;
             }
         }
 

@@ -33,8 +33,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #329
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #328
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #327
-- 
+- DMT.TAxTODv2
+  - DMT.Core project.
+    - TAAppPlazaConfig class add TAApp property (for local server).
+    - TODAppPlazaConfig class add TODApp property (for local server).
+    - TAConfigManager class implements ITAAppWebServiceConfig interface.
+    - TODConfigManager class implements ITODAppWebServiceConfig interface.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #326
