@@ -1,12 +1,12 @@
 ﻿#region Using
 
+using System;
 using System.Windows;
 using System.Windows.Controls;
 
-//using NLib.Services;
+using NLib.Services;
 
-//using DMT.Windows;
-using System;
+using DMT.Windows;
 
 #endregion
 
@@ -33,37 +33,142 @@ namespace DMT.TOD.Pages.Menu
 
         private void cmdCollectorBOJ_Click(object sender, RoutedEventArgs e)
         {
+            // เปิดกะ
+            var signinWin = new SignInWindow();
+            signinWin.Owner = Application.Current.MainWindow;
+            signinWin.Setup("ADMINS",
+                    "ACCOUNT",
+                    "CTC_MGR", "CTC", "TC",
+                    "MT_ADMIN", "MT_TECH",
+                    "FINANCE", "SV",
+                    "RAD_MGR", "RAD_SUP");
+            if (signinWin.ShowDialog() == false)
+            {
+                return;
+            }
+            var user = signinWin.User;
 
+            MessageBox.Show("Not Implements");
         }
 
         private void cmdCollectorRevenueEntry_Click(object sender, RoutedEventArgs e)
         {
+            // ป้อนรายได้
+            var signinWin = new SignInWindow();
+            signinWin.Owner = Application.Current.MainWindow;
+            signinWin.Setup("ADMINS",
+                    "ACCOUNT",
+                    "CTC_MGR", "CTC", "TC",
+                    "MT_ADMIN", "MT_TECH",
+                    "FINANCE", "SV",
+                    "RAD_MGR", "RAD_SUP");
+            if (signinWin.ShowDialog() == false)
+            {
+                return;
+            }
+            var user = signinWin.User;
 
+            MessageBox.Show("Not Implements");
         }
 
         private void cmdChiefRevenueEntry_Click(object sender, RoutedEventArgs e)
         {
+            // ป้อนรายได้ย้อนหลัง
+            var signinWin = new SignInWindow();
+            signinWin.Owner = Application.Current.MainWindow;
+            signinWin.Setup("ADMINS",
+                    "ACCOUNT",
+                    "CTC_MGR", "CTC", /*"TC",*/
+                    "MT_ADMIN", "MT_TECH",
+                    "FINANCE", "SV",
+                    "RAD_MGR", "RAD_SUP");
+            if (signinWin.ShowDialog() == false)
+            {
+                return;
+            }
+            var user = signinWin.User;
 
+            MessageBox.Show("Not Implements");
         }
 
         private void cmdChiefChangeShift_Click(object sender, RoutedEventArgs e)
         {
-            
+            // หัวหน้าเปลี่ยนกะ
+            var signinWin = new SignInWindow();
+            signinWin.Owner = Application.Current.MainWindow;
+            signinWin.Setup("ADMINS",
+                    "ACCOUNT",
+                    "CTC_MGR", "CTC", /*"TC",*/
+                    "MT_ADMIN", "MT_TECH",
+                    "FINANCE", "SV",
+                    "RAD_MGR", "RAD_SUP");
+            if (signinWin.ShowDialog() == false)
+            {
+                return;
+            }
+            var user = signinWin.User;
+
+            MessageBox.Show("Not Implements");
         }
 
         private void cmdReportMenu_Click(object sender, RoutedEventArgs e)
         {
+            // รายงานต่าง ๆ
+            var signinWin = new SignInWindow();
+            signinWin.Owner = Application.Current.MainWindow;
+            signinWin.Setup("ADMINS",
+                    "ACCOUNT",
+                    "CTC_MGR", "CTC", /*"TC",*/
+                    "MT_ADMIN", "MT_TECH",
+                    "FINANCE", "SV",
+                    "RAD_MGR", "RAD_SUP");
+            if (signinWin.ShowDialog() == false)
+            {
+                return;
+            }
+            var user = signinWin.User;
 
+            MessageBox.Show("Not Implements");
         }
 
         private void cmdEMVQRCode_Click(object sender, RoutedEventArgs e)
         {
+            // EMV/QR Code
+            var signinWin = new SignInWindow();
+            signinWin.Owner = Application.Current.MainWindow;
+            signinWin.Setup("ADMINS",
+                    "ACCOUNT",
+                    "CTC_MGR", "CTC", /*"TC",*/
+                    "MT_ADMIN", "MT_TECH",
+                    "FINANCE", "SV",
+                    "RAD_MGR", "RAD_SUP");
+            if (signinWin.ShowDialog() == false)
+            {
+                return;
+            }
+            var user = signinWin.User;
 
+            MessageBox.Show("Not Implements");
         }
 
         private void cmdStaffJobs_Click(object sender, RoutedEventArgs e)
         {
+            // รายชื่อพนักงานเข้ากะ
+            var signinWin = new SignInWindow();
+            signinWin.Owner = Application.Current.MainWindow;
+            signinWin.Setup("ADMINS",
+                    "ACCOUNT",
+                    "CTC_MGR", "CTC", /*"TC",*/
+                    "MT_ADMIN", "MT_TECH",
+                    "FINANCE", "SV",
+                    "RAD_MGR", "RAD_SUP");
+            if (signinWin.ShowDialog() == false)
+            {
+                return;
+            }
+            var user = signinWin.User;
 
+            MessageBox.Show("Not Implements");
         }
 
         #endregion
