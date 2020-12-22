@@ -32,6 +32,19 @@
             <Setter Property="TextAlignment" Value="Center" />
             <Setter Property="TextWrapping" Value="Wrap" />
         </Style>
+        <!--  INPUT TEXTBOX/PASSWORD STYLE  -->
+        <Style x:Key="CommonLabelStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+        <Style x:Key="CommonTextBoxStyle" TargetType="TextBox">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="TextAlignment" Value="Center" />
+        </Style>
+        <Style x:Key="CommonPwdBoxStyle" TargetType="PasswordBox">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
     </UserControl.Resources>
     <TabControl x:Name="tabs"
                 Width="600"
@@ -70,23 +83,17 @@
                     </Grid>
                     <StackPanel Grid.Row="1" Grid.Column="1">
                         <StackPanel Margin="5">
-                            <TextBlock FontSize="18"
-                                       Foreground="WhiteSmoke"
-                                       Text="กรุณาระบุรหัสพนักงาน 5 หลัก" />
+                            <TextBlock Style="{StaticResource CommonLabelStyle}" Text="กรุณาระบุรหัสพนักงาน 5 หลัก" />
                             <Grid Height="5" />
                             <TextBox x:Name="txtUserId"
-                                     FontSize="18"
                                      KeyDown="txtUserId_KeyDown"
-                                     Text="" />
+                                     Style="{StaticResource CommonTextBoxStyle}" />
                             <Grid Height="5" />
-                            <TextBlock FontSize="18"
-                                       Foreground="WhiteSmoke"
-                                       Text="กรุณาป้อนรหัสผ่าน" />
+                            <TextBlock Style="{StaticResource CommonLabelStyle}" Text="กรุณาป้อนรหัสผ่าน" />
                             <Grid Height="5" />
                             <PasswordBox x:Name="txtPassword"
-                                         FontSize="18"
                                          KeyDown="txtPassword_KeyDown"
-                                         PasswordChar="*" />
+                                         Style="{StaticResource CommonPwdBoxStyle}" />
                             <Grid Height="5" />
                         </StackPanel>
                     </StackPanel>
@@ -181,41 +188,29 @@
                             Grid.RowSpan="5"
                             Grid.Column="1">
                     <StackPanel Margin="5">
-                        <TextBlock FontSize="18"
-                                   Foreground="WhiteSmoke"
-                                   Text="กรุณาระบุรหัสพนักงาน 5 หลัก" />
+                        <TextBlock Style="{StaticResource CommonLabelStyle}" Text="กรุณาระบุรหัสพนักงาน 5 หลัก" />
                         <Grid Height="5" />
                         <TextBox x:Name="txtUserId2"
-                                 FontSize="18"
                                  KeyDown="txtUserId2_KeyDown"
-                                 Text="" />
+                                 Style="{StaticResource CommonTextBoxStyle}" />
                         <Grid Height="5" />
-                        <TextBlock FontSize="18"
-                                   Foreground="WhiteSmoke"
-                                   Text="กรุณาป้อนรหัสผ่าน" />
+                        <TextBlock Style="{StaticResource CommonLabelStyle}" Text="กรุณาป้อนรหัสผ่าน" />
                         <Grid Height="5" />
                         <PasswordBox x:Name="txtPassword2"
-                                     FontSize="18"
                                      KeyDown="txtPassword2_KeyDown"
-                                     PasswordChar="*" />
+                                     Style="{StaticResource CommonPwdBoxStyle}" />
                         <Grid Height="5" />
-                        <TextBlock FontSize="18"
-                                   Foreground="WhiteSmoke"
-                                   Text="กรุณาป้อนรหัสผ่านใหม่" />
+                        <TextBlock Style="{StaticResource CommonLabelStyle}" Text="กรุณาป้อนรหัสผ่านใหม่" />
                         <Grid Height="5" />
                         <PasswordBox x:Name="txtNewPassword"
-                                     FontSize="18"
                                      KeyDown="txtNewPassword_KeyDown"
-                                     PasswordChar="*" />
+                                     Style="{StaticResource CommonPwdBoxStyle}" />
                         <Grid Height="5" />
-                        <TextBlock FontSize="18"
-                                   Foreground="WhiteSmoke"
-                                   Text="กรุณายืนยันรหัสผ่านใหม่" />
+                        <TextBlock Style="{StaticResource CommonLabelStyle}" Text="กรุณายืนยันรหัสผ่านใหม่" />
                         <Grid Height="5" />
                         <PasswordBox x:Name="txtConfirmPassword"
-                                     FontSize="18"
                                      KeyDown="txtConfirmPassword_KeyDown"
-                                     PasswordChar="*" />
+                                     Style="{StaticResource CommonPwdBoxStyle}" />
                         <Grid Height="5" />
                     </StackPanel>
                 </StackPanel>

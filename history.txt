@@ -36,8 +36,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #348
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #347
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #346
-- 
+- DMT.TAxTODv2
+  - DMT.TA.App project.
+    - Refactor TextBlock(Label), TextBox, PasswordBox Style in SignInPage
+  - DMT.TOD.App project.
+    - Refactor TextBlock(Label), TextBox, PasswordBox Style in SignInWindow
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #345
