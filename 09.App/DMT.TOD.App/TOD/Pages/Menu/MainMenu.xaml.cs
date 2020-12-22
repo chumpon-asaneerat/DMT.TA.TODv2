@@ -128,7 +128,11 @@ namespace DMT.TOD.Pages.Menu
             }
             var user = signinWin.User;
 
-            MessageBox.Show("Not Implements");
+            // Report Main Menu
+            var page = new ReportMenu();
+            // setup
+            page.Setup(user);
+            PageContentManager.Instance.Current = page;
         }
 
         private void cmdEMVQRCode_Click(object sender, RoutedEventArgs e)
@@ -167,6 +171,8 @@ namespace DMT.TOD.Pages.Menu
                 return;
             }
             var user = signinWin.User;
+
+            // Job List Page
             var page = new Jobs.JobListPage();
             page.Setup(user);
             PageContentManager.Instance.Current = page;

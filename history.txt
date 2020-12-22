@@ -27,8 +27,13 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #350
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #349
-- 
+- DMT.TAxTODv2
+  - DMT.TOD.App project.
+    - Add ReportMenu layout (completed)
+      - Implements Back to main menu button.
+    - Link MainMenu to ReportMenu.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #348
