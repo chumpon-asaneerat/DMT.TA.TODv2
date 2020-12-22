@@ -33,8 +33,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #369
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #368
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #367
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Update ConfigManager.cs
+      - Ported TAAppPlazaConfig class from  DMT.TA.TODv2.
+      - Ported TODAppPlazaConfig class from  DMT.TA.TODv2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #366
