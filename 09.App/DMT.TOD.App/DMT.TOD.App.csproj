@@ -105,6 +105,9 @@
     <Compile Include="StatusBar\TODStatusBar.xaml.cs">
       <DependentUpon>TODStatusBar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TOD\Pages\JobList\JobListPage.xaml.cs">
+      <DependentUpon>JobListPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TOD\Pages\Menu\ConfigurationMenu.xaml.cs">
       <DependentUpon>ConfigurationMenu.xaml</DependentUpon>
     </Compile>
@@ -177,6 +180,10 @@
     <Page Include="StatusBar\TODStatusBar.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TOD\Pages\JobList\JobListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TOD\Pages\Menu\ConfigurationMenu.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -257,6 +264,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="TOD\Controls\" />
+    <Folder Include="TOD\Pages\EMVQRCode\" />
     <Folder Include="TOD\Windows\" />
   </ItemGroup>
   <ItemGroup>
@@ -291,6 +299,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Button\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Button\Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Button\Home.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

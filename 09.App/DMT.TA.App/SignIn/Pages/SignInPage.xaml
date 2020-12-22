@@ -8,6 +8,31 @@
              Loaded="UserControl_Loaded"
              Unloaded="UserControl_Unloaded"
              mc:Ignorable="d">
+    <UserControl.Resources>
+        <!--  IMAGE BUTTON STYLE  -->
+        <Style x:Key="CommonButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="White" />
+            <!--
+            <Setter Property="Width" Value="220" />
+            -->
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="VerticalContentAlignment" Value="Stretch" />
+            <Setter Property="Cursor" Value="Hand" />
+        </Style>
+        <Style x:Key="CommonImageStyle" TargetType="Image">
+            <Setter Property="Width" Value="50" />
+            <Setter Property="Height" Value="50" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+        <Style x:Key="CommonTextBlockStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+    </UserControl.Resources>
     <TabControl x:Name="tabs"
                 Width="600"
                 Height="400"
@@ -69,31 +94,21 @@
                           Grid.Column="2"
                           Margin="5">
                         <StackPanel Margin="5,0">
-                            <Grid Height="20" />
+                            <Grid Height="5" />
                             <Button x:Name="cmdOK"
-                                    HorizontalContentAlignment="Stretch"
-                                    VerticalContentAlignment="Stretch"
                                     Click="cmdOK_Click"
-                                    Foreground="White">
+                                    Style="{StaticResource CommonButtonStyle}">
                                 <Button.Background>
                                     <ImageBrush ImageSource="/DMT.TA.App;component/Images/Button/Button5.png" />
                                 </Button.Background>
-                                <DockPanel>
+                                <DockPanel Margin="5,0">
                                     <Grid Width="5" />
-                                    <Image Width="50"
-                                           Height="50"
-                                           HorizontalAlignment="Center"
-                                           VerticalAlignment="Center"
-                                           DockPanel.Dock="Left"
-                                           Source="/DMT.TA.App;component/Images/Button/OK.png" />
+                                    <Image DockPanel.Dock="Left"
+                                           Source="/DMT.TA.App;component/Images/Button/OK.png"
+                                           Style="{StaticResource CommonImageStyle}" />
                                     <StackPanel VerticalAlignment="Center" Orientation="Vertical">
-                                        <TextBlock HorizontalAlignment="Center"
-                                                   FontSize="20"
-                                                   FontWeight="Bold"
-                                                   Text="OK"
-                                                   TextAlignment="Center"
-                                                   TextWrapping="Wrap" />
-                                        <Grid Height="10" />
+                                        <TextBlock Style="{StaticResource CommonTextBlockStyle}" Text="OK" />
+                                        <Grid Height="5" />
                                     </StackPanel>
                                 </DockPanel>
                             </Button>
@@ -114,29 +129,19 @@
                           Grid.Column="1"
                           Margin="5,0">
                         <Button x:Name="cmdChangePwd"
-                                HorizontalContentAlignment="Stretch"
-                                VerticalContentAlignment="Stretch"
                                 Click="cmdChangePwd_Click"
-                                Foreground="White">
+                                Style="{StaticResource CommonButtonStyle}">
                             <Button.Background>
                                 <ImageBrush ImageSource="/DMT.TA.App;component/Images/Button/Button5.png" />
                             </Button.Background>
-                            <DockPanel>
+                            <DockPanel Margin="5,0">
                                 <Grid Width="5" />
-                                <Image Width="50"
-                                       Height="50"
-                                       HorizontalAlignment="Center"
-                                       VerticalAlignment="Center"
-                                       DockPanel.Dock="Left"
-                                       Source="/DMT.TA.App;component/Images/Button/Return.png" />
+                                <Image DockPanel.Dock="Left"
+                                       Source="/DMT.TA.App;component/Images/Button/Return.png"
+                                       Style="{StaticResource CommonImageStyle}" />
                                 <StackPanel VerticalAlignment="Center" Orientation="Vertical">
-                                    <TextBlock HorizontalAlignment="Center"
-                                               FontSize="20"
-                                               FontWeight="Bold"
-                                               Text="Change Password"
-                                               TextAlignment="Center"
-                                               TextWrapping="Wrap" />
-                                    <Grid Height="10" />
+                                    <TextBlock Style="{StaticResource CommonTextBlockStyle}" Text="Change Password" />
+                                    <Grid Height="5" />
                                 </StackPanel>
                             </DockPanel>
                         </Button>
@@ -219,59 +224,39 @@
                       Grid.Column="2"
                       Margin="5">
                     <StackPanel Margin="5,0">
-                        <Grid Height="20" />
+                        <Grid Height="5" />
                         <Button x:Name="cmdOK2"
-                                HorizontalContentAlignment="Stretch"
-                                VerticalContentAlignment="Stretch"
                                 Click="cmdOK2_Click"
-                                Foreground="White">
+                                Style="{StaticResource CommonButtonStyle}">
                             <Button.Background>
                                 <ImageBrush ImageSource="/DMT.TA.App;component/Images/Button/Button5.png" />
                             </Button.Background>
-                            <DockPanel>
+                            <DockPanel Margin="5,0">
                                 <Grid Width="5" />
-                                <Image Width="50"
-                                       Height="50"
-                                       HorizontalAlignment="Center"
-                                       VerticalAlignment="Center"
-                                       DockPanel.Dock="Left"
-                                       Source="/DMT.TA.App;component/Images/Button/OK.png" />
+                                <Image DockPanel.Dock="Left"
+                                       Source="/DMT.TA.App;component/Images/Button/OK.png"
+                                       Style="{StaticResource CommonImageStyle}" />
                                 <StackPanel VerticalAlignment="Center" Orientation="Vertical">
-                                    <TextBlock HorizontalAlignment="Center"
-                                               FontSize="20"
-                                               FontWeight="Bold"
-                                               Text="OK"
-                                               TextAlignment="Center"
-                                               TextWrapping="Wrap" />
-                                    <Grid Height="10" />
+                                    <TextBlock Style="{StaticResource CommonTextBlockStyle}" Text="OK" />
+                                    <Grid Height="5" />
                                 </StackPanel>
                             </DockPanel>
                         </Button>
                         <Grid Height="5" />
                         <Button x:Name="cmdCancel2"
-                                HorizontalContentAlignment="Stretch"
-                                VerticalContentAlignment="Stretch"
                                 Click="cmdCancel2_Click"
-                                Foreground="White">
+                                Style="{StaticResource CommonButtonStyle}">
                             <Button.Background>
                                 <ImageBrush ImageSource="/DMT.TA.App;component/Images/Button/Button5.png" />
                             </Button.Background>
-                            <DockPanel>
+                            <DockPanel Margin="5,0">
                                 <Grid Width="5" />
-                                <Image Width="50"
-                                       Height="50"
-                                       HorizontalAlignment="Center"
-                                       VerticalAlignment="Center"
-                                       DockPanel.Dock="Left"
-                                       Source="/DMT.TA.App;component/Images/Button/Cancel.png" />
+                                <Image DockPanel.Dock="Left"
+                                       Source="/DMT.TA.App;component/Images/Button/Cancel.png"
+                                       Style="{StaticResource CommonImageStyle}" />
                                 <StackPanel VerticalAlignment="Center" Orientation="Vertical">
-                                    <TextBlock HorizontalAlignment="Center"
-                                               FontSize="20"
-                                               FontWeight="Bold"
-                                               Text="Cancel"
-                                               TextAlignment="Center"
-                                               TextWrapping="Wrap" />
-                                    <Grid Height="10" />
+                                    <TextBlock Style="{StaticResource CommonTextBlockStyle}" Text="Cancel" />
+                                    <Grid Height="5" />
                                 </StackPanel>
                             </DockPanel>
                         </Button>

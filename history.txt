@@ -39,8 +39,17 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #347
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #346
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #345
-- 
+- DMT.TAxTODv2
+  - DMT.Controls project.
+    - Move all images from Backup to XXX folder -> git not stored backup folder.
+  - DMT.TA.App project.
+    - Refactor Button Style in SignInPage.
+  - DMT.TOD.App project.
+    - Refactor Button Style in SignInWindow
+    - Add JobListPage
+    - JobListPage Refactor Button Style
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #344
