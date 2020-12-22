@@ -48,8 +48,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #364
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #363
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #362
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Update RouteConsts.cs
+      - Change Controller name for TSB/PlazaGroup/Plaza/Lane.
+  - DMT.Local.Rest.Server project
+    - Update Infrastructure.Controller.cs
+      - Change Controller Class Name for TSB/PlazaGroup/Plaza/Lane.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #361
