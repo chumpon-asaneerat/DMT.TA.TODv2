@@ -39,8 +39,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #367
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #366
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #365
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Update ConfigManager.cs
+      - Add JsonConfigFileManger class.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #364
