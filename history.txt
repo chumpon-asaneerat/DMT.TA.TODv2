@@ -36,8 +36,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #358
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #357
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #356
-- 
+- DMT.TAxTODv1
+  - Move DMT.Local.Rest.Server to 04.WebServices.Servers
+  - Move DMT.TA.Rest.Server to 04.WebServices.Servers
+  - Move DMT.TOD.Rest.Server to 04.WebServices.Servers
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #355
