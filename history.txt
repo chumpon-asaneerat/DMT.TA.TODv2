@@ -48,8 +48,10 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #354
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #353
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #352
-- 
+- DMT.TAxTODv1
+  - Rename DMT.TA.RestServer to DMT.TA.Rest.Server
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #351
