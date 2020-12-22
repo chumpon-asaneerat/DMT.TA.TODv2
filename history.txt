@@ -30,8 +30,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #370
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #369
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #368
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Update ConfigManager.cs
+      - Rename PlazaConfig to LocalServiceConfig class.
+      - Update TAAppPlazaConfig class.
+      - Update TODAppPlazaConfig class.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #367
