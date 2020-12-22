@@ -39,8 +39,10 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #357
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #356
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #355
-- 
+- DMT.TAxTODv1
+  - Rename DMT.Local.RestServer to DMT.Local.Rest.Server
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #354
