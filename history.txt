@@ -45,8 +45,19 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #365
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #364
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #363
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Client project.
+    - Add Operation.cs for base Rest Client Operation class.
+  - DMT.SCW.Rest.Client project.
+    - Add Operation.cs for base Rest Client Operation class.
+  - DMT.TA.Rest.Client project.
+    - Add Operation.cs for base Rest Client Operation class.
+  - DMT.TAxTOD.Rest.Client project.
+    - Add Operation.cs for base Rest Client Operation class.
+  - DMT.TOD.Rest.Client project.
+    - Add Operation.cs for base Rest Client Operation class.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #362
