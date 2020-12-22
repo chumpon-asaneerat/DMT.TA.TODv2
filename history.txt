@@ -33,8 +33,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #359
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #358
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #357
-- 
+- DMT.TAxTODv1
+  - Move DMT.RabbitMQ.Client to 03.WebServices.Core
+  - Move DMT.Rest.Client to 03.WebServices.Core
+  - Move DMT.Rest.Server to 03.WebServices.Core
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #356
