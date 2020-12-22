@@ -51,5 +51,10 @@ namespace DMT.TOD.Pages.Jobs
         {
 
         }
+
+        public void Setup(User user)
+        {
+
+        }
     }
 }

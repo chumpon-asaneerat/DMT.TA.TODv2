@@ -7,16 +7,43 @@
              d:DesignWidth="800"
              mc:Ignorable="d">
     <UserControl.Resources>
-        <!-- IMAGE BUTTON STYLE  -->
+        <!--  IMAGE BUTTON STYLE  -->
+        <SolidColorBrush x:Key="ImageButtonFG" Color="DarkOrange" />
+        <ImageBrush x:Key="BGImage" ImageSource="/DMT.TOD.App;component/Images/Button/Button5.png" />
         <Style x:Key="CommonButtonStyle" TargetType="Button">
             <Setter Property="Foreground" Value="White" />
+            <Setter Property="Height" Value="50" />
             <Setter Property="Width" Value="220" />
             <Setter Property="HorizontalContentAlignment" Value="Stretch" />
             <Setter Property="VerticalContentAlignment" Value="Stretch" />
             <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border"
+                                Background="{StaticResource BGImage}"
+                                BorderThickness="2"
+                                CornerRadius="8"
+                                Opacity="0.8">
+                            <ContentPresenter HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Opacity" Value="1" />
+                                <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource ImageButtonFG}" />
+                                <Setter Property="Foreground" Value="{StaticResource ImageButtonFG}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="CommonGridStyle" TargetType="Grid">
+            <Setter Property="Width" Value="50" />
+            <Setter Property="Height" Value="50" />
         </Style>
         <Style x:Key="CommonImageStyle" TargetType="Image">
-            <Setter Property="Width" Value="50" />
+            <Setter Property="Width" Value="32" />
             <Setter Property="Height" Value="50" />
             <Setter Property="HorizontalAlignment" Value="Center" />
             <Setter Property="VerticalAlignment" Value="Center" />
@@ -39,7 +66,7 @@
                     BorderBrush="DimGray"
                     BorderThickness="1" />
         </StackPanel>
-        <!-- BUTTONS  -->
+        <!--  BUTTONS  -->
         <DockPanel Height="60"
                    HorizontalAlignment="Stretch"
                    VerticalAlignment="Stretch"
@@ -53,7 +80,9 @@
                     <ImageBrush ImageSource="/DMT.TOD.App;component/Images/Button/Button5.png" />
                 </Button.Background>
                 <DockPanel Margin="5,0">
-                    <Image Source="/DMT.TOD.App;component/Images/Button/Home.png" Style="{StaticResource CommonImageStyle}" />
+                    <Grid Style="{StaticResource CommonGridStyle}">
+                        <Image Source="/DMT.TOD.App;component/Images/Button/Home.png" Style="{StaticResource CommonImageStyle}" />
+                    </Grid>
                     <StackPanel VerticalAlignment="Center" Orientation="Vertical">
                         <TextBlock Style="{StaticResource CommonTextBlockStyle}" Text="กลับสู่หน้าจอหลัก" />
                     </StackPanel>
@@ -67,10 +96,10 @@
                 <Button.Background>
                     <ImageBrush ImageSource="/DMT.TOD.App;component/Images/Button/Button5.png" />
                 </Button.Background>
-                <DockPanel  Margin="5,0">
-                    <Image DockPanel.Dock="Left"
-                           Source="/DMT.TOD.App;component/Images/Button/Refresh.png"
-                           Style="{StaticResource CommonImageStyle}" />
+                <DockPanel Margin="5,0">
+                    <Grid Style="{StaticResource CommonGridStyle}">
+                        <Image Source="/DMT.TOD.App;component/Images/Button/Refresh.png" Style="{StaticResource CommonImageStyle}" />
+                    </Grid>
                     <StackPanel VerticalAlignment="Center" Orientation="Vertical">
                         <TextBlock Style="{StaticResource CommonTextBlockStyle}" Text="เริ่มใหม่ (Refresh)" />
                     </StackPanel>
@@ -78,7 +107,7 @@
             </Button>
             <Grid />
         </DockPanel>
-        <!-- JOB LIST AREA  -->
+        <!--  JOB LIST AREA  -->
         <Grid />
     </DockPanel>
 </UserControl>

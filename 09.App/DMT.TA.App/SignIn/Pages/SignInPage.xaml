@@ -10,18 +10,45 @@
              mc:Ignorable="d">
     <UserControl.Resources>
         <!--  IMAGE BUTTON STYLE  -->
+        <SolidColorBrush x:Key="ImageButtonFG" Color="DarkOrange" />
+        <ImageBrush x:Key="BGImage" ImageSource="/DMT.TA.App;component/Images/Button/Button5.png" />
         <Style x:Key="CommonButtonStyle" TargetType="Button">
             <Setter Property="Foreground" Value="White" />
+            <Setter Property="Height" Value="50" />
             <!--
             <Setter Property="Width" Value="220" />
             -->
             <Setter Property="HorizontalContentAlignment" Value="Stretch" />
             <Setter Property="VerticalContentAlignment" Value="Stretch" />
             <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border"
+                                Background="{StaticResource BGImage}"
+                                BorderThickness="2"
+                                CornerRadius="8"
+                                Opacity="0.8">
+                            <ContentPresenter HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Opacity" Value="1" />
+                                <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource ImageButtonFG}" />
+                                <Setter Property="Foreground" Value="{StaticResource ImageButtonFG}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
         </Style>
-        <Style x:Key="CommonImageStyle" TargetType="Image">
+        <Style x:Key="CommonGridStyle" TargetType="Grid">
             <Setter Property="Width" Value="50" />
             <Setter Property="Height" Value="50" />
+        </Style>
+        <Style x:Key="CommonImageStyle" TargetType="Image">
+            <Setter Property="Width" Value="32" />
+            <Setter Property="Height" Value="32" />
             <Setter Property="HorizontalAlignment" Value="Center" />
             <Setter Property="VerticalAlignment" Value="Center" />
         </Style>
@@ -101,18 +128,16 @@
                           Grid.Column="2"
                           Margin="5">
                         <StackPanel Margin="5,0">
-                            <Grid Height="5" />
+                            <Grid Height="10" />
                             <Button x:Name="cmdOK"
                                     Click="cmdOK_Click"
                                     Style="{StaticResource CommonButtonStyle}">
-                                <Button.Background>
-                                    <ImageBrush ImageSource="/DMT.TA.App;component/Images/Button/Button5.png" />
-                                </Button.Background>
                                 <DockPanel Margin="5,0">
                                     <Grid Width="5" />
-                                    <Image DockPanel.Dock="Left"
-                                           Source="/DMT.TA.App;component/Images/Button/OK.png"
+                                    <Grid Style="{StaticResource CommonGridStyle}">
+                                        <Image Source="/DMT.TA.App;component/Images/Button/OK.png"
                                            Style="{StaticResource CommonImageStyle}" />
+                                    </Grid>
                                     <StackPanel VerticalAlignment="Center" Orientation="Vertical">
                                         <TextBlock Style="{StaticResource CommonTextBlockStyle}" Text="OK" />
                                         <Grid Height="5" />
@@ -138,14 +163,12 @@
                         <Button x:Name="cmdChangePwd"
                                 Click="cmdChangePwd_Click"
                                 Style="{StaticResource CommonButtonStyle}">
-                            <Button.Background>
-                                <ImageBrush ImageSource="/DMT.TA.App;component/Images/Button/Button5.png" />
-                            </Button.Background>
                             <DockPanel Margin="5,0">
                                 <Grid Width="5" />
-                                <Image DockPanel.Dock="Left"
-                                       Source="/DMT.TA.App;component/Images/Button/Return.png"
+                                <Grid Style="{StaticResource CommonGridStyle}">
+                                    <Image Source="/DMT.TA.App;component/Images/Button/Return.png"
                                        Style="{StaticResource CommonImageStyle}" />
+                                </Grid>
                                 <StackPanel VerticalAlignment="Center" Orientation="Vertical">
                                     <TextBlock Style="{StaticResource CommonTextBlockStyle}" Text="Change Password" />
                                     <Grid Height="5" />
@@ -219,36 +242,32 @@
                       Grid.Column="2"
                       Margin="5">
                     <StackPanel Margin="5,0">
-                        <Grid Height="5" />
+                        <Grid Height="10" />
                         <Button x:Name="cmdOK2"
                                 Click="cmdOK2_Click"
                                 Style="{StaticResource CommonButtonStyle}">
-                            <Button.Background>
-                                <ImageBrush ImageSource="/DMT.TA.App;component/Images/Button/Button5.png" />
-                            </Button.Background>
                             <DockPanel Margin="5,0">
                                 <Grid Width="5" />
-                                <Image DockPanel.Dock="Left"
-                                       Source="/DMT.TA.App;component/Images/Button/OK.png"
+                                <Grid Style="{StaticResource CommonGridStyle}">
+                                    <Image Source="/DMT.TA.App;component/Images/Button/OK.png"
                                        Style="{StaticResource CommonImageStyle}" />
+                                </Grid>
                                 <StackPanel VerticalAlignment="Center" Orientation="Vertical">
                                     <TextBlock Style="{StaticResource CommonTextBlockStyle}" Text="OK" />
                                     <Grid Height="5" />
                                 </StackPanel>
                             </DockPanel>
                         </Button>
-                        <Grid Height="5" />
+                        <Grid Height="10" />
                         <Button x:Name="cmdCancel2"
                                 Click="cmdCancel2_Click"
                                 Style="{StaticResource CommonButtonStyle}">
-                            <Button.Background>
-                                <ImageBrush ImageSource="/DMT.TA.App;component/Images/Button/Button5.png" />
-                            </Button.Background>
                             <DockPanel Margin="5,0">
                                 <Grid Width="5" />
-                                <Image DockPanel.Dock="Left"
-                                       Source="/DMT.TA.App;component/Images/Button/Cancel.png"
+                                <Grid Style="{StaticResource CommonGridStyle}">
+                                    <Image Source="/DMT.TA.App;component/Images/Button/Cancel.png"
                                        Style="{StaticResource CommonImageStyle}" />
+                                </Grid>
                                 <StackPanel VerticalAlignment="Center" Orientation="Vertical">
                                     <TextBlock Style="{StaticResource CommonTextBlockStyle}" Text="Cancel" />
                                     <Grid Height="5" />

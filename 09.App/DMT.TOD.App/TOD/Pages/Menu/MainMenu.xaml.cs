@@ -167,8 +167,9 @@ namespace DMT.TOD.Pages.Menu
                 return;
             }
             var user = signinWin.User;
-
-            MessageBox.Show("Not Implements");
+            var page = new Jobs.JobListPage();
+            page.Setup(user);
+            PageContentManager.Instance.Current = page;
         }
 
         #endregion

@@ -33,8 +33,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #349
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #348
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #347
-- 
+- DMT.TAxTODv2
+  - DMT.TA.App project.
+    - Refactor more image button style in SignInPage.
+  - DMT.TOD.App project.
+    - Refactor more image button style in SignInWindow.
+    - Refactor more image button style in JobListPage.
+    - Link MainMenu to JobListPage.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #346
