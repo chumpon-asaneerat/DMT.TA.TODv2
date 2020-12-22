@@ -51,8 +51,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #363
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #362
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #361
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Update AppConsts.cs.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #360
