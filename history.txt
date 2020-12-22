@@ -30,8 +30,21 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #350
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #349
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #348
-- 
+- DMT.TAxTODv2
+  - DMT.TA.App project.
+    - Refactor SignInPage.
+      - Add error message style and layout.
+      - Rewrite code for CheckUser, ChangePassword when use keyboard.
+      - Change error message in thai.
+      - Fixed Focus when change TabControl selection index.
+  - DMT.TOD.App project.
+    - Refactor SignInWindow.
+      - Add error message style and layout.
+      - Rewrite code for CheckUser, ChangePassword when use keyboard.
+      - Change error message in thai.
+      - Fixed Focus when change TabControl selection index.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #347

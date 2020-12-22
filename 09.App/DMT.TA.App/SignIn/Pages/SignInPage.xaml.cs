@@ -4,12 +4,14 @@ using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 using NLib.Services;
 
 using DMT.Models;
 using DMT.Services;
 using DMT.Controls;
+using System.Windows.Threading;
 
 #endregion
 
@@ -28,9 +30,6 @@ namespace DMT.Pages
         public SignInPage()
         {
             InitializeComponent();
-
-            txtUserId.SelectAll();
-            txtUserId.Focus();
         }
 
         #endregion
@@ -47,6 +46,11 @@ namespace DMT.Pages
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
             SmartcardManager.Instance.UserChanged += Instance_UserChanged;
+
+            Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
+            {
+                txtUserId.Focus();
+            }));
         }
 
         private void UserControl_Unloaded(object sender, RoutedEventArgs e)
@@ -84,77 +88,62 @@ namespace DMT.Pages
         private void cmdOK_Click(object sender, RoutedEventArgs e)
         {
             if (tabs.SelectedIndex != 0) return;
-            txtMsg.Text = string.Empty;
-
-            string userId = txtUserId.Text.Trim();
-            string pwd = txtPassword.Password.Trim();
-            if (string.IsNullOrWhiteSpace(userId))
-            {
-                txtUserId.SelectAll();
-                txtUserId.Focus();
-                return;
-            }
-            if (string.IsNullOrWhiteSpace(pwd))
-            {
-                txtPassword.SelectAll();
-                txtPassword.Focus();
-                return;
-            }
-
-            var md5 = Utils.MD5.Encrypt(pwd);
-            _user = User.GetByLogIn(userId, md5).Value();
-
             CheckUser();
         }
 
         private void cmdChangePwd_Click(object sender, RoutedEventArgs e)
         {
+            tabs.SelectedIndex = 1;
+
+            txtUserId.Text = string.Empty;
             txtPassword.Password = string.Empty;
+            txtMsg.Text = string.Empty;
 
             txtUserId2.Text = string.Empty;
             txtPassword2.Password = string.Empty;
             txtNewPassword.Password = string.Empty;
             txtConfirmPassword.Password = string.Empty;
+            txtMsg2.Text = string.Empty;
 
-            tabs.SelectedIndex = 1;
+            Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
+            {
+                txtUserId2.Focus();
+            }));
         }
 
         private void cmdOK2_Click(object sender, RoutedEventArgs e)
         {
-            // Call change password.
-            if (ChangePassword())
-            {
-                txtPassword.Password = string.Empty;
-
-                txtUserId2.Text = string.Empty;
-                txtPassword2.Password = string.Empty;
-                txtNewPassword.Password = string.Empty;
-                txtConfirmPassword.Password = string.Empty;
-
-                tabs.SelectedIndex = 0;
-            }
+            CheckChangePassword();
         }
 
         private void cmdCancel2_Click(object sender, RoutedEventArgs e)
         {
+            tabs.SelectedIndex = 0;
+
+            txtUserId.Text = string.Empty;
             txtPassword.Password = string.Empty;
+            txtMsg.Text = string.Empty;
 
             txtUserId2.Text = string.Empty;
             txtPassword2.Password = string.Empty;
             txtNewPassword.Password = string.Empty;
             txtConfirmPassword.Password = string.Empty;
+            txtMsg2.Text = string.Empty;
 
-            tabs.SelectedIndex = 0;
+            Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
+            {
+                txtUserId.Focus();
+            }));
         }
 
         #endregion
 
         #region TextBox Keydown
 
-        private void txtUserId_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        private void txtUserId_KeyDown(object sender, KeyEventArgs e)
         {
             if (tabs.SelectedIndex != 0) return;
-            if (e.Key == System.Windows.Input.Key.Enter || e.Key == System.Windows.Input.Key.Return)
+            if (e.Key == Key.Enter || e.Key == System.Windows.Input.Key.Return)
             {
                 txtPassword.SelectAll();
                 txtPassword.Focus();
@@ -162,20 +151,20 @@ namespace DMT.Pages
             }
         }
 
-        private void txtPassword_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        private void txtPassword_KeyDown(object sender, KeyEventArgs e)
         {
             if (tabs.SelectedIndex != 0) return;
-            if (e.Key == System.Windows.Input.Key.Enter || e.Key == System.Windows.Input.Key.Return)
+            if (e.Key == Key.Enter || e.Key == Key.Return)
             {
-                cmdOK.Focus();
+                CheckUser();
                 e.Handled = true;
             }
         }
 
-        private void txtUserId2_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        private void txtUserId2_KeyDown(object sender, KeyEventArgs e)
         {
             if (tabs.SelectedIndex != 1) return;
-            if (e.Key == System.Windows.Input.Key.Enter || e.Key == System.Windows.Input.Key.Return)
+            if (e.Key == Key.Enter || e.Key == Key.Return)
             {
                 txtPassword2.SelectAll();
                 txtPassword2.Focus();
@@ -183,10 +172,10 @@ namespace DMT.Pages
             }
         }
 
-        private void txtPassword2_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        private void txtPassword2_KeyDown(object sender, KeyEventArgs e)
         {
             if (tabs.SelectedIndex != 1) return;
-            if (e.Key == System.Windows.Input.Key.Enter || e.Key == System.Windows.Input.Key.Return)
+            if (e.Key == Key.Enter || e.Key == Key.Return)
             {
                 txtNewPassword.SelectAll();
                 txtNewPassword.Focus();
@@ -194,10 +183,10 @@ namespace DMT.Pages
             }
         }
 
-        private void txtNewPassword_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        private void txtNewPassword_KeyDown(object sender, KeyEventArgs e)
         {
             if (tabs.SelectedIndex != 1) return;
-            if (e.Key == System.Windows.Input.Key.Enter || e.Key == System.Windows.Input.Key.Return)
+            if (e.Key == Key.Enter || e.Key == Key.Return)
             {
                 txtConfirmPassword.SelectAll();
                 txtConfirmPassword.Focus();
@@ -205,12 +194,12 @@ namespace DMT.Pages
             }
         }
 
-        private void txtConfirmPassword_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        private void txtConfirmPassword_KeyDown(object sender, KeyEventArgs e)
         {
             if (tabs.SelectedIndex != 1) return;
-            if (e.Key == System.Windows.Input.Key.Enter || e.Key == System.Windows.Input.Key.Return)
+            if (e.Key == Key.Enter || e.Key == Key.Return)
             {
-                cmdOK2.Focus();
+                CheckChangePassword();
                 e.Handled = true;
             }
         }
@@ -219,11 +208,45 @@ namespace DMT.Pages
 
         #region Private Methods
 
+        private void ShowError(string message)
+        {
+            if (tabs.SelectedIndex == 0)
+            {
+                txtMsg.Text = message;
+            }
+            else if (tabs.SelectedIndex == 1)
+            {
+                txtMsg2.Text = message;
+            }
+        }
+
         private void CheckUser()
         {
+            txtMsg.Text = string.Empty;
+
+            string userId = txtUserId.Text.Trim();
+            string pwd = txtPassword.Password.Trim();
+            if (string.IsNullOrWhiteSpace(userId))
+            {
+                ShowError("กรุณาป้อนรหัสพนักงาน");
+                txtUserId.SelectAll();
+                txtUserId.Focus();
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(pwd))
+            {
+                ShowError("กรุณาป้อนรหัสผ่าน");
+                txtPassword.SelectAll();
+                txtPassword.Focus();
+                return;
+            }
+
+            var md5 = Utils.MD5.Encrypt(pwd);
+            _user = User.GetByLogIn(userId, md5).Value();
+
             if (null == _user || _roles.IndexOf(_user.RoleId) == -1)
             {
-                txtMsg.Text = "LogIn Failed";
+                ShowError("ไม่พบข้อมูลพนักงานตามรหัสพนักงาน และรหัสผ่านที่ระบุ" + Environment.NewLine + "กรุณาป้อนรหัสใหม่");
                 txtUserId.SelectAll();
                 txtUserId.Focus();
                 return;
@@ -235,6 +258,30 @@ namespace DMT.Pages
             PageContentManager.Instance.Current = new TA.Pages.Menu.MainMenu();
         }
 
+        private void CheckChangePassword()
+        {
+            // Call change password.
+            if (ChangePassword())
+            {
+                tabs.SelectedIndex = 0;
+
+                txtUserId.Text = string.Empty;
+                txtPassword.Password = string.Empty;
+                txtMsg.Text = string.Empty;
+
+                txtUserId2.Text = string.Empty;
+                txtPassword2.Password = string.Empty;
+                txtNewPassword.Password = string.Empty;
+                txtConfirmPassword.Password = string.Empty;
+                txtMsg2.Text = string.Empty;
+
+                Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
+                {
+                    txtUserId.Focus();
+                }));
+            }
+        }
+
         private bool ChangePassword()
         {
             bool ret = false;
@@ -244,7 +291,7 @@ namespace DMT.Pages
             _user = User.GetByLogIn(userId, md5).Value();
             if (null == _user)
             {
-                txtMsg2.Text = "Staff Not Found.";
+                ShowError("ไม่พบข้อมูลพนักงานตามรหัสพนักงาน และรหัสผ่านที่ระบุ" + Environment.NewLine + "กรุณาป้อนรหัสใหม่");
                 txtUserId2.SelectAll();
                 txtUserId2.Focus();
                 return ret;
@@ -252,7 +299,7 @@ namespace DMT.Pages
             var oldPwd = Utils.MD5.Encrypt(txtPassword2.Password);
             if (_user.Password != oldPwd)
             {
-                txtMsg2.Text = "Old Password not match.";
+                ShowError("รหัสผ่านเก่าไม่ถูกต้อง" + Environment.NewLine + "กรุณาป้อนรหัสผ่านใหม่");
                 txtPassword2.SelectAll();
                 txtPassword2.Focus();
                 return ret;
@@ -262,7 +309,7 @@ namespace DMT.Pages
             var confPwd = Utils.MD5.Encrypt(txtConfirmPassword.Password);
             if (newPwd != confPwd)
             {
-                txtMsg2.Text = "Confirm Password mismatch.";
+                ShowError("ข้อมูลยืนยันรหัสผ่านใหม่ไม่ถูกต้อง" + Environment.NewLine + "กรุณาป้อนรหัสผ่านใหม่");
                 txtConfirmPassword.SelectAll();
                 txtConfirmPassword.Focus();
                 return ret;
@@ -272,7 +319,7 @@ namespace DMT.Pages
             var saveRet = User.SaveUser(_user);
             if (!saveRet.Ok)
             {
-                txtMsg2.Text = "Save failed.";
+                ShowError("บันทึกข้อมูลไม่สำเร็จ" + Environment.NewLine + "กรุณาลองทำการบันทึกข้อมูลใหม่");
                 txtUserId2.SelectAll();
                 txtUserId2.Focus();
                 return ret;

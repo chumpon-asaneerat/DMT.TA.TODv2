@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         Title="Sign In"
         Width="600"
-        Height="400"
+        Height="420"
         HorizontalAlignment="Center"
         VerticalAlignment="Center"
         Loaded="Window_Loaded"
@@ -78,6 +78,13 @@
             <Setter Property="FontSize" Value="18" />
             <Setter Property="HorizontalContentAlignment" Value="Center" />
         </Style>
+        <Style x:Key="CommonErrorStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="GreenYellow" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontWeight" Value="ExtraBold" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="WrapWithOverflow" />
+        </Style>
     </Window.Resources>
     <TabControl x:Name="tabs"
                 Background="Transparent"
@@ -107,7 +114,7 @@
                       Grid.RowSpan="4"
                       Grid.Column="1"
                       Grid.ColumnSpan="3">
-                    <Image Opacity="20" Source="/DMT.TOD.App;component/Images/Background/snartcard.png" />
+                    <Image Opacity="0.5" Source="/DMT.TOD.App;component/Images/Background/snartcard.png" />
                 </Grid>
                 <StackPanel Grid.Row="1" Grid.Column="1">
                     <StackPanel Margin="5">
@@ -163,14 +170,13 @@
                     </StackPanel>
                 </Grid>
                 <StackPanel Grid.Row="2"
+                            Grid.RowSpan="2"
                             Grid.Column="1"
-                            Margin="5">
+                            Grid.ColumnSpan="2"
+                            Margin="0,5,0,0">
                     <TextBlock Name="txtMsg"
-                               FontSize="20"
-                               FontWeight="ExtraBold"
-                               Foreground="Red"
-                               Text=""
-                               TextAlignment="Center" />
+                               Style="{StaticResource CommonErrorStyle}"
+                               Text="" />
                 </StackPanel>
                 <Grid Grid.Row="3"
                       Grid.Column="1"
@@ -218,7 +224,7 @@
                       Grid.RowSpan="7"
                       Grid.Column="1"
                       Grid.ColumnSpan="3">
-                    <Image Opacity="20" Source="/DMT.TOD.App;component/Images/Background/snartcard.png" />
+                    <Image Opacity="0.5" Source="/DMT.TOD.App;component/Images/Background/snartcard.png" />
                 </Grid>
                 <StackPanel Grid.Row="1"
                             Grid.RowSpan="5"
@@ -288,15 +294,14 @@
                         <Grid Height="5" />
                     </StackPanel>
                 </Grid>
-                <StackPanel Grid.Row="6"
+                <StackPanel Grid.Row="5"
+                            Grid.RowSpan="2"
                             Grid.Column="1"
-                            Margin="5">
+                            Grid.ColumnSpan="2"
+                            Margin="0,5,0,0">
                     <TextBlock Name="txtMsg2"
-                               FontSize="20"
-                               FontWeight="ExtraBold"
-                               Foreground="Red"
-                               Text=""
-                               TextAlignment="Center" />
+                               Style="{StaticResource CommonErrorStyle}"
+                               Text="" />
                 </StackPanel>
             </Grid>
         </TabItem>
