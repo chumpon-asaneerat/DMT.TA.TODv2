@@ -30,8 +30,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #380
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #379
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #378
-- 
+- DMT.TAxTODv1
+  - DMT.Rest.Client project.
+    - Move files from Services.Common to Services.
+  - DMT.TA.App project.
+    - Add Images from DMT.TA.TODv2.
+  - DMT.TOD.App project.
+    - Add Images from DMT.TA.TODv2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #377
