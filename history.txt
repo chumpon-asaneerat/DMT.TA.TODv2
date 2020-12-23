@@ -42,8 +42,25 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #396
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #395
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #394
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Server project.
+    - Implements Infrastructure->Actions->TSB->Save.cs
+    - Implements Infrastructure->Actions->TSB->SetActive.cs
+    - Implements Infrastructure->Actions->PlazaGroup->Save.cs
+    - Implements Infrastructure->Actions->Plaza->Save.cs
+    - Implements Infrastructure->Actions->Lane->Save.cs
+  - DMT.Local.Rest.Client project.
+    - Implements Infrastructure->Operations->TSB->Gets.cs
+    - Implements Infrastructure->Operations->TSB->Save.cs
+    - Implements Infrastructure->Operations->TSB->SetActive.cs
+    - Implements Infrastructure->Operations->PlazaGroup->Gets.cs
+    - Implements Infrastructure->Operations->PlazaGroup->Save.cs
+    - Implements Infrastructure->Operations->Plaza->Gets.cs
+    - Implements Infrastructure->Operations->Plaza->Save.cs
+    - Implements Infrastructure->Operations->Lane->Gets.cs
+    - Implements Infrastructure->Operations->Lane->Save.cs
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #393
