@@ -48,16 +48,24 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #374
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #373
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #372
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Update ConfigManager.cs
+      - Add IPlazaConfig interface.
+      - Rename ConfigManager class to PlazaConfigManager class.
+      - LocalConfigManager check interface implements.
+      - TAConfigManager check interface implements.
+      - TODConfigManager check interface implements.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #371
 - DMT.TAxTODv1
   - DMT.Core project
     - Update ConfigManager.cs
-    - Ported TAConfigManager from DMT.TA.TODv2.
-    - Ported TODConfigManager from DMT.TA.TODv2.
+      - Ported TAConfigManager from DMT.TA.TODv2.
+      - Ported TODConfigManager from DMT.TA.TODv2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #370
