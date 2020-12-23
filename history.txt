@@ -45,8 +45,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #375
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #374
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #373
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Update ConfigManager.cs
+    - Rename interface ITAAppWebServiceConfig to ITAAppConfig.
+    - Rename interface ITODAppWebServiceConfig to ITODAppConfig.
+  - DMT.Rest.Client project
+    - Update NRestClient.cs (port some code from DMT.TA.TODv2).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #372
