@@ -36,8 +36,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #378
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #377
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #376
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Server project
+    - Rework LocalDatabaseWebServer.cs
+  - DMT.TA.Rest.Server project
+    - Update TAWebServer.cs -> add log code.
+  - DMT.TOD.Rest.Server project
+    - Update TODWebServer.cs -> add log code.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #375
