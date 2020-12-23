@@ -48,8 +48,21 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #384
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #383
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #382
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Update SmartcardManager.cs - comment out some code.
+  - DMT.TA.App project.
+    - Update HeaderPlaza.xaml.cs - comment out some code.
+    - Update TALocalDbPlaza.xaml.cs - comment out some code.
+    - Update App.xaml.cs from DMT.TA.TODv2.
+    - Update MainWidow.xaml.cs  from DMT.TA.TODv2.
+  - DMT.TOD.App project.
+    - Update HeaderPlaza.xaml.cs - comment out some code.
+    - Update TODLocalDbPlaza.xaml.cs - comment out some code.
+    - Update App.xaml.cs from DMT.TA.TODv2.
+    - Update MainWidow.xaml.cs  from DMT.TA.TODv2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #381
