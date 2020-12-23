@@ -45,8 +45,21 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #395
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #394
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #393
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Server project.
+    - Web Server implements MD5 password
+  - DMT.Local.Rest.Client project.
+    - Password property implements MD5 password
+  - DMT.TA.Rest.Server project.
+    - Web Server implements MD5 password
+  - DMT.TA.Rest.Client project.
+    - Password property implements MD5 password
+  - DMT.TOD.Rest.Server project.
+    - Web Server implements MD5 password
+  - DMT.TOD.Rest.Client project.
+    - Password property implements MD5 password
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #392
