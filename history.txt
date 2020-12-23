@@ -51,8 +51,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #383
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #382
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #381
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Ported SignIn (and related classes) from DMT.TA.TODv2.
+  - DMT.TA.App project.
+    - Ported SignIn (and related classes) from DMT.TA.TODv2.
+  - DMT.TOD.App project.
+    - Ported SignIn (and related classes) from DMT.TA.TODv2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #380
@@ -66,11 +73,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #379
     - Remove StatusBar (and related classes).
     - Remove some images.
   - DMT.TA.App project.
-    - Ported Header (and related classes)from DMT.TA.TODv2.
-    - Ported StatusBar (and related classes)from DMT.TA.TODv2.
+    - Ported Header (and related classes) from DMT.TA.TODv2.
+    - Ported StatusBar (and related classes) from DMT.TA.TODv2.
   - DMT.TOD.App project.
-    - Ported Header (and related classes)from DMT.TA.TODv2.
-    - Ported StatusBar (and related classes)from DMT.TA.TODv2.
+    - Ported Header (and related classes) from DMT.TA.TODv2.
+    - Ported StatusBar (and related classes) from DMT.TA.TODv2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #378
