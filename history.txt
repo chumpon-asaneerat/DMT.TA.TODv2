@@ -42,8 +42,48 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #386
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #385
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #384
-- 
+- DMT.TAxTODv1
+  - Set project output path
+    - NLib -> Production\Common
+    - NLib.Reports -> Production\Common
+    - DMT.Core -> Production\Common
+    - DMT.Smartcard -> Production\Common
+    - DMT.Models -> Production\Common
+    - DMT.RabbitMQ.Client -> Production\Common
+    - DMT.Rest.Client -> Production\Common
+    - DMT.Rest.Server -> Production\Common
+    - DMT.Local.Rest.Server -> Production\Common
+    - DMT.TA.Rest.Server -> Production\Common
+    - DMT.TOD.Rest.Server -> Production\Common
+    - DMT.Local.Rest.Client -> Production\Common
+    - DMT.SCW.Rest.Client -> Production\Common
+    - DMT.TA.Rest.Client -> Production\Common
+    - DMT.TAxTOD.Rest.Client -> Production\Common
+    - DMT.TOD.Rest.Client -> Production\Common
+    - DMT.Controls -> Production\Common
+    - DMT.Plaza.Config.App -> Production\Utilities
+    - DMT.Plaza.Simulator.App -> Production\Utilities
+    - DMT.Plaza.WorkBench.App -> Production\Utilities
+    - DMT.Local.Web.Services -> Production\PlazaService
+    - DMT.Plaza.Service.Manager.App -> Production\PlazaService
+    - DMT.TA.App -> Production\TA
+    - DMT.TOD.App -> Production\TOD
+  - NLib.Reports build action
+    - Copy files to Production\Common
+    - Copy files to Production\TA
+    - Copy files to Production\TOD
+  - DMT.Models build action
+    - Copy files to Production\Common
+    - Copy files to Production\PlazaService
+  - Add Owin required reference assemblies (VS2109 not copy when build so need to add reference directly to project)
+    - DMT.Plaza.Service.Manager.App
+    - DMT.TA.App
+    - DMT.TOD.App
+  - Add Smartcard dlls (Add MasterCom.dll, MasterRD.dll as Content to copy on output directory)
+    - DMT.TA.App
+    - DMT.TOD.App
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #383
