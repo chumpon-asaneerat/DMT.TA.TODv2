@@ -27,8 +27,17 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #370
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #369
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Update ConfigManager.cs
+      - Restored LocalHostWebServiceConfig class.
+      - LocalHostWebServiceConfig change null IP address from '0.0.0.0' to 'unknown'.
+  - DMT.TA.Rest.Server project
+    - Ported TAWebServer from DMT.TA.TODv2.
+  - DMT.TOD.Rest.Server project
+    - Ported TODWebServer from DMT.TA.TODv2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #368
