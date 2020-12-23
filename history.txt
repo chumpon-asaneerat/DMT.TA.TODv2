@@ -33,8 +33,21 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #379
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #378
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #377
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Client project
+    - Ported Operation class from DMT.Rest.Client project.
+  - DMT.SCW.Rest.Client project
+    - Ported Operation class from DMT.Rest.Client project.
+  - DMT.TA.Rest.Client project
+    - Ported Operation class from DMT.Rest.Client project.
+  - DMT.TAxTOD.Rest.Client project
+    - Ported Operation class from DMT.Rest.Client project.
+  - DMT.TOD.Rest.Client project
+    - Ported Operation class from DMT.Rest.Client project.
+  - DMT.Rest.Client project
+    - Remove all operation classes.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #376
