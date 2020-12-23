@@ -51,8 +51,26 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #393
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #392
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #391
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Server project
+    - Add Action - Current (for Gets Active TSB).
+    - LocalDatabaseWebServer.cs
+      - Implements compare request username/password from config file.
+      - Map action route TSB->Current.
+  - DMT.Local.Rest.Client project.
+    - Add Local class static properties (Timeout, UserName, Password).
+    - Add Execute static method(s).
+    - Implements GetCurrent Method.
+  - DMT.SCW.Rest.Client project.
+    - Add SCW class static properties (Timeout, UserName, Password).
+  - DMT.TA.Rest.Client project.
+    - Add TA class static properties (Timeout, UserName, Password).
+  - DMT.TAxTOD.Rest.Client project.
+    - Add TAxTOD class static properties (Timeout, UserName, Password).
+  - DMT.TOD.Rest.Client project.
+    - Add TOD class static properties (Timeout, UserName, Password).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #390
