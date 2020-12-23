@@ -42,8 +42,19 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #376
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #375
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #374
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Update ConfigManager.cs
+      - TAAppPlazaConfig class add TAApp property and implements related code.
+      - TODAppPlazaConfig class add TODApp property and implements related code.
+  - DMT.TA.Rest.Server project
+    - Update TAWebServer.cs 
+      - fixed CheckConfig method.
+  - DMT.TOD.Rest.Server project
+    - Update TODWebServer
+      - fixed CheckConfig method.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #373
