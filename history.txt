@@ -30,8 +30,36 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #390
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #389
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #388
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Client project.
+    - Add Local class static properties (Config, BaseAddress).
+  - DMT.SCW.Rest.Client project.
+    - Add SCW class static properties (Config, BaseAddress).
+  - DMT.TA.Rest.Client project.
+    - Add TA class static properties (Config, BaseAddress).
+  - DMT.TAxTOD.Rest.Client project.
+    - Add TAxTOD class static properties (Config, BaseAddress).
+  - DMT.TOD.Rest.Client project.
+    - Add TOD class static properties (Config, BaseAddress).
+  - DMT.Local.Rest.Server project.
+    - Add reference to DMT.SCW.Rest.Client
+    - Add reference to DMT.TA.Rest.Client
+    - Add reference to DMT.TAxTOD.Rest.Client
+    - Add reference to DMT.TOD.Rest.Client
+  - DMT.Plaza.Config.App project.
+    - Add reference to DMT.Local.Rest.Client
+    - Add reference to DMT.SCW.Rest.Client
+  - DMT.Plaza.Simulator.App project.
+    - Add reference to DMT.Local.Rest.Client
+    - Add reference to DMT.SCW.Rest.Client
+  - DMT.TA.App project.
+    - Add reference to DMT.Local.Rest.Client
+    - Add reference to DMT.SCW.Rest.Client
+  - DMT.TOD.App project.
+    - Add reference to DMT.Local.Rest.Client
+    - Add reference to DMT.SCW.Rest.Client
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #387
