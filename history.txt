@@ -27,8 +27,31 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #390
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #389
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Server project
+    - LocalDatabaseWebServer.cs (start method)
+      - Set SCW operation config static property.
+      - Set TA operation config static property.
+      - Set TAxTOD operation config static property.
+      - Set TOD operation config static property.
+  - DMT.Plaza.Config.App project
+    - App.xaml.cs
+      - Set Local operation config static property.
+      - Set SCW operation config static property.
+  - DMT.Plaza.Simulator.App project
+    - App.xaml.cs
+      - Set Local operation config static property.
+      - Set SCW operation config static property.
+  - DMT.TA.App project
+    - App.xaml.cs
+      - Set Local operation config static property.
+      - Set SCW operation config static property.
+  - DMT.TOD.App project
+    - App.xaml.cs
+      - Set Local operation config static property.
+      - Set SCW operation config static property.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #388
