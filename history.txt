@@ -39,8 +39,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #387
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #386
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #385
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App
+    - Remove TAServerStatus control.
+  - DMT.TOD.App
+    - Remove TAServerStatus control.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #384
