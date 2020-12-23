@@ -48,8 +48,26 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #394
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #393
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #392
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Client project.
+    - Add GetClient static method.
+    - Add Execute static method(s).
+    - Rename GetCurrent Method to Current Method.
+    - Move Current method to Infrastructure->Operations->TSB->Current.cs
+  - DMT.SCW.Rest.Client project.
+    - Add GetClient static method.
+    - Add Execute static method(s).
+  - DMT.TA.Rest.Client project.
+    - Add GetClient static method.
+    - Add Execute static method(s).
+  - DMT.TAxTOD.Rest.Client project.
+    - Add GetClient static method.
+    - Add Execute static method(s).
+  - DMT.TOD.Rest.Client project.
+    - Add GetClient static method.
+    - Add Execute static method(s).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #391
