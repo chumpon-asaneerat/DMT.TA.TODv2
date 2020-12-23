@@ -39,8 +39,27 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #377
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #376
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #375
-- 
+- DMT.TAxTODv1
+  - DMT.RabbitMQ.Client project.
+    - Change all reference to ConfigManager to PlazaConfigManager.
+  - DMT.Rest.Client project.
+    - Change all reference to ConfigManager to PlazaConfigManager.
+  - DMT.Controls project.
+    - Change all reference to ConfigManager to PlazaConfigManager.
+  - DMT.Local.Rest.Server project.
+    - Change all reference to ConfigManager to PlazaConfigManager.
+  - DMT.Plaza.Config.App project.
+    - Change all reference to ConfigManager to PlazaConfigManager.
+  - DMT.Plaza.Simulator.App project.
+    - Change all reference to ConfigManager to PlazaConfigManager.
+  - DMT.Local.Web.Services project.
+    - Change all reference to ConfigManager to PlazaConfigManager.
+  - DMT.TA.App project.
+    - Change all reference to ConfigManager to TAConfigManager.
+  - DMT.TOD.App project.
+    - Change all reference to ConfigManager to TODConfigManager.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #374
