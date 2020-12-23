@@ -45,8 +45,21 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #385
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #384
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #383
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - Rename TALocalDbStatus to LocalPlazaStatus
+    - Update TODStatusBar control (to LocalPlazaStatus).
+    - Update MainMenu page from DMT.TA.TODv2.
+  - DMT.TOD.App project.
+    - Rename TODLocalDbStatus to LocalPlazaStatus
+    - Update TODStatusBar control (to LocalPlazaStatus).
+    - Update MainMenu page from DMT.TA.TODv2.
+    - Update ReportMenu page from DMT.TA.TODv2.
+    - Update MainMenu page from DMT.TA.TODv2.
+    - Ported EMVQRCode page from DMT.TA.TODv2.
+    - Ported JobList page from DMT.TA.TODv2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #382
