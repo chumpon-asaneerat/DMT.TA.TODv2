@@ -39,8 +39,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #397
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #396
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #395
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Client project.
+    - Fixed invalid returns type (all Gets method).
+  - DMT.Plaza.Config.App project.
+    - Rework on TSBViewPage #1.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #394
