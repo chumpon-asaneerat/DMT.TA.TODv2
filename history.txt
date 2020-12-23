@@ -36,8 +36,32 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #398
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #397
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #396
-- 
+- DMT.TAxTODv1
+  - DMT.Core project.
+    - Add Routes
+      - Search PlazaGroup->ByTSB
+      - Search Plaza->ByTSB
+      - Search Plaza->ByPlazaGroup
+      - Search Lane->ByPlazaGroup
+      - Search Lane->ByPlaza
+  - DMT.Local.Rest.Server project.
+    - Implements
+      - Search PlazaGroup->ByTSB
+      - Search Plaza->ByTSB
+      - Search Plaza->ByPlazaGroup
+      - Search Lane->ByPlazaGroup
+      - Search Lane->ByPlaza
+  - DMT.Local.Rest.Client project.
+    - Implements
+      - Search PlazaGroup->ByTSB
+      - Search Plaza->ByTSB
+      - Search Plaza->ByPlazaGroup
+      - Search Lane->ByPlazaGroup
+      - Search Lane->ByPlaza
+  - DMT.Plaza.Config.App project.
+    - Rework on TSBViewPage #2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #395
