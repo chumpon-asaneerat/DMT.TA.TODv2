@@ -36,8 +36,17 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #388
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #387
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #386
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Remove Client Routes.
+  - DMT.Models project
+    - Remove Client Data Model.
+  - DMT.Local.Rest.Server project.
+    - Remove Client Controller.
+  - DMT.Plaza.Config.App project.
+    - Remove code related to windows service.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #385
