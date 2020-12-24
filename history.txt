@@ -27,8 +27,9 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #400
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #399
-- 
+- Update Target api todos.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #398
