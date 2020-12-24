@@ -39,8 +39,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #417
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #416
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #415
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Server project
+    - Add MapControllers
+      - Security->User->Search (ById, ByCardId, ByLogin, ByRoleId, ByGroupId, ByFilter).
+  - Update Target api todos.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #414
