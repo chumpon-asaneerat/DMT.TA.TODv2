@@ -51,8 +51,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #413
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #412
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #411
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - User.cs 
+      - fixed incorrected properties category.
+  - DMT.Plaza.Config.App project
+    - Refactor UserView Page - Role/User Save method.
+  - Update Target api todos.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #410
