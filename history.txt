@@ -45,8 +45,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #415
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #414
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #413
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Fixed comment api url (some action url is invalid).
+    - Add Routes Controller
+      - Security -> User -> Search
+      - Shift -> User -> Search
+    - Add Routes Action Url
+      - Security -> User -> Searchs (ById/ByCardId/ByLogin/ByRoleId/ByGroupId/FilterById)
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #412
