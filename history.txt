@@ -30,8 +30,20 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #420
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #419
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #418
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project
+    - Add Reference to DMT.Rest.Client project.
+    - Add Reference to DMT.Local.Rest.Client project.
+    - SmartcardManager.cs
+      - Update code to call related local rest api.
+  - DMT.TA.App project
+    - SignInPage.xaml.cs
+      - Add Check Role and add error message.
+  - DMT.TOD.App project
+    - SignInWindow.xaml.cs
+      - Add Check Role and add error message.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #417
