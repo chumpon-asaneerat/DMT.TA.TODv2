@@ -42,8 +42,22 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #416
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #415
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #414
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Change Security.User.Search.FilterById to Security.User.Search.ByFilter.
+  - DMT.Models project
+    - User.cs 
+      - Rename class Search.FilterById to Search.ByFilter.
+  - DMT.Local.Rest.Server project
+    - Implements Security.User.Searchs Actions class
+      - Implements Security->User->Search->ById action.
+      - Implements Security->User->Search->ByCardId action.
+      - Implements Security->User->Search->ByLogin action.
+      - Implements Security->User->Search->ByRoleId action.
+      - Implements Security->User->Search->ByGroupId action.
+      - Implements Security->User->Search->ByFilter action.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #413
