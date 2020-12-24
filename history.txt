@@ -48,8 +48,17 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #414
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #413
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #412
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - User.cs 
+      - Add Search ById class
+      - Add Search ByCardId class
+      - Add Search ByLogin class
+      - Add Search ByRoleId class
+      - Add Search ByGroupId class
+      - Add Search FilterById class
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #411
