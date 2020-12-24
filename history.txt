@@ -33,8 +33,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #419
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #418
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #417
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Client project
+    - Fixed bug duplicate ByGroupId medthod name.
+  - DMT.Plaza.Config.App project
+    - Update UserView Page 
+      - RefreshTree method - gets user by role when generate tree.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #416
