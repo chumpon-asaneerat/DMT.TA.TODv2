@@ -48,11 +48,22 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #424
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #423
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #422
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Client project
+    - Fixed invalid Url -> TSB.SetActive.
+  - DMT.TA.App project
+    - HeaderPlaza.xaml.cs
+      - Update code to call local plaza rest api TSB.Current.
+  - DMT.TOD.App project
+    - HeaderPlaza.xaml.cs
+      - Update code to call local plaza rest api TSB.Current.
+  - Update Target api todos.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #421
+- DMT.TAxTODv1
   - DMT.TA.App project
     - SignInPage.xaml.cs
       - fixed invalid check login by smartcard.
