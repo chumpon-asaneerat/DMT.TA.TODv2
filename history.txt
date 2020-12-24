@@ -39,8 +39,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #407
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #406
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #405
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Server project
+    - Fixed invalid map route.
+    - Implements Shift Actions class
+      - Shift TSB->Current action.
+      - Shift TSB->Change action.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #404
