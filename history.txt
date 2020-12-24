@@ -51,8 +51,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #423
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #422
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #421
-- 
+  - DMT.TA.App project
+    - SignInPage.xaml.cs
+      - fixed invalid check login by smartcard.
+  - DMT.TOD.App project
+    - SignInWindow.xaml.cs
+      - fixed invalid check login by smartcard.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #420
