@@ -27,8 +27,12 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #410
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #409
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Config.App project
+    - Update TSBView Page - TSB/Plaza/Lane Save supports.
+  - Update Target api todos.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #408
