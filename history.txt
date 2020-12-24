@@ -33,8 +33,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #409
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #408
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #407
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Config.App project
+    - Update UserView Page.
+    - Update ShiftView Page.
+    - Update MainWindow (remove unused button and set call UserViewPage, ShiftViewPage).
+  - Update Target api todos.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #406
