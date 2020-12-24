@@ -42,8 +42,18 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #406
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #405
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #404
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Server project
+    - Refactor some action code (all class).
+    - Implements Security Actions class
+      - Role Gets action.
+      - Role Save action.
+      - User Gets action.
+      - User Save action.
+    - Implements Shift Actions class
+      - Shift Gets action.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #403
@@ -54,8 +64,8 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #403
       - Map export controller - UserManage -> Security.User 
     - Add Shift.Controller.cs
       - Add Shift Controller class (inherited from ApiController)
-      - Map export controller - TSBManage -> Shift.TSB
-      - Map export controller - UserManage -> Shift.User
+      - Map export controller - TSBShiftManage -> Shift.TSB
+      - Map export controller - UserShiftManage -> Shift.User
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #402
