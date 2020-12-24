@@ -30,8 +30,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #410
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #409
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #408
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Config.App project
+    - Update UserView Page #2 - User.Gets test.
+  - Update Target api todos.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #407
