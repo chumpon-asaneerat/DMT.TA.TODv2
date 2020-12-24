@@ -33,8 +33,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #399
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #398
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #397
-- 
+- DMT.TAxTODv1
+  - DMT.Core project.
+    - Add Routes Controller
+      - Shift
+      - Security -> Role
+      - Security -> User
+    - Add Routes Action Url
+      - Shift -> Gets
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #396
