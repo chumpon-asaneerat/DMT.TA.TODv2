@@ -36,8 +36,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #418
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #417
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #416
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Client project
+    - Add Operations
+      - Security->User->Search (ById, ByCardId, ByLogin, ByRoleId, ByGroupId, ByFilter).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #415
