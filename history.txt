@@ -36,8 +36,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #408
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #407
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #406
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Client project
+    - Implements
+      - Base Security operation class.
+      - Base Shift operation class.
+      - Security -> Role (Gets/Save).
+      - Security -> User (Gets/Save).
+      - Shift (Gets).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #405
