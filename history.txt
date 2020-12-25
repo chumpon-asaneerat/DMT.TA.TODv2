@@ -42,14 +42,23 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #446
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #445
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #444
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - TAxTOD Route Consts.
+      - Add Coupon - Save (/api/users/coupons/save)
+      - Add Coupon - Gets (/api/users/coupons/getlist)
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #443
 - DMT.TAxTODv1
   - DMT.Models project
     - Move all folders related to local plaza service to Local folder.
+    - Rename CardAllow.cs to MCardAllow.cs
+    - Rename Coupon.cs to MCoupon.cs
+    - Rename CouponBook.cs to MCouponBook.cs
+    - Rename Currency.cs to MCurrency.cs
     - Add TAxTOD folder.
     - Add TAServerCouponTransaction class.
 
