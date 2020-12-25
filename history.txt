@@ -48,14 +48,17 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #444
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #443
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #442
-- 
+- DMT.TAxTODv1
+  - DMT.SCW.Rest.Client project
+    - Update SCW - Security Operations class
+      - Add passwordExpiresDays overload method (omit parameter).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #441
 - DMT.TAxTODv1
   - DMT.SCW.Rest.Client project.
-  - DMT.SCW.Rest.Client project
     - Update SCW - Master Operations class
       - Add cardAllowList overload method (omit parameter).
       - Add couponList overload method (omit parameter).
