@@ -96,8 +96,23 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #428
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #427
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #426
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Rename SCWChiefOfDuty.cs to SCWChiefOnDuty.cs
+    - Update SCWStatus.cs (add xml comment and set property attribute).
+    - Update SCWCardAllow.cs (add xml comment and set property attribute).
+    - Update SCWChangePassword.cs (add xml comment and set property attribute).
+    - Update SCWChiefOnDuty.cs (add xml comment and set property attribute).
+    - Update SCWCoupon.cs (add xml comment and set property attribute).
+    - Update SCWCurrency.cs (add xml comment and set property attribute).
+    - Update SCWDeclare.cs (add xml comment and set property attribute).
+    - Update SCWEMV.cs (add xml comment and set property attribute).
+    - Update SCWJob.cs (add xml comment and set property attribute).
+    - Update SCWQRCode.cs (add xml comment and set property attribute).
+    - Add SCWLogInAudit and SCWLogInAuditResult class.
+    - Add SCWSaveChiefDuty and SCWSaveChiefDutyResult class.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #425
