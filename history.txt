@@ -69,8 +69,22 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #437
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #436
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #435
-- 
+- DMT.TAxTODv1
+  - DMT.SCW.Rest.Client project
+    - Add Json embedded resources 
+      - declare.json
+      - emvTransactionList.json
+      - qrcodeTransactionList.json
+      - saveCheifDuty.json
+      - cheifOnDuty.json
+    - SCWResourceManager class
+      - Add declare property (static).
+      - Add emvTransactionList property (static).
+      - Add qrcodeTransactionList property (static).
+      - Add saveCheifDuty property (static).
+      - Add cheifOnDuty property (static).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #434
