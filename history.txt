@@ -63,8 +63,17 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #439
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #438
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #437
-- 
+- DMT.TAxTODv1
+  - DMT.SCW.Rest.Client project
+    - Update SCW - Master Operations class
+      - Implements couponList method.
+      - Implements couponBookList method.
+      - Implements currencyDenomList method.
+    - Update SCW - Security Operations class
+      - Implements changePassword method.
+      - Implements passwordExpiresDays method.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #436
