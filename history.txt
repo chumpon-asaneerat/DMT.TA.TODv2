@@ -99,8 +99,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #427
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #426
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #425
-- 
+- DMT.TAxTODv1
+  - DMT.SCW.Rest.Client project
+    - Add SCW - Master Operations class
+    - Add SCW - Security Operations class
+    - Add SCW - TOD Operations class
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #424
