@@ -72,8 +72,23 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #436
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #435
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #434
-- 
+- DMT.TAxTODv1
+  - DMT.SCW.Rest.Client project
+    - Add Json embedded resources 
+      - couponBookList.json
+      - couponList.json
+      - currencyDenomList.json
+      - jobList.json
+      - jobList2.json
+    - SCWResourceManager class
+      - Add cardAllowList property (static).
+      - Add couponBookList property (static).
+      - Add couponList property (static).
+      - Add currencyDenomList property (static).
+      - Add jobList property (static).
+      - Add jobList2 property (static).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #433
