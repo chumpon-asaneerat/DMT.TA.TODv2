@@ -60,8 +60,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #440
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #439
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #438
-- 
+- DMT.TAxTODv1
+  - DMT.SCW.Rest.Client project
+    - Update SCW - TOD Operations class
+      - Implements cheifOnDuty method.
+      - Implements saveCheifDuty method.
+      - Implements jobList method.
+      - Implements jobList2 method.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #437
