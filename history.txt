@@ -81,8 +81,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #433
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #432
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #431
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Add SCWCouponBookList.cs (with Parameter and Result classes).
+    - Add MCouponBook data model class.
+    - Update LocalDbServer.cs
+      - Init code to create table CouponBook.
+      - Add method InitMCouponBook.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #430
