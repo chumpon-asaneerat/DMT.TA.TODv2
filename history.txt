@@ -102,8 +102,30 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #426
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #425
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #424
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Move exists Routes sub folder to Local
+    - Create Routes sub folder SCW
+    - Add Routes class for SCW
+      - Master
+        - couponList
+        - couponBookList
+        - currencyDenomList
+        - cardAllowList
+      - Security
+        - loginAudit
+        - changePassword
+        - passwordExpiresDays
+      - TOD
+        - cheifOnDuty
+        - saveCheifDuty
+        - jobList
+        - jobList2
+        - emvTransactionList
+        - qrcodeTransactionList
+        - declare
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #423
