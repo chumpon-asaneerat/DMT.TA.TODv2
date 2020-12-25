@@ -33,8 +33,25 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #449
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #448
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #447
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Client project
+    - Remove Execute method(s) that has TValue type parameter.
+    - Update remove unused type parameter in execute method call.
+      - Infrastructure->TSB->Save
+      - Infrastructure->PlazaGroup->Save
+      - Infrastructure->Plaza->Save
+      - Infrastructure->Lane->Save
+      - Security->Role->Save
+      - Security->User->Save
+  - DMT.TA.Rest.Client project
+    - Remove Execute method(s) that has TValue type parameter.
+  - DMT.TAxTOD.Rest.Client project
+    - Remove Execute method(s) that has TValue type parameter.
+  - DMT.TOD.Rest.Client project
+    - Remove Execute method(s) that has TValue type parameter.
+    - Add Coupon Operations - Save.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #446
