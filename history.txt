@@ -84,8 +84,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #432
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #431
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #430
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Check SCWJobList.cs (for Parameter and Result classes)
+    - Check SCWJobList2.cs (for Parameter and Result classes)
+    - Check SCWLogInAudit.cs (for Parameter and Result classes)
+    - Check SCWPasswordExpiresDays.cs (for Parameter and Result classes)
+    - Check SCWSaveChiefDuty.cs (for Parameter and Result classes)
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #429
