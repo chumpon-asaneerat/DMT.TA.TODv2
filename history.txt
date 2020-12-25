@@ -45,8 +45,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #445
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #444
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #443
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Move all folders related to local plaza service to Local folder.
+    - Add TAxTOD folder.
+    - Add TAServerCouponTransaction class.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #442
