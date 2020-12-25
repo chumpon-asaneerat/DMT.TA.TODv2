@@ -51,8 +51,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #443
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #442
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #441
-- 
+- DMT.TAxTODv1
+  - DMT.SCW.Rest.Client project.
+  - DMT.SCW.Rest.Client project
+    - Update SCW - Master Operations class
+      - Add cardAllowList overload method (omit parameter).
+      - Add couponList overload method (omit parameter).
+      - Add couponBookList overload method (omit parameter).
+      - Add currencyDenomList overload method (omit parameter).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #440
