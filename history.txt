@@ -39,8 +39,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #447
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #446
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #445
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Add Search->TAxTOD->Coupon->Gets class.
+  - DMT.TAxTOD.Rest.Client project
+    - Add Coupon Operations - Gets.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #444
