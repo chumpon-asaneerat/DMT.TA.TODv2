@@ -54,8 +54,36 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #442
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #441
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #440
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Add IDMTConfig interface.
+    - PlazaServiceConfigManager implements IDMTConfig.
+    - PlazaAppConfigManager implements IDMTConfig.
+    - TAConfigManager implements IDMTConfig.
+    - TODConfigManager implements IDMTConfig.
+    - DMTConfig class add networkId property.
+  - DMT.Local.Rest.Client project.
+    - Services.Operations - Plaza - Add DMT and NetwodkId property.
+  - DMT.SCW.Rest.Client project.
+    - Services.Operations - SCW - Add DMT and NetwodkId property.
+  - DMT.TA.Rest.Client project.
+    - Services.Operations - TA - Add DMT and NetwodkId property.
+  - DMT.TAxTOD.Rest.Client project.
+    - Services.Operations - TAxTOD - Add DMT and NetwodkId property.
+  - DMT.TOD.Rest.Client project.
+    - Services.Operations - TOD - Add DMT and NetwodkId property.
+  - DMT.Local.Rest.Server project.
+    - Update LocalDatabaseWebServer.cs -> Setup DMT property for related operation classes.
+  - DMT.Plaza.Config.App project.
+    - Update App.xaml.cs -> Setup DMT property for related operation classes.
+  - DMT.Plaza.Simulator.App project.
+    - Update App.xaml.cs -> Setup DMT property for related operation classes.
+  - DMT.TA.App project.
+    - Update App.xaml.cs -> Setup DMT property for related operation classes.
+  - DMT.TOD.App project.
+    - Update App.xaml.cs -> Setup DMT property for related operation classes.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #439
