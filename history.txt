@@ -93,8 +93,17 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #429
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #428
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #427
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Rename class SCWJobList to SCWJobListResult.
+    - Update SCWJob2.cs (add xml comment and set property attribute).
+    - Add SCWPasswordExpiresDays and SCWPasswordExpiresDaysResult class.
+    - Rename file SCWJob.cs to SCWJobList.cs
+    - Rename file SCWJob2.cs to SCWJobList2.cs
+    - Update SCWJobList.cs add SCWJobList (parameter) class.
+    - Update SCWJobList2.cs add SCWJobList2 (parameter) class.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #426
