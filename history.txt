@@ -75,8 +75,22 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #435
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #434
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #433
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Update SCWPasswordExpiresDays.cs - change namespace from DMT.Models.SCW to DMT.Models.
+  - DMT.SCW.Rest.Client project
+    - Add SCWResourceManager class to access embedded resources.
+    - Add Json embedded resources 
+      - loginAudit.json
+      - cardAllowList.json
+    - SCWResourceManager class
+      - Add loginAudit property (static).
+    - Update SCW - Master Operations class
+      - Implements cardAllowList method.
+    - Update SCW - Security Operations class
+      - Implements SCWLogInAudit method.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #432
