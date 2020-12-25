@@ -24,6 +24,66 @@
   - หลังป้อนรายได้ควร update กลับไปยัง UserCredit/RevenueShift ด้วย
   - ดูว่ายุบ RevenueShift กับ RevenueEntry ด้วยกันได้หรือไม่
 --------------------------------------------------------------------------------------------
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #450
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #449
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #448
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #447
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #446
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #445
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #444
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #443
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #442
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #441
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #440
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #439
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #438
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #437
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #436
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #435
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #434
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #433
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #432
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #431
+- 
+
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #430
 - 
 
@@ -45,8 +105,9 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #425
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #424
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #423
-- 
+- Prepare history.txt
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #422
