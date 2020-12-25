@@ -78,8 +78,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #434
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #433
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #432
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Update LocalDbServer.cs
+      - Fixed invalid CouponBook data (in InitMCouponBook method).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #431
