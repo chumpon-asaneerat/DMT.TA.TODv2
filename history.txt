@@ -57,8 +57,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #441
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #440
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #439
-- 
+- DMT.TAxTODv1
+  - DMT.SCW.Rest.Client project
+    - Update SCW - TOD Operations class
+      - Implements emvTransactionList method.
+      - Implements qrcodeTransactionList method.
+      - Implements declare method.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #438
