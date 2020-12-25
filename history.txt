@@ -66,8 +66,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #438
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #437
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #436
-- 
+- DMT.TAxTODv1
+  - DMT.SCW.Rest.Client project
+    - Add Json embedded resources 
+      - changePassword.json
+      - passwordExpiresDays.json
+    - SCWResourceManager class
+      - Add changePassword property (static).
+      - Add passwordExpiresDays property (static).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #435
