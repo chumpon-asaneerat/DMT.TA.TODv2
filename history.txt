@@ -36,8 +36,28 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #448
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #447
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #446
-- 
+- DMT.TAxTODv1
+  - DMT.SCW.Rest.Client project
+    - SCW class change Execute methods (use NRestClient Execute2 method).
+    - SCW Master Operations change returns type
+      - cardAllowList
+      - couponList
+      - couponBookList
+      - currencyDenomList
+    - SCW Security Operations change returns type
+      - loginAudit
+      - changePassword
+      - passwordExpiresDays
+    - SCW TOD Operations change returns type
+      - cheifOnDuty
+      - saveCheifDuty
+      - jobList
+      - jobList2
+      - emvTransactionList
+      - qrcodeTransactionList
+      - declare
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #445
