@@ -27,8 +27,22 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #450
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #449
-- 
+- DMT.TAxTODv1
+  - Note tomorrow
+    - Implemenst TAApp notify operations.
+    - Implemenst TODApp notify operations.
+    - TOD 
+      - Change Shift Screen.
+      - BOJ Screen.
+    - Simulator 
+      - Lane Simulator
+        - BOJ/EOJ (Lane) Operation.
+        - EMV/QRCode (Lane) Operation.
+    - TOD 
+      - EMV-QRCode Screen.
+      - Job List Screen.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #448
