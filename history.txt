@@ -87,8 +87,26 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #431
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #430
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #429
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Rename file SCWCurrency.cs to SCWCurrencyDemonList.cs
+    - Update SCWCurrencyDemonList.cs
+      - Add SCWCurrencyDemonList class (parameter).
+      - Add SCWCurrencyDemon class (sub result item)
+      - Add SCWCurrencyDemonListResult class (result).
+    - Update SCWDeclare.cs (add xml comment and check has parameter related classes and result class).
+    - Rename file SCWEMV.cs to SCWEMVTransactionList.cs
+    - Update SCWEMVTransactionList.cs
+      - Add SCWEMVTransactionList class (parameter).
+      - Add SCWEMVTransaction class (sub result item)
+      - Add SCWEMVTransactionListResult class (result).
+    - Rename file SCWQRCode.cs to SCWQRCodeTransactionList.cs
+    - Update SCWQRCodeTransactionList.cs
+      - Add SCWQRCodeTransactionList class (parameter).
+      - Add SCWQRCodeTransaction class (sub result item)
+      - Add SCWQRCodeTransactionListResult class (result).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #428
