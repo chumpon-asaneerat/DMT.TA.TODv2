@@ -90,8 +90,22 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #430
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #429
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #428
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Rename file SCWCardAllow.cs to SCWCardAllowList.cs
+    - Update SCWCardAllowList.cs
+      - Add SCWCardAllowList class (parameter).
+      - Add SCWCardAllow class (sub result item)
+      - Add SCWCardAllowListResult class (result).
+    - Update SCWChangePassword.cs (add xml comment and check has parameter class and result related class).
+    - Update SCWChiefOnDuty.cs (add xml comment and check has parameter class and result related class).
+    - Rename file SCWCoupon.cs to SCWCouponList.cs
+    - Update SCWCouponList.cs
+      - Add SCWCouponList class (parameter).
+      - Add SCWCoupon class (sub result item)
+      - Add SCWCouponListResult class (result).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #427
