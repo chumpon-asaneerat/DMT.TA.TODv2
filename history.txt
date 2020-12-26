@@ -42,8 +42,17 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #456
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #455
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #454
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - Add Views
+      - TSBCreditSummarryView.sql
+      - TSBCreditTransactionView.sql
+      - UserCreditBorrowSummaryView.sql
+      - UserCreditReturnSummaryView.sql
+      - UserCreditSummaryView.sql
+      - UserCreditTransactionView.sql
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #453
