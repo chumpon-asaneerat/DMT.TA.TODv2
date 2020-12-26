@@ -50,8 +50,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #463
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #462
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #461
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - UserShift.cs
+      - Change Begin/End from DateTime to DateTime?
+      - Update static method (Update query End datetime check null and DateTime.MinValue).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #460
