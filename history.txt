@@ -23,8 +23,6 @@
   - TA มีปัญหาตอนบันทึกช้าถ้าข้อมูลเยอะ ๆ
   - หลังป้อนรายได้ควร update กลับไปยัง UserCredit/RevenueShift ด้วย
   - Note tomorrow
-    - Implemenst TAApp notify operations.
-    - Implemenst TODApp notify operations.
     - TOD 
       - Change Shift Screen.
       - BOJ Screen.
@@ -42,11 +40,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #480
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #479
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #478
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Server project.
+    - Shift->TSB->Change method call TA, TOD ShiftChanged method.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #477
+- DMT.TAxTODv1
   - DMT.Local.Rest.Server project.
     - SetActive method call TA, TOD TSBChanged method.
   - DMT.TA.Rest.Server project.
