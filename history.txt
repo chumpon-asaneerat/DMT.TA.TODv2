@@ -45,8 +45,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #455
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #454
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #453
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - Add UserCreditBalance (ported from DMTv2).
+    - Add UserCreditTransaction (ported from DMTv2).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #452
