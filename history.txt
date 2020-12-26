@@ -41,8 +41,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #466
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #465
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #464
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - TSBCreditTransaction.cs
+      - Change GroupId from Guid to Guid?
+      - Change TransactionDate from DateTime to DateTime?
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #463
