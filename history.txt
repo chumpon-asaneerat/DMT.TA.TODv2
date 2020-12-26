@@ -26,8 +26,20 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #470
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #469
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - Set attribute #3
+      - Lane.cs 
+        - NotNull (TSBId, PlazaGroupId, PlazaId)
+        - Indexed (TSBId, PlazaGroupId, PlazaId)
+      - Plaza.cs 
+        - NotNull (TSBId, PlazaGroupId)
+        - Indexed (TSBId, PlazaGroupId)
+      - PlazaGroup.cs 
+        - NotNull (TSBId)
+        - Indexed (TSBId)
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #468
