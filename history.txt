@@ -48,8 +48,23 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #478
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #477
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #476
-- 
+- DMT.TAxTODv1
+  - DMT.Core project.
+    - Remove local->Notify folder
+    - Add TA->Notify route.
+    - Add TOD->Notify route.
+  - DMT.TA.Rest.Server project.
+    - Update new routes code.
+  - DMT.TOD.Rest.Server project.
+    - Update new routes code.
+  - DMT.TA.Rest.Client project.
+    - Implements TSBChanged operation.
+    - Implements ShiftChanged operation.
+  - DMT.TOD.Rest.Client project.
+    - Implements TSBChanged operation.
+    - Implements ShiftChanged operation.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #475
