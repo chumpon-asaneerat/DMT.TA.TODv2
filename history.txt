@@ -22,10 +22,40 @@
   - อ่าน DMT User/Pwd จาก config หรือ database.
   - TA มีปัญหาตอนบันทึกช้าถ้าข้อมูลเยอะ ๆ
   - หลังป้อนรายได้ควร update กลับไปยัง UserCredit/RevenueShift ด้วย
-  - ดูว่ายุบ RevenueShift กับ RevenueEntry ด้วยกันได้หรือไม่
 --------------------------------------------------------------------------------------------
-Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #460
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #470
 - 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #469
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #468
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #467
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #466
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #465
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #464
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #463
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #462
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #461
+- 
+
+[commited]
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #460
+- Prepare history.txt
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #459
