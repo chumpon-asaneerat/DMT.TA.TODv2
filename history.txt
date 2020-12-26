@@ -38,8 +38,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #467
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #466
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #465
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - UserCreditBalance.cs
+      - Change UserCreditDate from DateTime to DateTime?
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #464
