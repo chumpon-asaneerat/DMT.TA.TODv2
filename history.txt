@@ -22,6 +22,19 @@
   - อ่าน DMT User/Pwd จาก config หรือ database.
   - TA มีปัญหาตอนบันทึกช้าถ้าข้อมูลเยอะ ๆ
   - หลังป้อนรายได้ควร update กลับไปยัง UserCredit/RevenueShift ด้วย
+  - Note tomorrow
+    - Implemenst TAApp notify operations.
+    - Implemenst TODApp notify operations.
+    - TOD 
+      - Change Shift Screen.
+      - BOJ Screen.
+    - Simulator 
+      - Lane Simulator
+        - BOJ/EOJ (Lane) Operation.
+        - EMV/QRCode (Lane) Operation.
+    - TOD 
+      - EMV-QRCode Screen.
+      - Job List Screen.
 --------------------------------------------------------------------------------------------
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #480
 - 
@@ -41,8 +54,9 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #476
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #475
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #474
-- 
+- Update note in history.txt
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #473
