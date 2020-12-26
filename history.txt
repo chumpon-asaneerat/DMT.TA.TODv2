@@ -30,8 +30,20 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #460
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #459
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #458
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - Update misspell TSBCreditSummarryView to TSBCreditSummaryView (in model and view).
+    - Views remove unused comment code.
+      - TSBCreditSummaryView.sql
+      - TSBCreditTransactionView.sql
+      - UserCreditBorrowSummaryView.sql
+      - UserCreditReturnSummaryView.sql
+      - UserCreditSummaryView.sql
+      - UserCreditTransactionView.sql
+      - UserShiftRevenueView.sql
+      - UserShiftView.sql
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #457
