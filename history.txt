@@ -44,8 +44,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #465
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #464
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #463
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - RevenueEntry.cs
+      - Change EntryDate from DateTime to DateTime?
+      - Change RevenueDate from DateTime to DateTime?
+      - Change ShiftBegin from DateTime to DateTime?
+      - Change ShiftEnd from DateTime to DateTime?
+      - Change LastUpdate from DateTime to DateTime?
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #462
