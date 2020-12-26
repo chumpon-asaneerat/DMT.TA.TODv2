@@ -64,8 +64,9 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #482
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #481
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #480
-- 
+- Update note in history.txt
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #479
