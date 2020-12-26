@@ -23,8 +23,47 @@
   - TA มีปัญหาตอนบันทึกช้าถ้าข้อมูลเยอะ ๆ
   - หลังป้อนรายได้ควร update กลับไปยัง UserCredit/RevenueShift ด้วย
 --------------------------------------------------------------------------------------------
-Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #470
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #480
 - 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #479
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #478
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #477
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #476
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #475
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #474
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #473
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #472
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #471
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - Set attribute #4
+      - xxx.cs 
+        - NotNull ()
+        - Indexed ()
+      - xxx.cs 
+        - NotNull ()
+        - Indexed ()
+
+[commited]
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #470
+- Prepare history.txt
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #469
