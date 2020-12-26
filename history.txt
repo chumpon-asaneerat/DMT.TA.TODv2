@@ -44,8 +44,17 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #475
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #474
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #473
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - Set attribute #6
+      - Role.cs 
+        - NotNull (GroupId)
+        - Indexed (GroupId)
+      - User.cs 
+        - NotNull (RoleId)
+        - Indexed (RoleId, CardId)
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #472
