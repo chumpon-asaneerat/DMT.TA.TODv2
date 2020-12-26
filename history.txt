@@ -50,16 +50,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #473
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #472
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #471
 - DMT.TAxTODv1
   - DMT.Models project.
     - Set attribute #4
-      - xxx.cs 
-        - NotNull ()
-        - Indexed ()
-      - xxx.cs 
-        - NotNull ()
-        - Indexed ()
+      - RevenueEntry.cs 
+        - NotNull (EntryDate, RevenueDate, RevenueId, BagNo, BeltNo, IsHistorical, ShiftBegin, ShiftEnd, TSBId, PlazaGroupId, ShiftId, UserId, SupervisorId)
+        - Indexed (EntryDate, RevenueDate, RevenueId, BagNo, BeltNo, TSBId, PlazaGroupId, ShiftId, UserId, SupervisorId)
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #470
