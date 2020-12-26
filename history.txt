@@ -27,8 +27,28 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #460
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #459
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - LocalDbServer.cs
+      - Tables
+        - Init Table UserShift 
+        - Init Table UserShiftRevenue
+        - Init Table RevenueEntry
+        - Init Table TSBCreditTransaction
+        - Init Table UserCreditBalance
+        - Init Table UserCreditTransaction
+      - Views
+        - Init View UserShiftView 
+        - Init View UserShiftRevenueView
+        - Init View RevenueEntryView
+        - Init View TSBCreditSummaryView
+        - Init View TSBCreditTransactionView
+        - Init View UserCreditBorrowSummaryView
+        - Init View UserCreditReturnSummaryView
+        - Init View UserCreditSummaryView
+        - Init View UserCreditTransactionView
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #458
