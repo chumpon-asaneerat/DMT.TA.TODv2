@@ -32,8 +32,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #469
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #468
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #467
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - Set attribute #1
+      - UniqueCode.cs 
+        - NotNull (LastNumber, LastUpdate)
+      - ViewHistory.cs 
+        - NotNull (VersionId)
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #466
