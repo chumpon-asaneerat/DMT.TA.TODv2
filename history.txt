@@ -39,8 +39,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #457
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #456
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #455
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - Add UserShift (ported from DMTv2).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #454
