@@ -45,8 +45,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #479
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #478
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #477
-- 
+  - DMT.Local.Rest.Server project.
+    - SetActive method call TA, TOD TSBChanged method.
+  - DMT.TA.Rest.Server project.
+    - Fixed Controller class (name mismatch in route consts).
+  - DMT.TOD.Rest.Server project.
+    - Fixed Controller class (name mismatch in route consts).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #476
