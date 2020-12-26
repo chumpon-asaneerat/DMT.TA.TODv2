@@ -47,8 +47,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #464
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #463
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #462
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - UserShiftRevenue.cs
+      - Change RevenueDate from DateTime to DateTime?
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #461
