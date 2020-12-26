@@ -29,8 +29,20 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #470
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #469
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #468
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - Set attribute #2
+      - TSBCreditTransaction.cs 
+        - NotNull (TransactionDate, TransactionType, TSBId, SupervisorId, )
+        - Indexed (TransactionDate, TSBId, SupervisorId, )
+      - UserCreditBalance.cs 
+        - NotNull (UserCreditDate, State, BagNo, BeltNo, TSBId, PlazaGroupId, UserId)
+        - Indexed (UserCreditDate, RevenueId, TSBId, PlazaGroupId, UserId)
+      - UserCreditTransaction.cs 
+        - NotNull (TransactionDate, TransactionType, TSBId, PlazaGroupId, UserId)
+        - Indexed (TransactionDate, RefId, TSBId, PlazaGroupId, UserId, UserCreditId)
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #467
