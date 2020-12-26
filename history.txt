@@ -51,8 +51,9 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #477
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #476
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #475
-- 
+- Rebuild all project and check database structure.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #474
