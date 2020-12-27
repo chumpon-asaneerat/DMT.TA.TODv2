@@ -65,8 +65,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #484
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #483
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #482
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Ported TSBExchangeGroup.cs from DMTv2.
+    - Ported TSBExchangeTransaction.cs from DMTv2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #481
