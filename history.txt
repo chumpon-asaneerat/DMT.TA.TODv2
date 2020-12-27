@@ -53,8 +53,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #488
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #487
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #486
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Implements JsonMessageTransferService.cs #4.
+  - DMT.RabbitMQ.Client project.
+    - Re-Implements RabbitMQService #1.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #485
