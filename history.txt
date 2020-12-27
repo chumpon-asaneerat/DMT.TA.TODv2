@@ -23,6 +23,13 @@
   - TA มีปัญหาตอนบันทึกช้าถ้าข้อมูลเยอะ ๆ
   - หลังป้อนรายได้ควร update กลับไปยัง UserCredit/RevenueShift ด้วย
   - Note tomorrow
+    - Json File Generator and Scanner
+      - SCW
+        ->Generate (ChangePassword, Declare)
+        ->Scanning
+      - TODxTA
+        ->Generate (SoldCoupon, etc..)
+        ->Scanning
     - TOD 
       - Change Shift Screen.
       - BOJ Screen.
@@ -61,8 +68,9 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #483
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #482
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #481
-- 
+- Update note in history.txt
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #480
