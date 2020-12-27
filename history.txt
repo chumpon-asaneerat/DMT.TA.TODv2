@@ -44,8 +44,11 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #490
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #489
-- 
+- DMT.TAxTODv1
+  - DMT.RabbitMQ.Client project.
+    - Remove RabbitMQServiceOld.cs
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #488
