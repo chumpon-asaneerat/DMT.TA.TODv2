@@ -62,8 +62,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #485
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #484
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #483
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Implements JsonMessageTransferService.cs #1.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #482
