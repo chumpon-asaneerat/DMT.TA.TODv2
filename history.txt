@@ -62,8 +62,18 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #495
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #494
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #493
-- 
+- DMT.TAxTODv1
+  - DMT.TOD.App Project
+    - MainMenu button handlers (Update and Recheck)
+      - Begin of Job -> BOSWindow.
+      - Revenue Entry (Collector) -> CollectorRevenueEntryPage.
+      - Revenue Entry (Chief) -> ChiefRevenueEntryPage.
+      - Change Shift -> ChangeShiftPage.
+      - Report -> ReportManu.
+      - EMV/QRCode -> EMVQRCodeListPage.
+      - Job List -> JobListPage.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #492
