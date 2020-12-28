@@ -50,8 +50,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #499
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #498
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #497
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App Project
+    - Add Blank Window - PlazaBalanceSummaryWindow
+    - Add Blank Window - InternalExchangeWindow
+    - Add Blank Window - ReceiveExchangeWindow
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #496
