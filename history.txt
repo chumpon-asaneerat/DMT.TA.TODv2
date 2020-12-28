@@ -59,8 +59,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #496
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #495
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #494
-- 
+- DMT.TAxTODv1
+  - DMT.TOD.App Project
+    - Add Resource Images.
+  - DMT.TA.App Project
+    - Add Resource Images.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #493
