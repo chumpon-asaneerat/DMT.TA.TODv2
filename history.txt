@@ -56,8 +56,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #497
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #496
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #495
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App Project
+    - Add Blank Page - CouponTSBSalePage
+    - Add Blank Page - ReceiveCouponPage
+    - Add Blank Page - ReturnCouponPage
+    - Add Blank Page - CollectorCreditManagePage
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #494
