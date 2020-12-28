@@ -47,8 +47,22 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #500
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #499
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #498
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App Project
+    - MainMenu button handlers (Update and Recheck)
+      - Request Exchange -> RequestExchangePage.
+      - Returns Exchange -> ManageExchangePage.
+      - Internal Exchange -> InternalExchangePage.
+      - Chief Sale Coupon -> CouponTSBSalePage.
+      - Coupon Sale History -> CouponHistoryViewPage.
+      - Credit History Report -> need to recheck DMTv2 report image.
+      - Collector Credit Manage (Receive/Returns) -> CollectorCreditManagePage.
+      - Collector Receive Coupon -> ReceiveCouponPage.
+      - Collector Returns Coupon -> ReturnCouponPage.
+      - Collector Credit History -> CreditHistoryViewPage.
+      - Plaza Check Balance -> PlazaBalanceSummaryWindow.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #497
