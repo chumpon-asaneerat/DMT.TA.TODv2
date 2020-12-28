@@ -65,8 +65,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #494
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #493
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #492
-- 
+- DMT.TAxTODv1
+  - DMT.TOD.App Project
+    - Change JobListPage namespace.
+    - Add Blank Page - EMVQRCodeListPage.
+    - Add Blank Page - ChangeShiftPage.
+    - Add Blank Window = BOSWindow.
+    - Add Blank Page - CollectorRevenueEntryPage
+    - Add Blank Page - ChiefRevenueEntryPage
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #491
