@@ -68,8 +68,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #493
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #492
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #491
-- 
+- DMT.TAxTODv1
+  - DMT.TOD.App Project
+    - Move JobListPage to TollAdmin folder.
+    - Add Resource Images.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #490
