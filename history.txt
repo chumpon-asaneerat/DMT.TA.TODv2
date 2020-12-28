@@ -53,8 +53,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #498
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #497
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #496
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App Project
+    - Add Blank Page - RequestExchangePage
+    - Add Blank Page - InternalExchangePage
+    - Add Blank Page - ManageExchangePage
+    - Add Blank Page - ReportMenu
+    - Add Blank Page - CouponHistoryViewPage
+    - Add Blank Page - CreditHistoryViewPage
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #495
