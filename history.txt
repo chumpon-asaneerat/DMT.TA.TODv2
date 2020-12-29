@@ -53,8 +53,27 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #508
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #507
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #506
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Update GroupMenuStyle.xaml.
+  - DMT.TA.App project.
+    - Remove Button images.
+    - Merged Resource in App.xaml
+      - CommonStyle
+      - ImageButtonStyle
+      - GroupMenuStyle
+    - Replace Local Resource to Common Resource
+      - SignInPage (Need detail recheck).
+      - MainMenu (Need detail recheck).
+  - DMT.TOD.App project.
+    - Remove Button images.
+    - Replace Local Resource to Common Resource
+      - SignInWindow (Need detail recheck).
+      - MainMenu (Need detail recheck).
+      - ReportMenu (Need detail recheck).
+      - JobListPage (Need detail recheck).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #505
