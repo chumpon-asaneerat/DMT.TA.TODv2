@@ -50,8 +50,19 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #509
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #508
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #507
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - Reckeck
+      - SignInPage (OK).
+      - MainMenu (OK).
+  - DMT.TOD.App project.
+    - Reckeck
+      - SignInWindow (OK).
+      - MainMenu (OK).
+      - ReportMenu (OK).
+      - JobListPage (OK).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #506
