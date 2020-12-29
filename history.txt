@@ -56,8 +56,17 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #507
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #506
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #505
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Add CommonStyle.xaml.
+    - Add GroupMenuStyle.xaml.
+  - DMT.TOD.App project.
+    - Merged Resource in App.xaml
+      - CommonStyle
+      - GroupMenuStyle
+    - Re-Implement SignInWindow #3.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #504
