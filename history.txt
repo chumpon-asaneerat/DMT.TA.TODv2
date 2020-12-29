@@ -68,8 +68,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #513
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #512
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #511
-- 
+- DMT.TAxTODv1
+  - DMT.TOD.App project.
+    - Update BOSWindow #2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #510
