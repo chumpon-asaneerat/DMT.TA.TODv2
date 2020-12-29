@@ -59,8 +59,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #506
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #505
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #504
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Update ImageButtonStyle.xaml.
+  - DMT.TOD.App project.
+    - Re-Implement SignInWindow #2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #503
