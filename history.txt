@@ -47,8 +47,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #510
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #509
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #508
-- 
+- DMT.TAxTODv1
+  - DMT.TOD.App project.
+      - JobListPage (set button width and Add ScrollViewer).
+      - ChangeShift (set button width and Add ScrollViewer).
+      - EMVQRCodeList (set button width and Add ScrollViewer).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #507
