@@ -41,8 +41,39 @@
       - EMV-QRCode Screen.
       - Job List Screen.
 --------------------------------------------------------------------------------------------
-Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #510
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #520
 - 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #519
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #518
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #517
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #516
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #515
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #514
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #513
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #512
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #511
+- 
+
+[commited]
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #510
+- Prepare history.txt
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #509
