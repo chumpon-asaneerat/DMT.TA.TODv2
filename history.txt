@@ -59,8 +59,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #526
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #525
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #524
-- 
+- DMT.TAxTODv1
+  - DMT.TOD.App project.
+    - JobListPage (Update Margin).
+    - BOSWindow (Update Margin).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #523
