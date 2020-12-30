@@ -44,8 +44,16 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #530
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #529
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - CouponTSBSalePage fixed invalid button handler.
+    - InternalExchangeWindow set grid background color.
+    - ReceiveExchangeWindow set grid background color.
+    - PlazaBalanceSummaryWindow set grid background color.
+  - DMT.TOD.App project.
+    - BOSWindow set grid background color.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #528
