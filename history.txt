@@ -41,13 +41,46 @@
       - EMV-QRCode Screen.
       - Job List Screen.
 --------------------------------------------------------------------------------------------
-Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #520
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #530
 - 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #529
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #528
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #527
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #526
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #525
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #524
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #523
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #522
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #521
+- 
+
+[commited]
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #520
+- Prepare History.txt
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - CollectorCreditManagePage (Update Margin).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #519
 - DMT.TAxTODv1
-  - DMT.Controls project.
   - DMT.TA.App project.
     - CouponTSBSalePage (Update Margin).
     - ReceiveCouponPage (Update Margin).
