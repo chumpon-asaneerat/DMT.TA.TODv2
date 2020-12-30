@@ -47,8 +47,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #520
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #519
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #518
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Define CommonMargin (Margin = "5").
+    - Define PageMargin (GridLength = 5).
+  - DMT.TA.App project.
+    - CouponHistoryViewPage (Update Margin).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #517
