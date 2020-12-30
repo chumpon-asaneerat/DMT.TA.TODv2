@@ -47,8 +47,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #530
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #529
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #528
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - InternalExchangePage add button handlers code.
+    - ManageExchangePage add button handlers code.
+    - RequestExchangePage add button handlers code.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #527
