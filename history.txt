@@ -53,8 +53,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #528
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #527
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #526
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - ReceiveCouponPage add button handlers code.
+    - ReturnCouponPage add button handlers code.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #525
