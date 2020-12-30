@@ -65,8 +65,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #524
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #523
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #522
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - RequestExchangePage (Update Margin).
+    - ManageExchangePage (Update Margin).
+    - InternalExchangePage (Update Margin).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #521
