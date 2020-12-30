@@ -59,8 +59,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #516
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #515
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #514
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - CollectorCreditManagePage (prepare scrollviewer/buttons/balance layout).
+    - InternalExchangePage (prepare scrollviewer/buttons/balance layout).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #513
