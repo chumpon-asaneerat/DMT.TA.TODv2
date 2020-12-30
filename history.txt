@@ -65,8 +65,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #534
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #533
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #532
-- 
+- DMT.TAxTODv1
+  - DMT.TOD.App project.
+    - JobListPage update button handlers code.
+    - ReportMenu update button handlers code.
+    - ChangeShiftPage add button handlers code.
+    - EMVQRCodeListPage add button handlers code.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #531
