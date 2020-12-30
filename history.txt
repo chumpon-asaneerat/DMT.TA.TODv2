@@ -50,8 +50,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #519
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #518
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #517
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - CouponHistoryViewPage (prepare scrollviewer/buttons/balance layout).
+    - CreditHistoryViewPage (prepare scrollviewer/buttons/balance layout).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #516
