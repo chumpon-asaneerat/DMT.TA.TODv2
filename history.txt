@@ -68,8 +68,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #533
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #532
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #531
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - InternalExchangeWindow set window properties (in xaml).
+    - ReceiveExchangeWindow set window properties (in xaml).
+    - PlazaBalanceSummaryWindow set window properties (in xaml).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #530
