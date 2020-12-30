@@ -44,8 +44,14 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #520
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #519
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+  - DMT.TA.App project.
+    - CouponTSBSalePage (Update Margin).
+    - ReceiveCouponPage (Update Margin).
+    - ReturnCouponPage (Update Margin).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #518
