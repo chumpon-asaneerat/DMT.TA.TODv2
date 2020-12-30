@@ -68,8 +68,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #523
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #522
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #521
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - CreditHistoryViewPage (Update Margin).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #520
