@@ -44,8 +44,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #549
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #548
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #547
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - Change ScrollViewer to Grid.
+      - CollectorCreditManagePage
+      - CreditHistoryViewPage
+      - ReceiveCouponPage
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #546
