@@ -47,8 +47,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #538
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #537
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #536
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - CollectorCreditManagePage remove unused StackPanel.
+    - CreditHistoryViewPage remove unused StackPanel.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #535
