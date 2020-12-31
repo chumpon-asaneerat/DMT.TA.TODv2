@@ -35,8 +35,39 @@
         - BOJ/EOJ (Lane) Operation.
         - EMV/QRCode (Lane) Operation.
 --------------------------------------------------------------------------------------------
-Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #540
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #550
 - 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #549
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #548
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #547
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #546
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #545
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #544
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #543
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #542
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #541
+- 
+
+[commited]
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #540
+- Prepare history.txt
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #539
