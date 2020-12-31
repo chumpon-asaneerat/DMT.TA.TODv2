@@ -50,8 +50,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #537
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #536
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #535
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - CouponHistoryViewPage remove unused StackPanel.
+    - CouponTSBSalePage remove unused StackPanel.
+    - ReceiveCouponPage remove unused StackPanel.
+    - ReturnCouponPage remove unused StackPanel.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #534
