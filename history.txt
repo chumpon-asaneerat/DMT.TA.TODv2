@@ -53,8 +53,18 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #546
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #545
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #544
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Add CommonFontSize style.
+  - DMT.TOD.App project.
+    - ChangeShiftPage 
+      - Change ScrollViewer to Grid.
+      - Add ListView with set VirtualizingPanel properties.
+      - Update layout #2.
+    - MainMenu 
+      - ChangeShiftPage call Setup method.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #543
