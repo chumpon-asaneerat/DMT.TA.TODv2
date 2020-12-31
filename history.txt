@@ -41,8 +41,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #540
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #539
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #538
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Update CommonStyle.xaml
+  - DMT.TOD.App project.
+    - ChangeShiftPage Update layout #1.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #537
