@@ -56,8 +56,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #545
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #544
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #543
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - InternalExchangePage remove unused StackPanel.
+    - ManageExchangePage remove unused StackPanel.
+    - RequestExchangePage remove unused StackPanel.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #542
