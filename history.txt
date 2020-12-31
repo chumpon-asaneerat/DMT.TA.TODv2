@@ -62,8 +62,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #543
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #542
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #541
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - CouponHistoryViewPage remove unused StackPanel.
+    - CouponTSBSalePage remove unused StackPanel.
+    - ReceiveCouponPage remove unused StackPanel.
+    - ReturnCouponPage remove unused StackPanel.
+  - DMT.TOD.App project.
+    - BOSWindow set ScrollViewer background color.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #540
