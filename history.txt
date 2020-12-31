@@ -50,8 +50,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #547
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #546
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #545
-- 
+- DMT.TAxTODv1
+  - DMT.TOD.App project.
+    - Change ScrollViewer to Grid.
+      - EMVQRCodeListPage 
+      - JobListPage 
+      - BOSWindow 
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #544
