@@ -62,8 +62,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #563
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #562
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #561
-- 
+- DMT.TAxTODv1
+  - DMT.Account.App project.
+    - Add SCWStatus control.
+    - Update TAServerStatus control (Add SCWStatus).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #560
