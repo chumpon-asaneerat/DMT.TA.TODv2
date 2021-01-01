@@ -53,8 +53,32 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #566
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #565
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #564
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Move SmartcardManager and UserSearchManager to DMT.TA.App, DMT.TOD.App and DMT.Account.App
+  - DMT.Account.App project.
+    - Update App.xaml.cs - Add AccountDbServer Start/Shutdown code. 
+    - SmartcardManager.cs
+      - Add condition to raise event when CardId not found in database (via DB (direct)).
+    - SignInPage update
+        - verify call DB (direct) - User.GetByLogIn
+        - save call DB (direct) - User.SaveUser
+    - Add MainMenu page.
+  - DMT.TA.App project.
+    - SmartcardManager.cs
+      - Add condition to raise event when CardId not found in database (via WS).
+    - SignInPage update
+        - verify call WS - Search.ByLogIn
+        - save call WS - User.Save
+  - DMT.TOD.App project.
+    - SmartcardManager.cs
+      - Add condition to raise event when CardId not found in database (via WS).
+    - SignInWindow update
+      - ChangePassword method
+        - verify call WS - Search.ByLogIn
+        - save call WS - User.Save
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #563
