@@ -47,8 +47,10 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #553
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #552
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #551
-- 
+- DMT.TAxTODv1
+  - Remove DMT.Plaza.Workbench.App project.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #550
