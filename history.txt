@@ -44,8 +44,10 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #554
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #553
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #552
-- 
+- DMT.TAxTODv1
+  - Add DMT.Account.App project.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #551
