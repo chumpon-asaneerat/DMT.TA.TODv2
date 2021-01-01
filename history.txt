@@ -42,8 +42,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #579
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #578
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #577
-- 
+- DMT.TAxTODv1
+  - DMT.SCW.Rest.Client project.
+    - Emulator Operations inplements add/remoe/clear EMV api.
+    - Emulator Operations inplements add/remoe/clear QRCode api.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #576
