@@ -45,8 +45,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #578
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #577
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #576
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - Add SCWAddEMV/SCWAddEMVResult class.
+    - Add SCWRemoveEMV/SCWRemoveEMVResult class.
+    - Add SCWClearEMVs/SCWClearEMVsResult class.
+    - Add SCWAddQRCode/SCWAddQRCodeResult class.
+    - Add SCWRemoveQRCode/SCWRemoveQRCodeResult class.
+    - Add SCWClearQRCodes/SCWClearQRCodesResult class.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #575
