@@ -39,8 +39,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #580
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #579
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #578
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - Remove RuntimeManager class.
+  - DMT.TA.App project.
+    - Add RuntimeManager class.
+  - DMT.TOD.App project.
+    - Add RuntimeManager class.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #577
