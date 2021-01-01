@@ -60,8 +60,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #583
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #582
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #581
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project.
+    - Update MainWindow Button Handlers
+      - LaneActivityPage.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #580
