@@ -44,8 +44,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #569
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #568
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #567
-- 
+- DMT.TAxTODv1
+  - DMT.Account.App project.
+    - SignInPage - Update code to check empty CardId will not show error message.
+  - DMT.TA.App project.
+    - SignInPage - Update code to check empty CardId will not show error message.
+  - DMT.TOD.App project.
+    - SignInWindow - Update code to check empty CardId will not show error message.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #566
