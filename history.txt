@@ -45,8 +45,20 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #573
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #572
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #571
-- 
+- DMT.TAxTODv1
+  - DMT.Core project.
+    - AccountAppPlazaConfig add RabbitMQ property.
+    - AccountConfigManager add IRabbitMQConfig interface and RabbitMQ property.
+  - DMT.RabbitMQ.Client project.
+    - RabbitMQService Add RabbitMQ property and replace code that get config from PlazaServiceConfigManager.
+  - DMT.Local.Rest.Server.
+    - LocalDatabaseWebServer.cs 
+      - RabbitMQService set RabbitMQ property before start.
+  - DMT.Account.App project.
+    - App.xaml.cs
+      - OnStart RabbitMQService set RabbitMQ property before start.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #570
