@@ -42,8 +42,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #574
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #573
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #572
-- 
+- DMT.TAxTODv1
+  - DMT.Core project.
+    - Update SCW Routes
+      - Add Job routes (boj/eoj/removes/clear).
+      - Add EMV routes (add/remove/clear).
+      - Add QRCode routes (add/remove/clear).
+  - DMT.SCW.Rest.Client project.
+    - Add Emulator.Operations.cs
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #571
