@@ -59,8 +59,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #564
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #563
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #562
-- 
+- DMT.TAxTODv1
+  - DMT.Account.App project.
+    - Add SignInPage (But required Local database so temporary exclude).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #561
