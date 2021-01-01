@@ -38,8 +38,13 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #555
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #554
-- 
+- DMT.TAxTODv1
+  - DMT.Account.App project.
+    - Add required assemblies.
+    - Add required Images
+    - Prepare folders.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #553
