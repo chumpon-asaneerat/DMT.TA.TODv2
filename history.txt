@@ -38,8 +38,13 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #560
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #559
-- 
+- DMT.TAxTODv1
+  - DMT.Core project.
+    - ConfigManager.cs
+      - Update AccountAppPlazaConfig class (Add SCW).
+      - Update AccountConfigManager class (Add SCW).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #558
