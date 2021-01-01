@@ -9,7 +9,6 @@
     - Need to check with TSB max balance.
   - Internal Exchange
     - TSBCreditTransaction Required GroupId for group all by each operation.
-  - Update Config app and simulator.
   - last files checked in Request Exchange process refactor is 
     - LoanMoney2Entry.xaml (Controls) check binding to BorrowBHT that need to check property 
       in TSBCreditBalance, TSBCreditTransaction.
@@ -19,7 +18,6 @@
       transaction to used in TSBCreditSummary view later.
     - PlazaOperations.Exchange.cs (Local.WebClient) need to check why save to invalid column.
   - ใบเสร็จขายคูปอง ที่ TA ขาดเรื่อง Running Number
-  - อ่าน DMT User/Pwd จาก config หรือ database.
   - TA มีปัญหาตอนบันทึกช้าถ้าข้อมูลเยอะ ๆ
   - หลังป้อนรายได้ควร update กลับไปยัง UserCredit/RevenueShift ด้วย
   - Note
@@ -50,8 +48,9 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #572
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #571
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #570
-- 
+- Update note in history.txt
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #569
