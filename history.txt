@@ -39,8 +39,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #575
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #574
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #573
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - Add SCWBOJ/SCWBOJResult class.
+    - Add SCWEOJ/SCWEOJResult class.
+    - Add SCWRemoveJobs/SCWRemoveJobsResult class.
+    - Add SCWClearJobs/SCWClearJobsResult class.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #572
