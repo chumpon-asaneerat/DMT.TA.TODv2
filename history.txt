@@ -47,8 +47,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #568
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #567
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #566
-- 
+- DMT.TAxTODv1
+  - DMT.Account.App project.
+    - MainMenu page - Implements Button handlers
+      - Exit button
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #565
