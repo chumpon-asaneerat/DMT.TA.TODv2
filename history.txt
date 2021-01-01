@@ -41,8 +41,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #570
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #569
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #568
-- 
+- DMT.TAxTODv1
+  - All projects clean up bin folder.
+  - Re-Compile all projects.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #567
