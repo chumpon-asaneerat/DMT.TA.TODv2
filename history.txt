@@ -44,8 +44,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #559
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #558
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #557
-- 
+- DMT.TAxTODv1
+  - DMT.Account.App project.
+    - Add StatusBar related controls.
+    - MainWindow -> Add StatusBar.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #556
