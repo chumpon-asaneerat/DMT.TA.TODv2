@@ -41,8 +41,18 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #560
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #559
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #558
-- 
+- DMT.TAxTODv1
+  - DMT.Core project.
+    - ConfigManager.cs
+      - Add AccountAppPlazaConfig class.
+      - Add AccountConfigManager class.
+  - DMT.Account.App project.
+    - Update TAServerStatus control (Get Host from AccountConfigManager).
+    - Update App.xaml.cs (Load Config and Set to TAxTOD Operation Service).
+    - Add Header related controls.
+    - MainWindow -> Add Header.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #557
