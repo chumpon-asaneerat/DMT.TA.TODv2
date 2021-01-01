@@ -36,8 +36,14 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #575
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #574
-- 
+- DMT.TAxTODv1
+  - DMT.SCW.Rest.Client project.
+    - Emulator Operations inplements boj api.
+    - Emulator Operations inplements eoj api.
+    - Emulator Operations inplements removeJobs api.
+    - Emulator Operations inplements clearJobs api.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #573
