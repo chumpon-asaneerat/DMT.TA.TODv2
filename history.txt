@@ -36,8 +36,19 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #580
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #579
-- 
+- DMT.TAxTODv1
+  - DMT.Core project.
+    - Lane -> Add route Search ByTSB.
+  - DMT.Local.Rest.Server project.
+    - Implements Lane - Search ByTSB.
+    - Map Route Lane - Search ByTSB.
+  - DMT.Local.Rest.Client project.
+    - Implements Lane Operation - Search ByTSB.
+  - DMT.Plaza.Simulator.App project.
+    - Prepare LaneActivityPage.
+  - Update todos.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #578
