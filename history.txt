@@ -45,8 +45,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #587
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #586
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #585
-- 
+- DMT.TAxTODv1
+  - DMT.Account.App project.
+    - Update App.xaml.cs - Start/Shutdown SCWMQService.
+  - DMT.TA.App project.
+    - Update App.xaml.cs - Start/Shutdown SCWMQService.
+  - DMT.TOD.App project.
+    - Update App.xaml.cs - Start/Shutdown SCWMQService.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #584
