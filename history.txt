@@ -39,8 +39,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #589
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #588
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #587
-- 
+- DMT.TAxTODv1
+  - DMT.Account.App project.
+    - Test Change Password - PASSED.
+  - DMT.TA.App project.
+    - Test Change Password - PASSED.
+  - DMT.TOD.App project.
+    - Test Change Password - PASSED.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #586
