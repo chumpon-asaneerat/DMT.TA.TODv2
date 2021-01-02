@@ -54,8 +54,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #585
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #584
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #583
-- 
+- DMT.TAxTODv1
+  - DMT.RabbitMQ.Client project.
+    - RabbitMQService class - Change info log message to err log message.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #582
