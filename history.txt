@@ -22,9 +22,6 @@
   - หลังป้อนรายได้ควร update กลับไปยัง UserCredit/RevenueShift ด้วย
   - Note
     - Json File Generator and Scanner
-      - SCW
-        ->Generate (ChangePassword, Declare)
-        ->Scanning
       - TODxTA
         ->Generate (SoldCoupon, etc..)
         ->Scanning
@@ -51,8 +48,10 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #586
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #585
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #584
-- 
+- DMT.TAxTODv1
+  - Update note in history.txt
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #583
