@@ -57,8 +57,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #584
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #583
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #582
-- 
+- DMT.TAxTODv1
+  - DMT.SCW.Rest.Client project.
+    - Implements SCWMQService.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #581
