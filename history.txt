@@ -42,8 +42,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #588
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #587
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #586
-- 
+- DMT.TAxTODv1
+  - DMT.Account.App project.
+    - Update SignInPage - Call SCWMQService Write Queue.
+  - DMT.TA.App project.
+    - Update SignInPage - Call SCWMQService Write Queue.
+  - DMT.TOD.App project.
+    - Update SignInWindow - Call SCWMQService Write Queue.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #585
