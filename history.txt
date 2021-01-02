@@ -33,8 +33,10 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #590
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #589
-- 
+- DMT.TAxTODv1
+  - All app projects LogManager start change code order to start before any service(s).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #588
