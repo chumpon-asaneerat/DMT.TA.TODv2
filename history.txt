@@ -36,8 +36,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #590
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #589
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #588
-- 
+- DMT.TAxTODv1
+  - DMT.Local.Rest.Server project.
+    - Update LocalDatabaseWebServer - Start/Shutdown SCWMQService.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #587
