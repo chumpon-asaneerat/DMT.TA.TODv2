@@ -54,8 +54,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #604
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #603
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #602
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project.
+    - LaneActivityPage refactor #7
+      - Update LaneJob Model.
+      - Update UserListWindow -> supports double click.
+      - Update LaneActivityPage -> BOJ show UserListWindow.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #601
