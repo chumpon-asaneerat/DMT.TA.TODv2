@@ -42,8 +42,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #598
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #597
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #596
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project.
+    - LaneActivityPage refactor #2
+      - Add LaneJob Model.
+      - Update code to load TSB's lanes.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #595
