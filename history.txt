@@ -48,8 +48,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #606
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #605
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #604
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project.
+    - LaneActivityPage refactor #9
+      - Update LaneInfo/LaneJob Model.
+      - Update LaneActivityPage 
+        - Add LaneNo column.
+        - Update RefreshLanes method.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #603
