@@ -45,8 +45,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #597
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #596
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #595
-- 
+- DMT.TAxTODv1
+  - DMT.Account.App project.
+    - Add Xceed.Wpf.Toolkit reference assembly.
+  - DMT.TA.App project.
+    - Add Xceed.Wpf.Toolkit reference assembly.
+  - DMT.TOD.App project.
+    - Add Xceed.Wpf.Toolkit reference assembly.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #594
