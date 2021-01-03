@@ -57,8 +57,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #593
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #592
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #591
-- 
+- DMT.TAxTODv1
+  - DMT.Core project.
+    - Add TAxTOD route for IsAlive api.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #590
