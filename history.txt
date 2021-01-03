@@ -36,8 +36,18 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #600
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #599
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #598
-- 
+- DMT.TAxTODv1
+  - DMT.Core project.
+    - Add SCW->Emulator->allJobs route.
+  - DMT.Models project.
+    - Add SCWAllJob/SCWAllJobResult class.
+  - DMT.SCW.Rest.Client project.
+    - Implements operation SCW->Emulator->allJobs api.
+  - DMT.Plaza.Simulator.App project.
+    - LaneActivityPage refactor #4
+      - Update RefreshLanes code -> loop for all plazas.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #597
