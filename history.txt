@@ -39,8 +39,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #599
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #598
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #597
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - SCWJobList fixed mismatch staffId data type.
+    - SCWJobList2 fixed mismatch staffId data type.
+  - DMT.Plaza.Simulator.App project.
+    - LaneActivityPage refactor #3
+      - Update LaneJob Model.
+      - Add BOJ/EOJ on list view items.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #596
