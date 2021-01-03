@@ -45,8 +45,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #607
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #606
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #605
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project.
+    - LaneActivityPage refactor #10
+      - Update LaneInfo/LaneJob Model -> Remove unused code.
+      - Update LaneActivityPage 
+        - Implements BOJ process #1.
+      - Update UserListWindow 
+        - supports exculde userid list in setup method.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #604
