@@ -51,8 +51,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #605
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #604
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #603
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project.
+    - LaneActivityPage refactor #8
+      - Update UserListWindow -> supports filter and auto select when has only on user in list.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #602
