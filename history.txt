@@ -48,8 +48,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #596
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #595
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #594
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project.
+    - LaneActivityPage refactor #1
+      - remove unused layout and comment out code
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #593
