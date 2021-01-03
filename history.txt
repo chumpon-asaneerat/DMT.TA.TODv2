@@ -42,8 +42,18 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #608
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #607
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #606
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project.
+    - LaneActivityPage refactor #11
+      - Update LaneActivityPage 
+        - Implements EOJ process #1.
+        - Update UI layout.
+        - Format ListView column (center align).
+      - Update UserListWindow 
+        - Update UI layout.
+        - Fixed bug in setup method.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #605
