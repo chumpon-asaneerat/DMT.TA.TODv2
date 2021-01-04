@@ -55,8 +55,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #625
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #624
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #623
-- 
+- DMT.TAxTODv1
+  - DMT.Controls
+    - Update Style
+      - ImageButtonStyle.xaml
+      - TextBlockStyle.xaml
+  - Update all resources for ImageButton (all app projects).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #622
