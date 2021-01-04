@@ -33,8 +33,11 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #620
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #619
-- 
+- DMT.TAxTODv1
+  - DMT.Core project.
+    - Update app version.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #618
