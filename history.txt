@@ -43,8 +43,19 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #629
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #628
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #627
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Config.App project
+    - Add Styles
+      - Add InlineButtonStyle.xaml
+      - Add ListViewStyle.xaml
+      - Add TreeViewStyle.xaml
+  - DMT.Account.App project
+    - Update App.xaml.cs
+      - merge resource InlineButtonStyle
+      - merge resource ListViewStyle
+      - merge resource TreeViewStyle
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #626
