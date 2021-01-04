@@ -58,8 +58,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #634
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #633
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #632
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Update ListViewStyle.xaml #1
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #631
