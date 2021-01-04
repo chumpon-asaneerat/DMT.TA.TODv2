@@ -61,8 +61,18 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #633
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #632
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #631
-- 
+- DMT.TAxTODv1
+  - DMT.Account.App project
+    - Update App.xaml.cs
+      - merge resource ListBoxStyle
+  - DMT.TA.App project
+    - Update App.xaml.cs
+      - merge resource ListBoxStyle
+  - DMT.TOD.App project
+    - Update App.xaml.cs
+      - merge resource ListBoxStyle
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #630
