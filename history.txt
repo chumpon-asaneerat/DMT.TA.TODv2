@@ -48,8 +48,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #616
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #615
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #614
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - Replace Button with ImageButton
+      - InternalExchangePage
+      - ManageExchangePage
+      - RequestExchangePage
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #613
