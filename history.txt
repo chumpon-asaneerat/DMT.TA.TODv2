@@ -42,8 +42,17 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #618
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #617
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #616
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Add ListViewStyle.cs
+  - DMT.Account.App project.
+    - App.xaml.cs - Add ListViewStyle
+  - DMT.TA.App project.
+    - App.xaml.cs - Add ListViewStyle
+  - DMT.TOD.App project.
+    - App.xaml.cs - Add ListViewStyle
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #615
