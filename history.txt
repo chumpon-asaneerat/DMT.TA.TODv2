@@ -49,8 +49,19 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #627
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #626
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #625
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project
+    - Update Style
+      - GroupMenuStyle.xaml - set button FocusVisualStyle to x:Null.
+  - DMT.Account.App project
+    - Update MainMenu -> Button supports tab navigate focus.
+  - DMT.TA.App project
+    - Update MainMenu -> Button supports tab navigate focus.
+  - DMT.TOD.App project
+    - Update MainMenu -> Button supports tab navigate focus.
+    - Update ReportMenu -> Button supports tab navigate focus.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #624
