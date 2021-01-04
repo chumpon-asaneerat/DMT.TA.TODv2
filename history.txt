@@ -39,8 +39,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #619
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #618
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #617
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Update ListViewStyle.cs #1
+    - Update GroupMenuStyle.cs
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #616
