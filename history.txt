@@ -29,6 +29,10 @@
       - Lane Simulator
         - BOJ/EOJ (Lane) Operation.
         - EMV/QRCode (Lane) Operation.
+    - รับถุงเงิน ถ้าไม่เปิดกะให้ auto เปิดกะให้
+    - ถ้ารับถุงที่ 2 มีกะเปิดแล้ว รับได้ แต่ต้องผูก plaza group (IN/OUT)
+      - ถ้าเป็นขาเดียว ต้องรับถุงที่ 2 ไม่ได้
+      - ถ้าเป็น 2 ขา ต้องเลือก ขาเข้า/ขาออก ของแต่ละถุง
 --------------------------------------------------------------------------------------------
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #630
 - 
@@ -57,8 +61,9 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #623
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #622
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #621
-- 
+- Update note in history.txt
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #620
