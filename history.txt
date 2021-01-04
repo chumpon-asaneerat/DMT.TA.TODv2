@@ -58,8 +58,26 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #624
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #623
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #622
-- 
+- DMT.TAxTODv1
+  - DMT.Models project.
+    - Recheck SCW json api data types.
+      - SCWStatus - OK.
+      - SCWLogInAudit - OK.
+      - SCWJobList - OK.
+      - SCWCurrencyDemonList - OK.
+      - SCWCouponList - OK.
+      - SCWDeclare - OK.
+      - SCWEMVTransactionList - OK.
+      - SCWQRCodeTransactionList - OK.
+      - SCWJobList2 - OK.
+      - SCWCouponBookList - OK.
+      - SCWCardAllowList - OK.
+      - SCWSaveChiefDuty - OK.
+      - SCWChiefOnDuty - OK.
+      - SCWChangePassword - OK.
+      - SCWPasswordExpiresDays - OK.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #621
