@@ -36,15 +36,20 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #620
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #619
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #618
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Config.App project.
+    - Add Generic.xaml
+  - DMT.Plaza.Simulator.App project.
+    - Add Generic.xaml
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #617
 - DMT.TAxTODv1
   - DMT.Controls project.
-    - Update ListViewStyle.cs #1
-    - Update GroupMenuStyle.cs
+    - Update ListViewStyle.xaml #1
+    - Update GroupMenuStyle.xaml
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #616
