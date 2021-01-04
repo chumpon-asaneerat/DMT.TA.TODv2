@@ -45,8 +45,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #617
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #616
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #615
-- 
+- DMT.TAxTODv1
+  - DMT.TOD.App project.
+    - Replace Button with ImageButton
+      - ChangeShiftPage
+      - EMVQRCodeListPage
+      - JobListPage
+      - BOSWindow
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #614
