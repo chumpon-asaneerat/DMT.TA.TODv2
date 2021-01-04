@@ -37,8 +37,18 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #630
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #629
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project
+    - Add Styles
+      - Add ListBoxStyle.xaml
+  - DMT.Plaza.Config.App project
+    - Add Styles
+      - Add ListBoxStyle.xaml
+  - DMT.Plaza.Simulator.App project
+    - Add Styles
+      - Add ListBoxStyle.xaml
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #628
