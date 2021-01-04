@@ -57,8 +57,21 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #613
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #612
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #611
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Update TextBlockStyle.cs
+    - Rename Style -> CommonStyle.cs.
+  - DMT.Account.App project.
+    - Replace Button with ImageButton
+      - SignInPage.
+  - DMT.TA.App project.
+    - Replace Button with ImageButton
+      - SignInPage.
+  - DMT.TOD.App project.
+    - Replace Button with ImageButton
+      - SignInWindow.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #610
