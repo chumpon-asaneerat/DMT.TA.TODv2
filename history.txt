@@ -52,8 +52,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #626
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #625
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #624
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project
+    - Update Style
+      - ImageButton control (supports keyboard navigate for show focus highlight).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #623
