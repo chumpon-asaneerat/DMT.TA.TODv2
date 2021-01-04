@@ -33,8 +33,18 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #610
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #609
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Add TextBlockStyle.cs
+    - Move and rename all TextBlock Style from Another Styles.
+  - DMT.Account.App project.
+    - App.xaml.cs - Add TextBlockStyle
+  - DMT.TA.App project.
+    - App.xaml.cs - Add TextBlockStyle
+  - DMT.TOD.App project.
+    - App.xaml.cs - Add TextBlockStyle
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #608
