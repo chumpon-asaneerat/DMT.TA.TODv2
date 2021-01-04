@@ -51,8 +51,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #615
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #614
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #613
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project.
+    - Replace Button with ImageButton
+      - CollectorCreditManagePage
+      - CreditHistoryViewPage
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #612
