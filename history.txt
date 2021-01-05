@@ -40,8 +40,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #650
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #649
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #648
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - SCWAddEMV remove networkId and plazaId
+    - SCWAddQRCode remove networkId and plazaId
+  - DMT.Plaza.Simulator.App project
+    - Update LaneActivityPage -> Update ListViewItem column size and data trigger.
+    - Update Payment Window #4.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #647
