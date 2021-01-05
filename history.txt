@@ -58,8 +58,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #644
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #643
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #642
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Update InlineButtonStyle.xaml #2
+  - DMT.Plaza.Config.App project
+    - Update InlineButtonStyle.xaml #2
+    - Update LaneActivityPage -> Replace button style.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #641
