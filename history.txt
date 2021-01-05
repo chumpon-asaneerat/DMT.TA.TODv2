@@ -46,8 +46,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #648
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #647
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #646
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Update LaneActivityPage -> Add Payment button in ListViewItem and bind click event.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #645
