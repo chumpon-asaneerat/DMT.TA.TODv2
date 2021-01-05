@@ -55,8 +55,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #645
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #644
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #643
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Update LaneActivityPage -> Lane Attendance listview implements.
+    - Update UserListWindow -> replace button.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #642
