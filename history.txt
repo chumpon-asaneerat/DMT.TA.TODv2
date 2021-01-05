@@ -37,8 +37,11 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #640
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #639
-- 
+- DMT.TAxTODv1
+  - Update Test project
+    - Update CreatingTheGlassButton project change output path.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #638
