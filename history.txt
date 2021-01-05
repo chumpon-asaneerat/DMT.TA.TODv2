@@ -52,8 +52,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #636
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #635
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #634
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - LaneActivityPage re-enable ListViewItem button code.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #633
