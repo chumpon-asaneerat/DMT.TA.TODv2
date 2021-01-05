@@ -49,8 +49,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #647
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #646
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #645
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Update Payment Window #2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #644
