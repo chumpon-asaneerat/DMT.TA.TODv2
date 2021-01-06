@@ -61,8 +61,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #663
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #662
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #661
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Update LaneActivityPage -> Add supports call WebService in Task (with supports cross thread handle).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #660
