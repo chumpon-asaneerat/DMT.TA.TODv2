@@ -52,8 +52,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #656
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #655
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #654
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project
+    - Update ListViewStyle.xaml (from Simulator app).
+  - DMT.Plaza.Config.App project
+    - Update ListViewStyle.xaml (from Simulator app).
+  - DMT.Plaza.Simulator.App project
+    - Update ListViewStyle.xaml (format code).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #653
