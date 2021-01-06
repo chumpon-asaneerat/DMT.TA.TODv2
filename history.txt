@@ -58,8 +58,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #654
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #653
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #652
-- 
+- DMT.TAxTODv1
+    - Update LaneActivityPage -> Update RefreshPayments method filter laneId.
+    - Update ListViewStyle.xaml -> Add string format for Amount CellTemplate.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #651
