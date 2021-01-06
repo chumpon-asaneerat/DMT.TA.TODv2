@@ -37,8 +37,11 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #660
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #659
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - UserListWindow add supports preview ESC key to auto clear text or close window if no text in UserId input.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #658
