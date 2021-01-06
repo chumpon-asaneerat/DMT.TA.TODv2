@@ -61,8 +61,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #653
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #652
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #651
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Update LaneActivityPage -> Update ListViewItem column size and data trigger.
+    - Update Lane.Models.cs -> Add class for LaneEMV/LaneQRCode.
+    - Update ListViewStyle.xaml -> supports cell template for EMV/QRCode members (properties).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #650
