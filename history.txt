@@ -49,8 +49,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #657
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #656
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #655
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project
+    - Update InlineButtonStyle.xaml (from Simulator app).
+  - DMT.Plaza.Config.App project
+    - Update InlineButtonStyle.xaml (from Simulator app).
+  - DMT.Plaza.Simulator.App project
+    - Update InlineButtonStyle.xaml (format code).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #654
