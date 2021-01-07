@@ -52,8 +52,25 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #686
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #685
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #684
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project
+    - Update CommonStyle.xaml
+      - Update Style for TextBox
+      - Update Style for PasswordBox
+  - DMT.Plaza.Config.App project
+    - Update CommonStyle.xaml
+      - Update Style for TextBox
+      - Update Style for PasswordBox
+  - DMT.Plaza.Simulator.App project
+    - Update CommonStyle.xaml
+      - Update Style for TextBox
+      - Update Style for PasswordBox
+    - Add Controls (Experiment)
+      - Implements CreditAmount #1.
+    - Add Pages
+      - BankNoteEntry
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #683
