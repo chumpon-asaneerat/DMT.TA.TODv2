@@ -52,8 +52,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #666
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #665
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #664
-- 
+- DMT.TAxTODv1
+  - DMT.Models
+    - Update UIModels.cs -> Infrastructure.
+      - Add TSBItem class.
+      - Add PlazaItem class.
+      - Add LaneItem class.
+  - DMT.Plaza.Config.App project
+    - Update TSBViewPage #1.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #663
