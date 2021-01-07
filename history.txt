@@ -55,8 +55,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #665
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #664
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #663
-- 
+- DMT.TAxTODv1
+  - DMT.Models
+    - Add UIModels.cs -> Infrastructure.
+    - Add UIModels.cs -> SCW.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #662
