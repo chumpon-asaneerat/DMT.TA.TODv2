@@ -37,8 +37,13 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #670
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #669
-- 
+- DMT.TAxTODv1
+  - DMT.Models
+    - Add UICommands class.
+    - Update UIModels.cs -> Infrastructure.
+      - Re-Implements Command binding #3.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #668
