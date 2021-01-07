@@ -55,8 +55,22 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #685
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #684
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #683
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project
+    - Update CommonStyle.xaml
+      - Update Style for TextBox
+      - Update Style for PasswordBox
+  - DMT.Plaza.Config.App project
+    - Update CommonStyle.xaml
+      - Update Style for TextBox
+      - Update Style for PasswordBox
+  - DMT.Plaza.Simulator.App project
+    - Update CommonStyle.xaml
+      - Update Style for TextBox
+      - Update Style for PasswordBox
+    - Update UserListWindow -> Remove UserControl.Resources TextBox Style used CommonStyle instead.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #682
