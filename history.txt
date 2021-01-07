@@ -49,8 +49,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #677
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #676
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #675
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project
+    - Update TreeViewStyle.xaml from DMT.Plaza.Config.App project.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #674
