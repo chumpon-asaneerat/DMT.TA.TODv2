@@ -43,11 +43,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #669
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #668
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #667
-- 
+- DMT.TAxTODv1
+  - DMT.Models
+    - Update UIModels.cs -> Infrastructure.
+      - Attemp to implements Command binding #1.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #666
+- DMT.TAxTODv1
   - DMT.Models
     - Update UIModels.cs -> Infrastructure.
       - Add TSBItem class add IsActive property.
