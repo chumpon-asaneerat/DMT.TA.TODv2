@@ -43,8 +43,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #679
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #678
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #677
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Update LaneActivityPage -> remove unused comment code.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #676
