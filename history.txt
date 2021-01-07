@@ -46,8 +46,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #668
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #667
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #666
-- 
+  - DMT.Models
+    - Update UIModels.cs -> Infrastructure.
+      - Add TSBItem class add IsActive property.
+- DMT.TAxTODv1
+  - DMT.Plaza.Config.App project
+    - Update TSBViewPage #3.
+    - Update TreeViewStyle.xaml #1.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #665
