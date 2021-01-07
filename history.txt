@@ -61,8 +61,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #673
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #672
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #671
-- 
+- DMT.TAxTODv1
+  - DMT.Models
+    - Update UICommands class.
+    - Update UIModels.cs -> Infrastructure.
+      - Re-Implements Command binding #4.
+  - DMT.Plaza.Config.App project
+    - Update TSBViewPage #5.
+
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #670
