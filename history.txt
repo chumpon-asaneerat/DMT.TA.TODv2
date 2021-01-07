@@ -40,8 +40,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #680
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #679
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #678
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Update UserListWindow -> Update TextBox Style.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #677
