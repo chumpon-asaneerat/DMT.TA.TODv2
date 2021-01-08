@@ -58,8 +58,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #704
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #703
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #702
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Add Controls Utils
+      - Update AttachProperties.cs #9
+        - Update KeyboardOptions class.
+          - Supports Arrow Keys navigation.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #701
