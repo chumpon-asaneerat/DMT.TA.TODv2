@@ -46,8 +46,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #698
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #697
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #696
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Add Controls Utils
+      - Update TextBoxAttachProperties.cs #5
+        - Remove EnterKeyTraversal class.
+        - Remove SelectTextOnFocus class.
+        - Add FocusOptions class.
+        - Update KeyboardOptions class.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #695
