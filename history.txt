@@ -46,8 +46,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #713
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #712
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #711
-- 
+- DMT.TAxTODv1
+  - DMT.Conrols project
+    - Update AttachProperties.cs 
+      - Remove Unload event handler to fixed bug when used inside TabControl.
+  - DMT.Plaza.Simulator.App project
+    - Update AttachProperties.cs
+      - Remove Unload event handler to fixed bug when used inside TabControl.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #710
