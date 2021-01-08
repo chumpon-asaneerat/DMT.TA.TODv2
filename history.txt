@@ -40,8 +40,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #710
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #709
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #708
-- 
+- DMT.TAxTODv1
+  - DMT.Account.App project
+    - SignInPage Update
+      - Update code using AttachProperties #2.
+  - DMT.TA.App project
+    - SignInWindow Update
+      - Update code using AttachProperties #2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #707
