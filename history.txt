@@ -49,8 +49,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #687
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #686
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #685
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Add Controls (Experiment)
+      - Implements CreditAmount #2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #684
