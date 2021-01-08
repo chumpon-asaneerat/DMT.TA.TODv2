@@ -46,8 +46,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #708
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #707
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #706
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project
+    - SignInPage Update 
+      - remove unused TextBox and PasswordBox KeyDown handler.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #705
