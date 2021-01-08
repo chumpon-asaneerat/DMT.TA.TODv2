@@ -61,8 +61,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #693
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #692
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #691
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Add Controls Utils
+      - Add TextBoxAttachProperties.cs
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #690
