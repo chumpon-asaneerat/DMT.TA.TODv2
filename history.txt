@@ -40,8 +40,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #700
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #699
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #698
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Add Controls Utils
+      - Update AttachProperties.cs #6
+        - Update FocusOptions class.
+        - Update KeyboardOptions class.
+        - Update CreditAmountEntry (Experiment).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #697
