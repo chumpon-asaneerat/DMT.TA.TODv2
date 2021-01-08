@@ -52,8 +52,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #706
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #705
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #704
-- 
+- DMT.TAxTODv1
+  - DMT.Conrols project
+    - Ported AttachProperties.cs from DMT.Plaza.Simulator.App project.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #703
