@@ -49,8 +49,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #707
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #706
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #705
-- 
+- DMT.TAxTODv1
+  - DMT.Conrols project
+    - Update AttachProperties.cs fixed bug.
+  - DMT.Plaza.Simulator.App project
+    - Update AttachProperties.cs fixed bug.
+  - DMT.TA.App project
+    - SignInPage Update code using AttachProperties #1.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #704
