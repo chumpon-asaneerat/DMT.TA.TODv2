@@ -49,8 +49,19 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #727
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #726
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #725
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Add RouteConsts
+      - Coupon Action
+        - Coupon->User->Transaction
+          - Gets
+          - Save
+      - Credit Action
+        - Credit->User->Transaction
+          - Gets
+          - Save
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #724
