@@ -40,8 +40,23 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #740
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #739
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #738
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Refactor all transaction models #19.
+      - Add Blank View Scripts.
+        - TSBCreditST25SummaryView.sql
+        - TSBCreditST50SummaryView.sql
+        - TSBCreditBHT1SummaryView.sql
+        - TSBCreditBHT2SummaryView.sql
+        - TSBCreditBHT5SummaryView.sql
+        - TSBCreditBHT10SummaryView.sql
+        - TSBCreditBHT20SummaryView.sql
+        - TSBCreditBHT50SummaryView.sql
+        - TSBCreditBHT100SummaryView.sql
+        - TSBCreditBHT500SummaryView.sql
+        - TSBCreditBHT1000SummaryView.sql
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #737
