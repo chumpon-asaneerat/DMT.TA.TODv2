@@ -58,8 +58,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #734
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #733
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #732
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Refactor all transaction models #12.
+      - UserCreditBalance.cs
+        - Remove all count related proeprties.
+        - Fixed is valid IsValidBHT1 property
+        - All amount properties add code check value must greater or equal to zero.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #731
