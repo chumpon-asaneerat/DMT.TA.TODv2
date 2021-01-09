@@ -43,8 +43,19 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #739
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #738
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #737
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Refactor all transaction models #18.
+      - Ported TSBExchangeGroupView.sql from DMTv2
+      - Ported TSBExchangeTransactionView.sql from DMTv2
+      - Enable Create Table TSBExchangeGroup, TSBExchangeTransaction.
+      - Enable Create View TSBExchangeGroupView, TSBExchangeTransactionView.
+      - TSBCreditTransaction.cs 
+        - Add new enum -> Exchange (2)
+        - Change enum value -> Returns (2) to Returns (3)
+      - TSBCreditSummaryView update #1 (incompleted)
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #736
