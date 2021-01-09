@@ -49,8 +49,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #747
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #746
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #745
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Refactor all transaction models #25.
+      - Update TSB model.
+        - Add Limit Amount properties.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #744
