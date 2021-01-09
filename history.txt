@@ -46,8 +46,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #718
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #717
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #716
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Refactor all transaction models #4.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #715
