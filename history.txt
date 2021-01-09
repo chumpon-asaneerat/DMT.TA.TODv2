@@ -52,8 +52,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #736
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #735
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #734
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Refactor all transaction models #15.
+      - TSBExchangeGroup.cs
+        - Add MaxAllowBHT property (not stored on table).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #733
