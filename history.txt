@@ -40,8 +40,16 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #730
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #729
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #728
-- 
+- DMT.TAxTODv1
+  - DMT.Core project
+    - Update RouteConsts
+      - Credit Action
+        - Credit->TSB
+          - Gets Rename to Current
+        - Credit->User
+          - Gets Rename to Current
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #727
