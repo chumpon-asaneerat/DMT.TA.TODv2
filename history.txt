@@ -58,14 +58,32 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #744
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #743
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #742
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Refactor all transaction models #22.
+      - LocalDbServer.cs
+        - Create Views
+          - TSBCreditST25SummaryView
+          - TSBCreditST50SummaryView
+          - TSBCreditBHT1SummaryView
+          - TSBCreditBHT2SummaryView
+          - TSBCreditBHT5SummaryView
+          - TSBCreditBHT10SummaryView
+          - TSBCreditBHT20SummaryView
+          - TSBCreditBHT50SummaryView
+          - TSBCreditBHT100SummaryView
+          - TSBCreditBHT500SummaryView
+          - TSBCreditBHT1000SummaryView
+          - TSBCreditUserBHTTotalSummaryView
+        - Add Initial Transaction (all TSBs).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #741
 - DMT.TAxTODv1
   - DMT.Models project
-    - Refactor all transaction models #20.
+    - Refactor all transaction models #21.
       - Update View Scripts.
         - TSBCreditUserBHTTotalSummaryView.sql
         - TSBCreditSummaryView.sql (used above view).
