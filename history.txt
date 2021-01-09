@@ -52,8 +52,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #746
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #745
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #744
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Refactor all transaction models #24.
+      - TSB Add property MaxCredit 
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #743
