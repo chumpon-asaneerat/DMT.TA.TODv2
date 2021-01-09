@@ -61,8 +61,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #743
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #742
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #741
-- 
+- DMT.TAxTODv1
+  - DMT.Models project
+    - Refactor all transaction models #20.
+      - Update View Scripts.
+        - TSBCreditUserBHTTotalSummaryView.sql
+        - TSBCreditSummaryView.sql (used above view).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #740
