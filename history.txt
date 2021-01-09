@@ -34,14 +34,45 @@
       - ถ้าเป็นขาเดียว ต้องรับถุงที่ 2 ไม่ได้
       - ถ้าเป็น 2 ขา ต้องเลือก ขาเข้า/ขาออก ของแต่ละถุง
 --------------------------------------------------------------------------------------------
-Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #740
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #750
 - 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #749
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #748
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #747
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #746
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #745
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #744
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #743
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #742
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #741
+- 
+
+[commited]
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #740
+- Prepare history.txt
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #739
 - DMT.TAxTODv1
   - DMT.Models project
-    - Refactor all transaction models #19.
+    - Refactor all transaction models #20.
       - Update View Scripts.
         - TSBCreditST25SummaryView.sql
         - TSBCreditST50SummaryView.sql
