@@ -58,8 +58,14 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #764
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #763
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #762
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Update Styles
+      - Update CommonEntryStyle.xaml (remove all).
+    - Update Control
+      - Update CreditAmountEntry control (restore due to problem resource reference problem).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #761
