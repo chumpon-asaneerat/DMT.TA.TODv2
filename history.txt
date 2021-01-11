@@ -34,6 +34,37 @@
       - ถ้าเป็นขาเดียว ต้องรับถุงที่ 2 ไม่ได้
       - ถ้าเป็น 2 ขา ต้องเลือก ขาเข้า/ขาออก ของแต่ละถุง
 --------------------------------------------------------------------------------------------
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #770
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #769
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #768
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #767
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #766
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #765
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #764
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #763
+- 
+
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #762
+- 
+
+[commited]
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #761
+- Prepare history.txt
+
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #760
 - DMT.TAxTODv1
