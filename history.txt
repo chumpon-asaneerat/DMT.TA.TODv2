@@ -46,8 +46,15 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #758
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #757
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #756
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Config.App project
+    - Update Styles
+      - Add CreditEntryStyle.xaml.
+      - Add CouponEntryStyle.xaml.
+      - Add RevenueEntryStyle.xaml.
+      - Update Generic.xaml.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #755
