@@ -55,8 +55,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #765
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #764
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #763
-- 
+- DMT.TAxTODv1
+    - Update Control
+      - Update CreditAmountEntry control. Change ScrollViewer layout (show under caption).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #762
