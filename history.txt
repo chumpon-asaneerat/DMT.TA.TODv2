@@ -61,8 +61,11 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #753
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #752
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #751
-- 
+- DMT.TAxTODv1
+  - DMT.TA.App project
+    - Implements Collector Revenue Entry #4.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #750
