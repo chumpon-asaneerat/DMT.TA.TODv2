@@ -34,8 +34,14 @@
       - ถ้าเป็นขาเดียว ต้องรับถุงที่ 2 ไม่ได้
       - ถ้าเป็น 2 ขา ต้องเลือก ขาเข้า/ขาออก ของแต่ละถุง
 --------------------------------------------------------------------------------------------
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #760
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project
+    - Update Styles
+      - Update CommonEntryStyle.xaml.
+    - Update Control
+      - Update CreditAmountEntry control.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #759
