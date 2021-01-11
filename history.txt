@@ -37,8 +37,18 @@
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #760
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #759
-- 
+- DMT.TAxTODv1
+  - DMT.Account.App project
+    - Update Styles
+      - Update App.xaml.
+  - DMT.TA.App project
+    - Update Styles
+      - Update App.xaml.
+  - DMT.TOD.App project
+    - Update Styles
+      - Update App.xaml.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #758
