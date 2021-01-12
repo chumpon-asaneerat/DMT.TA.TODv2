@@ -52,8 +52,18 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #771
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #770
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #769
-- 
+- DMT.TAxTODv1
+  - DMT.Plaza.Config.App project.
+    - Add Control's Utils
+      - Add AttachProperties.cs (for FocusOptions, KeyboardOptions).
+    - Update Styles
+      - CommonEntryStyle.xaml.
+      - CommonStyle.xaml.
+      - CouponEntryStyle.xaml.
+      - CreditEntryStyle.xaml.
+      - RevenueEntryStyle.xaml.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #768
@@ -66,6 +76,7 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #767
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #766
 - DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project.
     - Update Styles
       - Update CommonEntryStyle.xaml re-attemp #3.
     - Update Control
@@ -74,6 +85,7 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #766
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #765
 - DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project.
     - Update Styles
       - Update CommonEntryStyle.xaml re-attemp #2.
     - Update Control
@@ -82,6 +94,7 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #765
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #764
 - DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project.
     - Update Styles
       - Update CommonEntryStyle.xaml re-attemp #1.
     - Update Control
@@ -90,6 +103,7 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #764
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #763
 - DMT.TAxTODv1
+  - DMT.Plaza.Simulator.App project.
     - Update Control
       - Update CreditAmountEntry control. Change ScrollViewer layout (show under caption).
 
