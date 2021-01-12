@@ -52,8 +52,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #766
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #765
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #764
-- 
+- DMT.TAxTODv1
+    - Update Styles
+      - Update CommonEntryStyle.xaml re-attemp #1.
+    - Update Control
+      - Update CreditAmountEntry control.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #763
