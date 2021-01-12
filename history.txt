@@ -55,11 +55,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #770
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #769
 - 
 
-Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #768
-- 
-
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #768
+- Re commit
+
+[commited]
+Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #767
 - Prepare history.txt
 
 [commited]
