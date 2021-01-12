@@ -46,8 +46,12 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #773
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #772
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #771
-- 
+- DMT.TAxTODv1
+  - DMT.Controls project.
+    - Update Styles
+      - CommonEntryStyle.xaml (fixed bug self reference).
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #770
