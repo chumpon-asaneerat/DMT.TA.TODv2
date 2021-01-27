@@ -38,8 +38,12 @@
   - ป้อนรายได้ ย้อนหลัง
     - ป้อนได้หมด
 --------------------------------------------------------------------------------------------
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1150
-- 
+- DMT.TAxTODv3
+  - DMT.TOD.App
+    - Update RevenueSummarySearchWindow #3.
+    - Update RevenueSlipSearchWindow #3.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1149
