@@ -1,5 +1,4 @@
 ﻿- Note:
-  - Supervisor Sold coupon should print reports.
   - Implements User credit history view.
   - Implements Coupon borrows/returns view.
   - Request 
@@ -44,8 +43,10 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1635
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1634
 - 
 
+[commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1633
-- 
+- DMT.TAxTODv3
+  - Update history.txt.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1632
@@ -55,7 +56,7 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1632
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1631
 - DMT.TAxTODv3
-  - DMT.TOD.App
+  - DMT.TA.App
     - Implements Credit History #12.
 
 [commited]
@@ -65,55 +66,55 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1630
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1629
 - DMT.TAxTODv3
-  - DMT.TOD.App
+  - DMT.TA.App
     - Implements Credit History #11.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1628
 - DMT.TAxTODv3
-  - DMT.TOD.App
+  - DMT.TA.App
     - Implements Credit History #10.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1627
 - DMT.TAxTODv3
-  - DMT.TOD.App
+  - DMT.TA.App
     - Implements Credit History #9.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1626
 - DMT.TAxTODv3
-  - DMT.TOD.App
+  - DMT.TA.App
     - Implements Credit History #8.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1625
 - DMT.TAxTODv3
-  - DMT.TOD.App
+  - DMT.TA.App
     - Implements Credit History #7.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1624
 - DMT.TAxTODv3
-  - DMT.TOD.App
+  - DMT.TA.App
     - Implements Credit History #6.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1623
 - DMT.TAxTODv3
-  - DMT.TOD.App
+  - DMT.TA.App
     - Implements Credit History #5.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1622
 - DMT.TAxTODv3
-  - DMT.TOD.App
+  - DMT.TA.App
     - Implements Credit History #4.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1621
 - DMT.TAxTODv3
-  - DMT.TOD.App
+  - DMT.TA.App
     - Implements Credit History #3.
 
 [commited]
@@ -123,13 +124,13 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1620
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1619
 - DMT.TAxTODv3
-  - DMT.TOD.App
+  - DMT.TA.App
     - Implements Credit History #2.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1618
 - DMT.TAxTODv3
-  - DMT.TOD.App
+  - DMT.TA.App
     - Implements Credit History #1.
 
 [commited]
@@ -900,7 +901,7 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1495
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1494
 - DMT.TAxTODv3
-  - Update todos.
+  - Update todos.+
   - Update history.txt note.
 
 [commited]
@@ -4315,7 +4316,7 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1075
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1074
 - DMT.TAxTODv3
   - DMT.TA.App
-    - Update TSB Credit UI #9 (Re commit).
+    - Update TSB Credit UI #9.
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1073
@@ -4395,7 +4396,7 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1062
   - DMT.Account.App
     - Update TSBCreditEntry Control #5.
   - DMT.TA.App
-    - Update TSBCreditEntry Control #4.
+    - Update TSBCreditEntry Control #5.
     - Add UserCreditEntry Control.
 
 [commited]
@@ -4824,7 +4825,6 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1001
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #1000
 - Prepare history.txt
-
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #999
@@ -5530,9 +5530,6 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #910
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #909
 - Prepare history.txt
-
-Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #909
-- 
 
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #908
@@ -6430,7 +6427,7 @@ Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #807
       - Add TOD.Controller.cs
       - Add TOD.Shift.Controller.cs
       - Update TOD.Notify.Controller.cs
-
+     
 [commited]
 Ported DMTv2 to DMT.TA.TODv1, DMT.TA.TODv2 #806
 - DMT.TAxTODv3
